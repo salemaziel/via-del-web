@@ -26,9 +26,6 @@ module.exports = {
       resolve: `gatsby-plugin-sharp`,
     },
       {
-        resolve: `gatsby-plugin-offline`,
-      },
-      {
         resolve: `gatsby-plugin-react-helmet`,
       },
       {
@@ -155,6 +152,9 @@ module.exports = {
         icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
     },
+//    {
+//      resolve: `gatsby-plugin-offline`,
+//    },
     {
       resolve: `gatsby-plugin-sitemap`,
     },

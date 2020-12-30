@@ -8,7 +8,7 @@ import HomePageEN from '../components/PageComponents/en/Home/HomePageEN'
 
 const IndexPage = () => (
   <LayoutEN>
-    <SEO title="Home US_En" />
+    <SEO title="Via Del Web" description="Web Design, Web Development, &amp; Digital Marketing Para La Raza" />
     <HomePageEN />
 
   </LayoutEN>

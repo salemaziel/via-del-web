@@ -9,6 +9,15 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Banner from '../components/banner'
 
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Button from 'react-bootstrap/Button'
+
+import {
+  FaAngleLeft
+} from 'react-icons/fa'
+
+import blogPostStyles from './blogpost.module.css'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -29,10 +38,21 @@ class BlogPostTemplate extends React.Component {
         size="md"
         bgImage=""
         bgImageOpacity>
-          <Container>
+          <Container >
+            <Row>
+              <Col>
+              <Button 
+              as={Link}
+              to="/blog"
+              >
+                <FaAngleLeft style={{height: '1.3rem', width: '1.3rem', marginRight: '0.5rem'}}/>
+                Back
+              </Button>
+              </Col>
+            </Row>
           <SectionHeader
           title={post.frontmatter.title}
-          subtitle=""
+          subtitle={post.frontmatter.author}
           size={2}
           spaced={true}
           className="text-center"
