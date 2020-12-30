@@ -17,7 +17,6 @@ import {
   FaAngleLeft
 } from 'react-icons/fa'
 
-import blogPostStyles from './blogpost.module.css'
 
 class BlogPostTemplate extends React.Component {
   render() {
