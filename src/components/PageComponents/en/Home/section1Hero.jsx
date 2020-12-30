@@ -30,11 +30,11 @@ const SectionHero = (props) => {
           > */}
           {/*<img src="https://res.cloudinary.com/dexdumfqy/image/upload/v1600820219/rbl-art-designs/iphone-160307_fshiye.svg" alt='' />*/}
         <Typist startDelay={200}>
-          <h1 style={{ color: "white", textShadow: "2px 2px 4px black" }}>
+          <span style={{ color: "white", textShadow: "2px 2px 4px black" }}>
             {props.headline}
-          </h1>
+          </span>
           <Typist.Delay ms={1000} />
-          <h3
+          <span
             style={{
               color: "white",
               letterSpacing: "normal",
@@ -42,7 +42,7 @@ const SectionHero = (props) => {
             }}
           >
             {props.subtitle}
-          </h3>
+          </span>
           </Typist>
           {/*</div>*/}
       </LazyHero>
