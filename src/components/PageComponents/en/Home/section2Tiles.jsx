@@ -36,7 +36,7 @@ const SectionTiles = (props) => {
                     "https://res.cloudinary.com/dexdumfqy/image/upload/v1600849775/rbl-art-designs/consultation-1281-square_rh27uu.jpg",
                   imgAlt: "image",
                   link: "/#",
-                  title: "Digital Marketing Services",
+                  title: "Market Your Business Digitally",
                   description:
                     "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
                   style: "2",
@@ -47,12 +47,18 @@ const SectionTiles = (props) => {
                     "https://res.cloudinary.com/dexdumfqy/image/upload/v1600837492/rbl-art-designs/laptop-3174729_1200-square_luhksj.jpg",
                   imgAlt: "image",
                   link: "/#",
-                  title: "Web Service Automation",
+                  title: "Automate Your Online Workflow",
                   description:
                     "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
                   style: "3",
                 },
-                {
+
+              ]}
+            />
+
+            {/*
+
+                            {
                   imgSrc:
                     "https://res.cloudinary.com/dexdumfqy/image/upload/v1600836930/rbl-art-designs/app-store-1174440_1920-square_kywhnk.jpg",
                   imgAlt: "image",
@@ -62,10 +68,12 @@ const SectionTiles = (props) => {
                     "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
                   style: "4",
                 },
-              ]}
-            />
-
-            {/*<section className={sectiontileStyles.tiles}>
+            
+            
+            
+            
+            
+            <section className={sectiontileStyles.tiles}>
             <article className={sectiontileStyles.style1}>
               <span className={sectiontileStyles.image}>
                 <img

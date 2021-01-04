@@ -11,7 +11,8 @@ const Banner = (props) => {
 return (
     <section className={bannerStyle.BannerSection}
     style={{
-        "--image": `url(${props.bgImage})`
+        "--image": `url(${props.bgImage})`,
+        height: `${props.height}`
     }}
     >
             <Row />

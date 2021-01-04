@@ -4,7 +4,8 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Button from "../components/button"
+//import Button from "../components/button"
+import Button from 'react-bootstrap/Button'
 import SearchPosts from "../components/searchPosts"
 import Container from 'react-bootstrap/Container'
 import Section from '../components/Section'
@@ -46,9 +47,7 @@ class Blog extends React.Component {
           navigate={navigate}
           location={location}
         />
-        <Link to="/">
-          <Button marginTop="85px">Go Home</Button>
-        </Link>
+          <Button as={Link} to="/" marginTop="85px">Go Home</Button>
         </Container>
         </Section>
       </Layout>

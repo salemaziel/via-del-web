@@ -16,6 +16,8 @@ import Fade from "react-reveal/Fade";
 import { navigateTo } from "gatsby";
 import SectionWavesEN from "../../../SectionWavesEN";
 
+import ClientsSection from '../../../ClientsSection'
+
 const HomepageEN = (props) => {
   return (
     <>
@@ -44,6 +46,16 @@ const HomepageEN = (props) => {
           subtitle=""
         />
       </Fade>
+
+      <ClientsSection
+        bg="white"
+        textColor="dark"
+        size="md"
+        bgImage=""
+        bgImageOpacity={1}
+        title="You're in good company"
+        subtitle=""
+      />
 
       <FeaturesSectionZigzag
         bg="white"

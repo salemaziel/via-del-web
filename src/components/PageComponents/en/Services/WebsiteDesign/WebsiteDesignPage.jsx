@@ -61,6 +61,7 @@ const WebsiteDesignPage = (props) => {
                       navigateTo("/");
                     }}*/
                   />
+                  <div style={{backgroundImage: 'url(https://res.cloudinary.com/dexdumfqy/image/upload/v1600848134/rbl-art-designs/circle-dots-background_npogwh.svg)'}} >
                   <PortfolioSection
                   bg="white"
                   textColor="dark"
@@ -71,6 +72,8 @@ const WebsiteDesignPage = (props) => {
                   subtitle=""
 
                   />
+                                    </div>
+
                         <CardsHomeSection
               bg=""
               textColor="dark"

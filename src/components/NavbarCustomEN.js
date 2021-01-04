@@ -42,14 +42,15 @@ const NavbarCustomEN = (props) => {
       >
         <Container fluid>
           <Navbar.Brand>
-            <Link to="/home" rel="preload">
+            <Link to="/" rel="preload">
               <img
-                className={scroll ? "d-inline-block align-top navLogo" : "hide"}
+                /*className={scroll ? "d-inline-block align-top navLogo" : "hide"}*/
+                className={scroll ? "d-inline-block align-top navLogo" : "d-inline-block align-top navLogo"}
                 src={LogoSquare}
                 alt="Via Del Web Logo"
               ></img>
             </Link>
-            <Dropdown className={scroll ? "hide" : "show"}>
+            {/*<Dropdown className={scroll ? "hide" : "show"}>
               <Dropdown.Toggle variant="" id="dropdown-basic">
                 <img
                   className="d-inline-block align-top"
@@ -75,9 +76,9 @@ const NavbarCustomEN = (props) => {
                   Español
                 </Dropdown.Item>
                 {/*<Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>*/}
+                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>* /}
               </Dropdown.Menu>
-            </Dropdown>
+            </Dropdown>*/}
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="navbar-nav"
@@ -104,8 +105,8 @@ const NavbarCustomEN = (props) => {
                   About Us
                 </Nav.Link>
               </Nav.Item>
-              <Nav.Item to="/home#" className={navStyles.navItem}>
-                <Nav.Link as={Link} to="/home#" active={false}>
+              <Nav.Item to="/#" className={navStyles.navItem}>
+                <Nav.Link as={Link} to="/#" active={false}>
                   Who We Help
                 </Nav.Link>
               </Nav.Item>
@@ -231,7 +232,7 @@ const NavbarCustomEN = (props) => {
               padding: "1rem",
             }}
             items={[
-              <Link rel="preload" className={navStyles.navItem} to="/home">
+              <Link rel="preload" className={navStyles.navItem} to="/">
                 <FaHome />
               </Link>,
               <Link rel="preload" className={navStyles.navItem} to="/about">
@@ -260,7 +261,7 @@ const NavbarCustomEN = (props) => {
                   },
                 ]}
               />,
-              <Link rel="preload" className={navStyles.navItem} to="/home#">
+              <Link rel="preload" className={navStyles.navItem} to="/#">
                 Who We Help
               </Link>,
               <a
