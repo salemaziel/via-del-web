@@ -100,16 +100,56 @@ const NavbarCustomEN = (props) => {
               defaultActiveKey="/"
               onSelect={(selectedKey) => navigateTo(`${selectedKey}`)}
             >
+              <NavDropdown
+                as={Link}
+                href="/services"
+                to="/service"
+                eventKey="services"
+                title="Services"
+                id="nav-dropdown-about"
+                className={navStyles.navItem}
+              >
+
+                {/*<NavDropdown.Item eventKey="/services/contentmarketing">
+                  Content Marketing
+          </NavDropdown.Item>*/}
+
+                <NavDropdown.Item eventKey="/services/digital-marketing">
+                  Digital Marketing
+                </NavDropdown.Item>
+
+                {/*<NavDropdown.Item eventKey="/services/directorylistings">
+                  Directory Listings
+        </NavDropdown.Item>*/}
+
+                <NavDropdown.Item eventKey="/services/graphic-design">
+                  Graphic Design
+                </NavDropdown.Item>
+
+                {/*<NavDropdown.Item eventKey="/services/socialmediamarketing">
+                  Social Media Marketing
+      </NavDropdown.Item>*/}
+                <NavDropdown.Item eventKey="/services/web-automation">
+                  {" "}
+                  Webservice Automation{" "}
+                </NavDropdown.Item>
+                <NavDropdown.Item eventKey="/services/website-design">
+                  {" "}
+                  Website Design{" "}
+                </NavDropdown.Item>
+              </NavDropdown>
+
+
               <Nav.Item to="/about" className={navStyles.navItem}>
                 <Nav.Link as={Link} to="/about" active={false}>
                   About Us
                 </Nav.Link>
               </Nav.Item>
-              <Nav.Item to="/#" className={navStyles.navItem}>
+              {/*<Nav.Item to="/#" className={navStyles.navItem}>
                 <Nav.Link as={Link} to="/#" active={false}>
                   Who We Help
                 </Nav.Link>
-              </Nav.Item>
+          </Nav.Item>*/}
               <Nav.Item to="/blog" className={navStyles.navItem}>
                 <Nav.Link as={Link} to="/blog" active={false}>
                   Blog
@@ -127,34 +167,7 @@ const NavbarCustomEN = (props) => {
                   Services
                 </Nav.Link>
         </Nav.Item>*/}
-              <NavDropdown
-                as={Link}
-                href="/services"
-                to="/service"
-                eventKey="services"
-                title="Services"
-                id="nav-dropdown-about"
-                className={navStyles.navItem}
-              >
-                <NavDropdown.Item eventKey="/services/contentmarketing">
-                  Content Marketing
-                </NavDropdown.Item>
 
-                <NavDropdown.Item eventKey="/services/directorylistings">
-                  Directory Listings
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/socialmediamarketing">
-                  Social Media Marketing
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/webserviceautomation">
-                  {" "}
-                  Webservice Automation{" "}
-                </NavDropdown.Item>
-                <NavDropdown.Item eventKey="/services/websitedesign">
-                  {" "}
-                  Website Design{" "}
-                </NavDropdown.Item>
-              </NavDropdown>
               <Nav.Item className={navStyles.navItem}>
                 <a
                   href="https://app.viadelweb.com"
@@ -235,35 +248,31 @@ const NavbarCustomEN = (props) => {
               <Link rel="preload" className={navStyles.navItem} to="/">
                 <FaHome />
               </Link>,
+              <FaqNav
+              items={[
+                {
+                  question: "Services",
+                  answer: "",
+                  listItem1: "",
+                  listItem2: "",
+                  linkTitle1: "Digital Marketing",
+                  link1: "/services/digital-marketing",
+                  linkTitle2: "Graphic Design",
+                  link2: "/services/graphic-design",
+                  linkTitle3: "Web Automation",
+                  link3: "/services/web-automation",
+                  linkTitle4: "Website Design",
+                  link4: "/services/website-design",
+                },
+              ]}
+            />,
               <Link rel="preload" className={navStyles.navItem} to="/about">
                 About Us
               </Link>,
               <Link rel="preload" className={navStyles.navItem} to="/blog">
               Blog
             </Link>,              
-              <FaqNav
-                items={[
-                  {
-                    question: "Services",
-                    answer: "",
-                    listItem1: "",
-                    listItem2: "",
-                    linkTitle1: "Content Marketing",
-                    link1: "/services/contentmarketing",
-                    linkTitle2: "Directory Listings",
-                    link2: "/services/directorylistings",
-                    linkTitle3: "Social Media Marketing",
-                    link3: "/services/socialmediamarketing",
-                    linkTitle4: "Webservice Automation",
-                    link4: "/services/webserviceautomation",
-                    linkTitle5: "Website Design",
-                    link5: "/services/websitedesign",
-                  },
-                ]}
-              />,
-              <Link rel="preload" className={navStyles.navItem} to="/#">
-                Who We Help
-              </Link>,
+
               <a
                 rel="nofollow noreferrer"
                 target="_blank"

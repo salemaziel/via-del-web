@@ -1,29 +1,36 @@
-import React from "react";
+import React from "react"
 
-import SectionHero from "./section1Hero";
-import SectionTiles from "./section2Tiles";
-import SectionThree from "./sectionThree";
-import FeaturesSectionZigzag from "../../../FeaturesSectionZigzag";
-import FeaturesSectionPic3List from "../../../FeaturesSectionPic3List.js";
-import CtaSectionBgImage from "../../../CtaSectionBgImage";
+import SectionHero from "./section1Hero"
+import SectionTiles from "./section2Tiles"
+import SectionThree from "./sectionThree"
+import FeaturesSectionZigzag from "../../../FeaturesSectionZigzag"
+import FeaturesSectionPic3List from "../../../FeaturesSectionPic3List.js"
+import CtaSectionBgImage from "../../../CtaSectionBgImage"
 
-import PricingCardsSection from "../../../PricingCardsSection";
-import CardsHomeSection from "../../../CardsHomeSection";
-import HeroSectionTxtBtnRight from "../../../HeroSectionTxtBtnRight";
-import { Helmet } from "react-helmet";
+import PricingCardsSection from "../../../PricingCardsSection"
+import CardsHomeSection from "../../../CardsHomeSection"
+import HeroSectionTxtBtnRight from "../../../HeroSectionTxtBtnRight"
+import { Helmet } from "react-helmet"
 
-import Fade from "react-reveal/Fade";
-import { navigateTo } from "gatsby";
-import SectionWavesEN from "../../../SectionWavesEN";
+import Fade from "react-reveal/Fade"
+import { navigateTo } from "gatsby"
+import SectionWavesEN from "../../../SectionWavesEN"
 
-import ClientsSection from '../../../ClientsSection'
+import ClientsSection from "../../../ClientsSection"
 
-const HomepageEN = (props) => {
+import Gatsby from "../../../../images/undraw_gatsbyjs.svg"
+
+const HomepageEN = props => {
   return (
     <>
       <SectionWavesEN
-        headline="Welcome"
-        subtitle="How Can We Help You Today?"
+        headline="Hello."
+        headline2="We build websites for small businesses."
+        subtitle="What can we do for yours?"
+        service1=""
+        service2=""
+        service3=""
+        service4=""
       />
       {/*<SectionHero
         bgImage="https://res.cloudinary.com/dexdumfqy/image/upload/v1600594974/rbl-art-designs/sunset-1509132_pajczh.jpg"
@@ -33,44 +40,36 @@ const HomepageEN = (props) => {
       <SectionTiles
         title1="Website Design ● Web Development ● Digital Marketing"
         title2=""
-        subdescription=""
+        subdescription="We are a San Diego county-based web design company and digital
+        marketing partner. We specialize in helping local small businesses expand into the digital world and helping them succeed."
       />
-      <Fade top>
-        <CardsHomeSection
-          bg=""
-          textColor="dark"
-          size="sm"
-          bgImage=""
-          bgImageOpacity={1}
-          title=""
-          subtitle=""
-        />
-      </Fade>
-
-      <ClientsSection
-        bg="white"
-        textColor="dark"
-        size="md"
-        bgImage=""
-        bgImageOpacity={1}
-        title="You're in good company"
-        subtitle=""
-      />
-
       <FeaturesSectionZigzag
         bg="white"
         textColor="dark"
-        size="md"
+        size="lg"
         bgImage=""
         bgImageOpacity={1}
-        title="Funcionalidades"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+        title="Our Websites Are Coded Entirely From The Ground Up."
+        subtitle="Other agencies use clunky web building tools to glue pieces together, without any idea how the code actually works. We write each line of code ourselves, and you get the benefits."
       />
+
+<ClientsSection
+        bg="white"
+        textColor="dark"
+        size=""
+        bgImage=""
+        bgImageOpacity={1}
+        title="Built Like The Best"
+        subtitle="We build your website using GatsbyJS, a React Javascript framework trusted by:"
+        titleImage=""
+        titleImageAlt=""
+      />
+
       <Fade top>
         <HeroSectionTxtBtnRight
           bg="white"
           textColor="dark"
-          size="md"
+          size="sm"
           bgImage=""
           bgImageOpacity={0.8}
           title="Get Online"
@@ -92,14 +91,29 @@ const HomepageEN = (props) => {
         }}*/
         />
       </Fade>
-      <FeaturesSectionPic3List
+
+
+
+      {/*<Fade top>
+        <CardsHomeSection
+          bg=""
+          textColor="dark"
+          size="sm"
+          bgImage=""
+          bgImageOpacity={1}
+          title="The Game Plan"
+          subtitle=""
+        />
+      </Fade>*/}
+
+      {/*<FeaturesSectionPic3List
         bg="white"
         textColor="dark"
         size="md"
         bgImage=""
         bgImageOpacity={1}
         image="https://uploads.divjoy.com/undraw-chatting_2yvo.svg"
-      />
+      />*/}
       {/*<PricingCardsSection
         bg="white"
         textColor="dark"
@@ -121,10 +135,10 @@ const HomepageEN = (props) => {
         buttonColor="primary"
         buttonOnClick={() => {
           // Navigate to pricing page
-          navigateTo("/about");
+          navigateTo("/about")
         }}
       />
     </>
-  );
-};
-export default HomepageEN;
+  )
+}
+export default HomepageEN

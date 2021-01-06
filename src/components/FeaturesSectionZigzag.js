@@ -1,9 +1,14 @@
 import React from "react";
 import Section from "./Section";
 import Container from "react-bootstrap/Container";
-import SectionHeader from "./SectionHeader";
+import SectionHeader2 from "./SectionHeader2";
 import Features2 from "./Features2";
 
+import Design from '../images/undraw_right_places.svg'
+import Responsive from '../images/undraw_progressive_app.svg'
+import Secure from '../images/undraw_secure_login.svg'
+import NoHack from '../images/undraw_hacker_mind.svg'
+import YourCode from '../images/undraw_proud_coder.svg'
 
 function FeaturesSectionZigzag(props) {
   return (
@@ -14,8 +19,8 @@ function FeaturesSectionZigzag(props) {
       bgImage={props.bgImage}
       bgImageOpacity={props.bgImageOpacity}
     >
-      <Container>
-        <SectionHeader
+      <Container fluid>
+        <SectionHeader2
           title={props.title}
           subtitle={props.subtitle}
           size={2}
@@ -25,29 +30,34 @@ function FeaturesSectionZigzag(props) {
         <Features2
           items={[
             {
-              title: "Funcionalidades",
+              title: "Beautiful and fresh design.",
               description:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
-              image: "https://uploads.divjoy.com/undraw-mind_map_cwng.svg",
+                "Impress potential customers from the moment they land on your site.",
+              image: Design,
             },
             {
-              title: "Funcionalidades",
+              title: "Responsive to any screen size.",
               description:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
-              image:
-                "https://uploads.divjoy.com/undraw-personal_settings_kihd.svg",
+                "Websites are specially coded to look great and run smoothly on every device.",
+              image: Responsive,
             },
             {
-              title: "Funcionalidades",
+              title: "SSL Certificates with every plan.",
               description:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
-              image: "https://uploads.divjoy.com/undraw-having_fun_iais.svg",
+                "Keep your customers information safe and give them ease of mind with a secure, encrypted connection to your website.",
+              image: Secure,
             },
             {
-              title: "Funcionalidades",
+              title: "Safe from hackers.",
               description:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
-              image: "https://uploads.divjoy.com/undraw-balloons_vxx5.svg",
+                "Using the latest WebApp technology creates static websites without the need for a backend database, so there's nothing to hack.",
+              image: NoHack,
+            },
+            {
+              title: "Own Everything About Your Site.",
+              description:
+                "Stop renting websites from other companies. Your business, your website, your code.",
+              image: YourCode,
             },
           ]}
         />

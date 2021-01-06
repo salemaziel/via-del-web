@@ -1,11 +1,11 @@
-import React from "react";
-import { Col, Row, Container } from "react-bootstrap";
-import Typist from "react-typist";
-import CalendlyButton from './CalendlyButtonEN'
-import "react-typist/dist/Typist.css";
-import "./SectionWaves.scss";
+import React from "react"
+import { Col, Row, Container } from "react-bootstrap"
+import Typist from "react-typist"
+import CalendlyButton from "./CalendlyButtonEN"
+import "react-typist/dist/Typist.css"
+import "./SectionWaves.scss"
 
-const SectionWavesEN = (props) => {
+const SectionWavesEN = props => {
   return (
     <section className="SectionWaves">
       <div className="header">
@@ -19,35 +19,52 @@ c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3
       </g>
     </svg>*/}
           {/*<h1>Simple CSS Waves</h1>*/}
-          <div className="d-block">
-          <Typist startDelay={200} cursor={{ show: false }}>
-          <span className="headline" /*style={{ color: "white", textShadow: "2px 2px 4px black" }}*/>
-              {props.headline}
-            </span>
-            <br />
-            <Typist.Delay ms={800} />
-            <span className="subtitle"
-            /*style={{
+          <div className="d-block px-2">
+            <Typist startDelay={200} cursor={{ show: false }}>
+              <span
+                className="headline" /*style={{ color: "white", textShadow: "2px 2px 4px black" }}*/
+              >
+                {props.headline}
+              </span>
+              <br />
+              <Typist.Delay ms={800} />
+              <span
+                className="headline" /*style={{ color: "white", textShadow: "2px 2px 4px black" }}*/
+              >
+                {props.headline2}
+              </span>
+              <br />
+              <br />
+              <Typist.Delay ms={800} />
+              <span
+                className="subtitle"
+                /*style={{
               color: "white",
               letterSpacing: "normal",
               textShadow: "2px 2px 4px black",
             }}*/
-            >
-              {props.subtitle}
-            </span>
-
-            <span className="">`</span>
-          </Typist>
+              >
+                {props.subtitle}
+              </span>
+              <br />
+              {/*<Container className="mt-4">
+                <Row>
+                  <Col>{props.service1}</Col>
+                  <Col>{props.service2}</Col>
+                </Row>
+                <Row>
+                  <Col>{props.service3}</Col>
+               
+                <Col>{props.service4}</Col>
+                </Row>
+          </Container>*/}
+            </Typist>
           </div>
-
-
         </div>
         <Container>
-        <Row className="justify-content-center">
+          <Row className="justify-content-center">
             <Col xs={10} lg={4}>
-                <CalendlyButton
-                
-                />
+              <CalendlyButton />
             </Col>
           </Row>
         </Container>
@@ -93,7 +110,7 @@ c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default SectionWavesEN;
+export default SectionWavesEN

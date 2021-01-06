@@ -1,8 +1,16 @@
 import React from "react";
 import Section from "./Section";
 import Container from "react-bootstrap/Container";
-import SectionHeader from "./SectionHeader";
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import SectionHeader2 from "./SectionHeader2";
 import Clients from "./Clients";
+
+import Spotify from '../images/spotify-logo-svg.svg'
+import Paypal from '../images/paypal-logo-svg.svg'
+import AirBnb from '../images/airbnb-logo.svg'
+import Meetup from '../images/meetup-logo.svg'
+
 
 function ClientsSection(props) {
   return (
@@ -13,8 +21,16 @@ function ClientsSection(props) {
       bgImage={props.bgImage}
       bgImageOpacity={props.bgImageOpacity}
     >
+      
+      <Container className="mb-5">
+        <Row className="justify-content-center">
+          <Col xs={10} md={4}>
+        <img src={props.titleImage} alt={props.titleImageAlt} className="w-100" />
+        </Col>
+        </Row>
+      </Container>
       <Container className="text-center">
-        <SectionHeader
+        <SectionHeader2
           title={props.title}
           subtitle={props.subtitle}
           size={2}
@@ -23,23 +39,24 @@ function ClientsSection(props) {
         <Clients
           items={[
             {
-              name: "Instagram",
-              image: "https://uploads.divjoy.com/logo-instagram.svg",
-              width: "150px",
-            },
-            {
-              name: "Slack",
-              image: "https://uploads.divjoy.com/logo-slack.svg",
+              name: "Meetup",
+              image: Meetup,
               width: "135px",
             },
             {
-              name: "Tinder",
-              image: "https://uploads.divjoy.com/logo-tinder.svg",
-              width: "90px",
+              name: "PayPal",
+              image: Paypal,
+              width: "135px",
             },
             {
+              name: "AirBnb",
+              image: AirBnb,
+              width: "135px",
+            },
+
+            {
               name: "Spotify",
-              image: "https://uploads.divjoy.com/logo-spotify.svg",
+              image: Spotify,
               width: "135px",
             },
           ]}
