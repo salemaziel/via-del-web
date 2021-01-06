@@ -24,9 +24,9 @@ const HomepageEN = props => {
   return (
     <>
       <SectionWavesEN
-        headline="Hello."
-        headline2="We build websites for small businesses."
-        subtitle="What can we do for yours?"
+        headline="We build websites for small businesses in Southern Califas."
+        headline2=""
+        subtitle="Ya Tú Sabes."
         service1=""
         service2=""
         service3=""
@@ -40,11 +40,11 @@ const HomepageEN = props => {
       <SectionTiles
         title1="Website Design ● Web Development ● Digital Marketing"
         title2=""
-        subdescription="We are a San Diego county-based web design company and digital
-        marketing partner. We specialize in helping local small businesses expand into the digital world and helping them succeed."
+        subdescription="Via Del Web is a San Diego based web design company and digital
+        marketing partner. We specialize in helping local small businesses expand into the digital world and helping them succeed. Born and raised in Escondido, we are California natives to the core. Hablamos Inglés, Español y estamos especialmente fluido en Spanglish."
       />
       <FeaturesSectionZigzag
-        bg="white"
+        bg=""
         textColor="dark"
         size="lg"
         bgImage=""
@@ -52,9 +52,9 @@ const HomepageEN = props => {
         title="Our Websites Are Coded Entirely From The Ground Up."
         subtitle="Other agencies use clunky web building tools to glue pieces together, without any idea how the code actually works. We write each line of code ourselves, and you get the benefits."
       />
-
+ <div style={{backgroundImage: 'url(https://res.cloudinary.com/dexdumfqy/image/upload/v1600848134/rbl-art-designs/circle-dots-background_npogwh.svg)', backgroundRepeat: 'no-repeat'}} >
 <ClientsSection
-        bg="white"
+        bg=""
         textColor="dark"
         size=""
         bgImage=""
@@ -64,10 +64,11 @@ const HomepageEN = props => {
         titleImage=""
         titleImageAlt=""
       />
+      </div>
 
       <Fade top>
         <HeroSectionTxtBtnRight
-          bg="white"
+          bg=""
           textColor="dark"
           size="sm"
           bgImage=""

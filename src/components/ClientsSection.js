@@ -22,13 +22,13 @@ function ClientsSection(props) {
       bgImageOpacity={props.bgImageOpacity}
     >
       
-      <Container className="mb-5">
+      {/*<Container className="mb-5">
         <Row className="justify-content-center">
           <Col xs={10} md={4}>
         <img src={props.titleImage} alt={props.titleImageAlt} className="w-100" />
         </Col>
         </Row>
-      </Container>
+  </Container>*/}
       <Container className="text-center">
         <SectionHeader2
           title={props.title}

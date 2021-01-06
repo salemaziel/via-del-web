@@ -27,7 +27,7 @@ c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3
                 {props.headline}
               </span>
               <br />
-              <Typist.Delay ms={800} />
+              {/*<Typist.Delay ms={800} />*/}
               <span
                 className="headline" /*style={{ color: "white", textShadow: "2px 2px 4px black" }}*/
               >
@@ -61,7 +61,7 @@ c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3
             </Typist>
           </div>
         </div>
-        <Container>
+        <Container className="pt-3">
           <Row className="justify-content-center">
             <Col xs={10} lg={4}>
               <CalendlyButton />

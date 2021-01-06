@@ -40,9 +40,7 @@ function FaqItemNav(props) {
       <div className="py-2 subMenu">
           <Link to={props.link4} rel="preload">{props.linkTitle4}</Link>
       </div>
-      <div className="py-2 subMenu">
-          <Link to={props.link5} rel="preload">{props.linkTitle5}</Link>
-      </div>
+
         
         
         {props.answer}</div>}
