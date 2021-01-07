@@ -12,6 +12,7 @@ import { Container } from "react-bootstrap";
 
 import Header from "./headerEN";
 import Footer from './Footer/footer'
+import FooterMultiColumn from './FooterMultiColumn'
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/custom.scss";
 import './layout.css'
@@ -33,6 +34,7 @@ const LayoutEN = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
        {children}
       <Footer />
+
 
     </>
   );
