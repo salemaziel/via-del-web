@@ -53,12 +53,6 @@ function FeaturesSectionZigzag(props) {
                 "Using the latest WebApp technology creates static websites without the need for a backend database, so there's nothing to hack.",
               image: NoHack,
             },
-            {
-              title: "Own Everything About Your Site.",
-              description:
-                "Stop renting websites from other companies. Your business, your website, your code.",
-              image: YourCode,
-            },
           ]}
         />
       </Container>

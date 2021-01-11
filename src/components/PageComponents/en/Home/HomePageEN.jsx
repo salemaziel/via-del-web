@@ -19,6 +19,8 @@ import SectionWavesEN from "../../../SectionWavesEN"
 import ClientsSection from "../../../ClientsSection"
 
 import Gatsby from "../../../../images/undraw_gatsbyjs.svg"
+import YourCode from '../../../../images/undraw_proud_coder.svg'
+
 
 const HomepageEN = props => {
   return (
@@ -43,14 +45,40 @@ const HomepageEN = props => {
         subdescription="Via Del Web is a San Diego based web design company and digital
         marketing partner. We specialize in helping local small businesses expand into the digital world and helping them succeed. Born and raised in Escondido, we are California natives to the core. Hablamos Inglés, Español y estamos especialmente fluido en Spanglish."
       />
+            <Fade top>
+        <HeroSectionTxtBtnRight
+          bg=""
+          textColor="dark"
+          size="sm"
+          bgImage=""
+          bgImageOpacity={0.8}
+          title="Own Everything About Your Website."
+          subtitle="Stop renting websites from other companies that want to keep charging you without ever giving you owernship. Your company's presence online is important, and that fact is becoming more true every day. That's why we at Via Del Web have a simple philosophy around what we build: Your business, your website, your code."
+          description1=""
+          description2=""
+          description3=""
+          description4=""
+          description5=""
+          description6=""
+          description7=""
+          buttonText="Learn More"
+          buttonColor="primary"
+          image={YourCode}
+          link="/about"
+          /*buttonOnClick={() => {
+          // Navigate to pricing page
+          navigateTo("/");
+        }}*/
+        />
+      </Fade>
       <FeaturesSectionZigzag
         bg=""
         textColor="dark"
-        size="lg"
+        size="md"
         bgImage=""
         bgImageOpacity={1}
         title="Our Websites Are Coded Entirely From The Ground Up."
-        subtitle="Other agencies use clunky web building tools to glue pieces together, without any idea how the code actually works. We write each line of code ourselves, and you get the benefits."
+        subtitle="Other agencies use clunky web building tools to glue pieces together, without any idea how the code actually works. We write each line of code ourselves to get the best performance on your site, which helps keep more customers and bring your company more business."
       />
  <div style={{backgroundImage: 'url(https://res.cloudinary.com/dexdumfqy/image/upload/v1600848134/rbl-art-designs/circle-dots-background_npogwh.svg)', backgroundRepeat: 'no-repeat'}} >
 <ClientsSection
@@ -66,36 +94,11 @@ const HomepageEN = props => {
       />
       </div>
 
+
+
+
+
       <Fade top>
-        <HeroSectionTxtBtnRight
-          bg=""
-          textColor="dark"
-          size="sm"
-          bgImage=""
-          bgImageOpacity={0.8}
-          title="Get Online"
-          subtitle="Our digital marketing agency can assist you with all your marketing needs. All the way from search engine optimization campaigns, to customized PPC campaigns and even website design solutions."
-          description1=""
-          description2=""
-          description3=""
-          description4=""
-          description5=""
-          description6=""
-          description7=""
-          buttonText="Get Started"
-          buttonColor="primary"
-          image="https://res.cloudinary.com/dexdumfqy/image/upload/v1600836618/rbl-art-designs/digital-marketing-1433427_1920_ikotj9.jpg"
-          link="/contact"
-          /*buttonOnClick={() => {
-          // Navigate to pricing page
-          navigateTo("/");
-        }}*/
-        />
-      </Fade>
-
-
-
-      {/*<Fade top>
         <CardsHomeSection
           bg=""
           textColor="dark"
@@ -105,7 +108,7 @@ const HomepageEN = props => {
           title="The Game Plan"
           subtitle=""
         />
-      </Fade>*/}
+      </Fade>
 
       {/*<FeaturesSectionPic3List
         bg="white"

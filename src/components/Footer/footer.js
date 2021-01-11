@@ -17,7 +17,7 @@ const Footer = () => (
       <footer id="footer" className={footerStyles.Footer}>
         <div className={footerStyles.content}>
 
-        <NewsletterSectionCentered
+        {/*<NewsletterSectionCentered
         bg=""
         textColor="light"
         size="md"
@@ -29,7 +29,7 @@ const Footer = () => (
         buttonColor="primary"
         inputPlaceholder="Enter your email"
         subscribedMessage="You are now subscribed!"
-      />
+        />*/}
 
           {/*<div className={footerStyles.inner}>
  
@@ -72,7 +72,7 @@ const Footer = () => (
           size="md"
           bgImage=""
           bgImageOpacity={1}
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          description="Via Del Web is a bilingual San Diego, California based Web Design Agency building fast, beautiful, and responsive websites for small businesses."
           logo={Logo}
         />
 
