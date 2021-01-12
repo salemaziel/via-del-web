@@ -6,6 +6,8 @@ import Tiles from "./tiles";
 import Fade from "react-reveal/Fade";
 import Container from "react-bootstrap/Container";
 
+import { Consultation, CreateAWebsite, TechSolutions } from "../../../images/index"
+
 const SectionTiles = (props) => {
   return (
     <>
@@ -22,8 +24,7 @@ const SectionTiles = (props) => {
             <Tiles
               items={[
                 {
-                  imgSrc:
-                    "https://res.cloudinary.com/dexdumfqy/image/upload/v1600837299/rbl-art-designs/create-a-website_npy4v8.png",
+                  imgSrc: CreateAWebsite,
                   imgAlt: "image",
                   link: "/#",
                   title: "Crear Una Página Web",
@@ -42,8 +43,7 @@ const SectionTiles = (props) => {
                   style: "2",
                 },
                 {
-                  imgSrc:
-                    "https://res.cloudinary.com/dexdumfqy/image/upload/v1600837492/rbl-art-designs/laptop-3174729_1200-square_luhksj.jpg",
+                  imgSrc: TechSolutions,
                   imgAlt: "image",
                   link: "/#",
                   title: "Otras Soluciones Tecnológicas",
@@ -52,8 +52,7 @@ const SectionTiles = (props) => {
                   style: "3",
                 },
                 {
-                  imgSrc:
-                    "https://res.cloudinary.com/dexdumfqy/image/upload/v1600849775/rbl-art-designs/consultation-1281-square_rh27uu.jpg",
+                  imgSrc: Consultation,
                   imgAlt: "image",
                   link: "/#",
                   title: "Servicios De Asesoramiento",
