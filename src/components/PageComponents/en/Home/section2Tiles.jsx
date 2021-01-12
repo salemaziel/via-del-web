@@ -14,7 +14,7 @@ const SectionTiles = (props) => {
           <div className="inner">
             <Fade top cascade>
               <header>
-                <h1>{props.title1}</h1>
+                <h1 className="text-center">{props.title1}</h1>
                 <h1> {props.title2}</h1>
                 <div className={sectiontileStyles.subBox}>
                 <h2 className={sectiontileStyles.subdescription}>{props.subdescription}
