@@ -1,16 +1,16 @@
 import React from "react"
 
-import SectionHero from "./section1Hero"
+//import SectionHero from "./section1Hero"
 import SectionTiles from "./section2Tiles"
-import SectionThree from "./sectionThree"
+//import SectionThree from "./sectionThree"
 import FeaturesSectionZigzag from "../../../FeaturesSectionZigzag"
-import FeaturesSectionPic3List from "../../../FeaturesSectionPic3List.js"
+//import FeaturesSectionPic3List from "../../../FeaturesSectionPic3List.js"
 import CtaSectionBgImage from "../../../CtaSectionBgImage"
 
-import PricingCardsSection from "../../../PricingCardsSection"
+//import PricingCardsSection from "../../../PricingCardsSection"
 import CardsHomeSection from "../../../CardsHomeSection"
 import HeroSectionTxtBtnRight from "../../../HeroSectionTxtBtnRight"
-import { Helmet } from "react-helmet"
+//import { Helmet } from "react-helmet"
 
 import Fade from "react-reveal/Fade"
 import { navigateTo } from "gatsby"
@@ -18,11 +18,11 @@ import SectionWavesEN from "../../../SectionWavesEN"
 
 import ClientsSection from "../../../ClientsSection"
 
-import Gatsby from "../../../../images/undraw_gatsbyjs.svg"
+//import Gatsby from "../../../../images/undraw_gatsbyjs.svg"
 import YourCode from "../../../../images/undraw_proud_coder.svg"
 
-import { Container, Row, Col } from "react-bootstrap"
-import ZenithMockup from "../../../../images/zenith-devices-mockup-removebg-preview.png"
+//import { Container, Row, Col } from "react-bootstrap"
+//import ZenithMockup from "../../../../images/zenith-devices-mockup-removebg-preview.png"
 
 const HomepageEN = props => {
   return (

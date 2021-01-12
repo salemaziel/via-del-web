@@ -1,4 +1,5 @@
-const config = require("./config");
+//const config = require("./config");
+const config = require('./config/site');
 
 
 module.exports = {

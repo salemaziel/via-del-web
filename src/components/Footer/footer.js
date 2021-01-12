@@ -1,15 +1,15 @@
 import React from "react";
-import { Link } from "gatsby";
-import { FaEnvelope, FaInstagram, FaFacebook, FaTwitter, FaResearchgate, FaLinkedin } from 'react-icons/fa'
+//import { Link } from "gatsby";
+//import { FaEnvelope, FaInstagram, FaFacebook, FaTwitter, FaResearchgate, FaLinkedin } from 'react-icons/fa'
 import FooterMultiColumn from '../FooterMultiColumn'
 
 import Logo from '../../images/logo-horiz.png'
-import Form from 'react-bootstrap/Form'
+//import Form from 'react-bootstrap/Form'
 
-import NewsletterSectionCentered from '../NewsletterSectionCentered'
+//import NewsletterSectionCentered from '../NewsletterSectionCentered'
 import footerStyles from "./footer.module.css";
 
-import NewsletterForm from '../NewsletterForm'
+//import NewsletterForm from '../NewsletterForm'
 
 
 const Footer = () => (

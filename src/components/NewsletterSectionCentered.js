@@ -2,7 +2,7 @@ import React from "react";
 import Section from "./Section";
 import Container from "react-bootstrap/Container";
 import SectionHeader from "./SectionHeader";
-import Newsletter from "./Newsletter";
+//import Newsletter from "./Newsletter";
 import "./NewsletterSectionCentered.scss";
 
 import NewsletterForm from './NewsletterForm'

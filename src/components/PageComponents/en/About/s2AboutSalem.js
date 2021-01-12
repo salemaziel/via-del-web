@@ -1,13 +1,13 @@
 import React from "react";
 import Section from "../../../Section";
 import Container from "react-bootstrap/Container";
-import Button from 'react-bootstrap/Button'
+//import Button from 'react-bootstrap/Button'
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import SectionHeader2 from "../../../SectionHeader2";
 import "./s2AboutSalem.scss";
-import {Link} from 'gatsby'
+//import {Link} from 'gatsby'
 
 function AboutSalem(props) {
   

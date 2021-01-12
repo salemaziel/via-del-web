@@ -2,7 +2,6 @@ import React from "react";
 import BackgroundImage from "./BackgroundImage";
 import "./Section.scss";
 
-import Fade from 'react-reveal/Fade'
 
 
 function Section(props) {

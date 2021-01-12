@@ -7,12 +7,13 @@ import Image from "react-bootstrap/Image";
 import Features4 from "./Features4";
 import "./FeaturesSectionPic3List.scss";
 
+/*
 import {
   MdChat,
   MdGamepad,
   MdMonetizationOn
 } from 'react-icons/md'
-
+*/
 
 //function FeaturesSectionPic3List(props) {
   const FeaturesSectionPic3List = (props) => {

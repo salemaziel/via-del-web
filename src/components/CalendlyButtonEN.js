@@ -8,7 +8,6 @@ const CalendlyButton = ({ url }, props) => {
     const onClick = () => openPopupWidget({ url:"https://calendly.com/viadelweb/discovery-call" });
     const {
       buttonText,
-      ...otherProps
     } = props;
   return( <button onClick={onClick} className={calendlyStyle.whiteBtn} /*className="profile-card__button button--blue"*/ url={url} >Schedule A Call</button>
   )

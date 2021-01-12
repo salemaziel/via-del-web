@@ -1,6 +1,6 @@
 import React from "react";
 import LayoutEN from "../../components/layout";
-import SEO from "../../components/seo";
+import SEO from "../../components/seoNew"
 import WebsiteDesignPage from '../../components/PageComponents/en/Services/WebsiteDesign/WebsiteDesignPage.jsx'
 
 

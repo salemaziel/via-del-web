@@ -1,7 +1,6 @@
 import React from "react";
 import "./SectionHeader.scss";
 
-import Fade from 'react-reveal/Fade'
 
 
 function SectionHeader(props) {

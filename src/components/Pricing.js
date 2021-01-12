@@ -61,7 +61,7 @@ function Pricing(props) {
               )}
 
               <Link
-                to="/auth/signup?next=/purchase/${item.id}"
+                to=""
                 
               >
                 <Button

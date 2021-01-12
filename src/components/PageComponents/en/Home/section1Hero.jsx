@@ -1,13 +1,13 @@
 import React from "react";
 import LazyHero from "react-lazy-hero";
 
-import heroStyles from "./home.module.css";
+//import heroStyles from "./home.module.css";
 import Typist from "react-typist";
 
 //import "react-typist/dist/Typist.css";
 
 //import ParticlesImage from '../../ParticlesImage'
-import Row from "react-bootstrap/Row";
+//import Row from "react-bootstrap/Row";
 
 //import PhoneSVG from '../../../images/iphone-160307.svg'
 

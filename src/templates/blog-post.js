@@ -6,7 +6,9 @@ import SectionHeader from '../components/SectionHeader'
 import Container from 'react-bootstrap/Container'
 import Bio from "../components/bio"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+
+import SEO from "../components/seoNew"
+//import SEO from "../components/seo"
 import Banner from '../components/banner'
 
 import Row from 'react-bootstrap/Row'

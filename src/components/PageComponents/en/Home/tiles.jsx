@@ -1,6 +1,6 @@
 import React from "react"
 
-import tileStyles from "./home.module.css"
+//import tileStyles from "./home.module.css"
 
 import "./tiles.scss"
 import { Link } from "gatsby"

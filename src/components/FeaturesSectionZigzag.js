@@ -8,7 +8,6 @@ import Design from '../images/undraw_right_places.svg'
 import Responsive from '../images/undraw_progressive_app.svg'
 import Secure from '../images/undraw_secure_login.svg'
 import NoHack from '../images/undraw_hacker_mind.svg'
-import YourCode from '../images/undraw_proud_coder.svg'
 
 function FeaturesSectionZigzag(props) {
   return (

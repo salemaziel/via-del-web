@@ -1,9 +1,9 @@
-import { Link } from "gatsby";
+//import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
 import NavbarCustomEN from "./NavbarCustomEN";
 
-import headerStyles from "./header.module.css";
+//import headerStyles from "./header.module.css";
 
 const HeaderEN = ({ siteTitle }) => (
   <>

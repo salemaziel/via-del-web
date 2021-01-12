@@ -1,7 +1,7 @@
 import React from "react"
 import Banner from "../../../../banner"
 import SectionTxtBtnRight from "../SectionTxtBtnRight"
-import HeroSectionTxtBtnLeft from "../../../../HeroSectionTxtBtnLeft"
+//import HeroSectionTxtBtnLeft from "../../../../HeroSectionTxtBtnLeft"
 import PortfolioSection from "../../../../PortfolioSection"
 import CardsHomeSection from "../../../../CardsHomeSection"
 import { navigateTo } from "gatsby"

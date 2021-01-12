@@ -8,7 +8,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
-import styled from "styled-components"
+//import styled from "styled-components"
 import Container from 'react-bootstrap/Container'
 
 
@@ -18,7 +18,7 @@ function BioNew() {
     <StaticQuery
       query={bioNewQuery}
       render={data => {
-        const { author, social } = data.site.siteMetadata
+        const { author } = data.site.siteMetadata
         return (
           <Container className="d-flex justify-content-center">
             <Image
@@ -58,9 +58,6 @@ const bioNewQuery = graphql`
     site {
       siteMetadata {
         author
-        social {
-          twitter
-        }
       }
     }
   }

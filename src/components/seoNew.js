@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
-/*
+
 const SEO = ({ title, description, banner, pathname, article }) => (
   <StaticQuery
     query={query}
@@ -89,16 +89,16 @@ const SEO = ({ title, description, banner, pathname, article }) => (
               {JSON.stringify(schemaOrgJSONLD)}
             </script>
 
-            {/* OpenGraph  * /}
+            {/* OpenGraph  */}
             <meta property="og:url" content={seo.url} />
             <meta property="og:type" content={article ? 'article' : null} />
             <meta property="og:title" content={seo.title} />
             <meta property="og:description" content={seo.description} />
             <meta property="og:image" content={seo.image} />
 
-            {/* Twitter Card * /}
+            {/* Twitter Card */}
             <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:creator" content={twitter} />
+            <meta name="twitter:creator" content={seo.twitter} />
             <meta name="twitter:title" content={seo.title} />
             <meta name="twitter:description" content={seo.description} />
             <meta name="twitter:image" content={seo.image} />
@@ -147,4 +147,3 @@ const query = graphql`
   }
 `;
 
-*/

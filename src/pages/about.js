@@ -1,8 +1,7 @@
 import React from "react";
 
 import LayoutEN from "../components/layout";
-import SEO from "../components/seo";
-
+import SEO from "../components/seoNew"
 import AboutPageEN from '../components/PageComponents/en/About/AboutPage'
 
 const AboutPage = () => (
