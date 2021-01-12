@@ -1,14 +1,16 @@
 import React from 'react'
 import Banner from '../../../../banner'
-import HeroSectionTxtBtnRight from '../../../../HeroSectionTxtBtnRight'
+import SectionTxtBtnRight from '../SectionTxtBtnRight'
 import HeroSectionTxtBtnLeft from '../../../../HeroSectionTxtBtnLeft'
 import PortfolioSection from '../../../../PortfolioSection'
 import CardsHomeSection from '../../../../CardsHomeSection'
 import {navigateTo} from 'gatsby'
 import CtaSectionBgImage from '../../../../CtaSectionBgImage'
 
-import Section1Intro from "./s1Intro"
+import Section1Intro from "../s1Intro"
 
+
+import Marketing from "../../../../../images/undraw_Marketing.svg"
 
 const DigitalMarketingPage = (props) => {
     return(
@@ -26,14 +28,14 @@ const DigitalMarketingPage = (props) => {
                   description2=""
                   description3=""
                 />
-            <HeroSectionTxtBtnRight
+            <SectionTxtBtnRight
                     bg="white"
                     textColor="dark"
                     size=""
                     bgImage=""
                     bgImageOpacity={0.8}
-                    title="Building from the Ground Up"
-                    subtitle="Appealing and innovative website design helps you get an edge over your competitors and connect your target audiences across the world. Our web designers keep your brand in mind to ensure that everything is catered properly! Everything will be prepared according to your specifications to give you a different online presence and contribute to your business’ growth."
+                    title="SEO, Content Marketing, Social Media Management"
+                    subtitle="We offer digital marketing services ranging from on-page and off-page SEO, content marketing, directory listing, social media management, and more."
                     description1=""
                     description2=""
                     description3=""
@@ -43,7 +45,7 @@ const DigitalMarketingPage = (props) => {
                     description7=""
                     buttonText="Get Started"
                     buttonColor="primary"
-                    image="https://res.cloudinary.com/dexdumfqy/image/upload/v1600836618/rbl-art-designs/digital-marketing-1433427_1920_ikotj9.jpg"
+                    image={Marketing}
                     link="/contact"
                     /*buttonOnClick={() => {
                       // Navigate to pricing page
@@ -51,7 +53,7 @@ const DigitalMarketingPage = (props) => {
                     }}*/
                   />
 
-<HeroSectionTxtBtnLeft
+{/*<HeroSectionTxtBtnLeft
                     bg="white"
                     textColor="dark"
                     size="md"
@@ -73,18 +75,9 @@ const DigitalMarketingPage = (props) => {
                     /*buttonOnClick={() => {
                       // Navigate to pricing page
                       navigateTo("/");
-                    }}*/
-                  />
-                  <PortfolioSection
-                  bg="white"
-                  textColor="dark"
-                  size="md"
-                  bgImage=""
-                  bgImageOpacity={1}
-                  title="View Our Portfolio"
-                  subtitle=""
+                    }}* /
+                  />*/}
 
-                  />
                         <CardsHomeSection
               bg=""
               textColor="dark"

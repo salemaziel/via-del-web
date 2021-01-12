@@ -1,10 +1,10 @@
 import React from "react";
 
-import Section from "../../../../Section";
+import Section from "../../../Section";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import SectionHeader2 from "../../../../SectionHeader2";
+import SectionHeader2 from "../../../SectionHeader2";
 
 const SectionIntro = (props) => {
   return (

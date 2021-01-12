@@ -16,6 +16,7 @@ const SectionTiles = (props) => {
               <header>
                 <h1 className="text-center">{props.title1}</h1>
                 <h1> {props.title2}</h1>
+                <Container>
                 <div className={sectiontileStyles.subBox}>
                 <h2 className={sectiontileStyles.subdescription}>{props.subdescription}
                 <br />
@@ -23,6 +24,7 @@ const SectionTiles = (props) => {
                 {props.subdescription2}
                 </h2>
                 </div>
+                </Container>
               </header>
             </Fade>
             <Tiles

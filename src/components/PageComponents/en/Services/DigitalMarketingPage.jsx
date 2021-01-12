@@ -1,39 +1,39 @@
 import React from 'react'
 import Banner from '../../../../banner'
-import SectionTxtBtnRight from '../SectionTxtBtnRight'
+import HeroSectionTxtBtnRight from '../../../../HeroSectionTxtBtnRight'
 import HeroSectionTxtBtnLeft from '../../../../HeroSectionTxtBtnLeft'
+import PortfolioSection from '../../../../PortfolioSection'
 import CardsHomeSection from '../../../../CardsHomeSection'
 import {navigateTo} from 'gatsby'
 import CtaSectionBgImage from '../../../../CtaSectionBgImage'
 
 import Section1Intro from "../s1Intro"
 
-import Design from "../../../../../images/undraw_work_in_progress.svg"
 
-const GraphicDesignPage = (props) => {
+const DigitalMarketingPage = (props) => {
     return(
         <>
             <Banner />
-            <Section1Intro
+                  <Section1Intro
                   bg=""
                   textColor="dark"
                   size=""
                   bgImage=""
                   bgImageOpacity={0.8}
-                  title="Graphic Design Services"
+                  title="Digital Marketing Services"
                   subtitle=""
                   description1=""
                   description2=""
                   description3=""
                 />
-            <SectionTxtBtnRight
+            <HeroSectionTxtBtnRight
                     bg="white"
                     textColor="dark"
                     size=""
                     bgImage=""
                     bgImageOpacity={0.8}
-                    title="Logos, Graphic Design, &amp; Branding"
-                    subtitle="We offer logo and graphic design services for flyers, brochures, business cards, social media graphics, and more via our own in-house graphic designer."
+                    title="Building from the Ground Up"
+                    subtitle="Appealing and innovative website design helps you get an edge over your competitors and connect your target audiences across the world. Our web designers keep your brand in mind to ensure that everything is catered properly! Everything will be prepared according to your specifications to give you a different online presence and contribute to your business’ growth."
                     description1=""
                     description2=""
                     description3=""
@@ -43,7 +43,7 @@ const GraphicDesignPage = (props) => {
                     description7=""
                     buttonText="Get Started"
                     buttonColor="primary"
-                    image={Design}
+                    image="https://res.cloudinary.com/dexdumfqy/image/upload/v1600836618/rbl-art-designs/digital-marketing-1433427_1920_ikotj9.jpg"
                     link="/contact"
                     /*buttonOnClick={() => {
                       // Navigate to pricing page
@@ -51,10 +51,10 @@ const GraphicDesignPage = (props) => {
                     }}*/
                   />
 
-        {/*<HeroSectionTxtBtnLeft
+<HeroSectionTxtBtnLeft
                     bg="white"
                     textColor="dark"
-                    size=""
+                    size="md"
                     bgImage=""
                     bgImageOpacity={0.8}
                     title="Fully Responsive Design"
@@ -73,8 +73,18 @@ const GraphicDesignPage = (props) => {
                     /*buttonOnClick={() => {
                       // Navigate to pricing page
                       navigateTo("/");
-                    }}* /
-                  />*/}
+                    }}*/
+                  />
+                  <PortfolioSection
+                  bg="white"
+                  textColor="dark"
+                  size="md"
+                  bgImage=""
+                  bgImageOpacity={1}
+                  title="View Our Portfolio"
+                  subtitle=""
+
+                  />
                         <CardsHomeSection
               bg=""
               textColor="dark"
@@ -108,4 +118,4 @@ navigateTo("/about");
     )
 }
 
-export default GraphicDesignPage
+export default DigitalMarketingPage

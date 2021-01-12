@@ -129,10 +129,10 @@ const NavbarCustomEN = (props) => {
                 {/*<NavDropdown.Item eventKey="/services/socialmediamarketing">
                   Social Media Marketing
       </NavDropdown.Item>*/}
-                <NavDropdown.Item eventKey="/services/web-automation">
+                {/*<NavDropdown.Item eventKey="/services/web-automation">
                   {" "}
                   Webservice Automation{" "}
-                </NavDropdown.Item>
+    </NavDropdown.Item>*/}
                 <NavDropdown.Item eventKey="/services/website-design">
                   {" "}
                   Website Design{" "}
@@ -259,10 +259,8 @@ const NavbarCustomEN = (props) => {
                   link1: "/services/digital-marketing",
                   linkTitle2: "Graphic Design",
                   link2: "/services/graphic-design",
-                  linkTitle3: "Web Automation",
-                  link3: "/services/web-automation",
-                  linkTitle4: "Website Design",
-                  link4: "/services/website-design",
+                  linkTitle3: "Website Design",
+                  link3: "/services/website-design",
                 },
               ]}
             />,
