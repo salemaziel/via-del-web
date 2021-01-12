@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import SectionHeader2 from "../../../SectionHeader2";
 
-const SectionIntro = (props) => {
+const Section3OwnCode = (props) => {
   return (
     <>
       <Section
@@ -16,7 +16,7 @@ const SectionIntro = (props) => {
         bgImage={props.bgImage}
         bgImageOpacity={props.bgImageOpacity}
       >
-        <Container className="text-center mb-2 mt-4">
+        <Container className="text-left mb-2 mt-4">
           <Row className="justify-content-center align-items-center">
             <Col /*xs={12}* / md="auto" */ className="py-3 px-1">
               <SectionHeader2
@@ -24,8 +24,14 @@ const SectionIntro = (props) => {
                 subtitle={props.subtitle}
                 description1={props.description1}
                 description2={props.description2}
+                description3={props.description3}
+                description4={props.description4}
+                description5={props.description5}
+                description6={props.description6}
+                description7={props.description7}
                 size={1}
                 spaced={false}
+                className="px-2"
               />
             </Col>
           </Row>
@@ -35,4 +41,4 @@ const SectionIntro = (props) => {
   );
 };
 
-export default SectionIntro;
+export default Section3OwnCode;
