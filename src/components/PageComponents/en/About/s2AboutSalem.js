@@ -29,7 +29,7 @@ function AboutSalem(props) {
           <Col
             lg={6}
             /*className="offset-lg-1 mt-5 mt-lg-0 text-center text-lg-left"*/
-            className="mt-5 mt-lg-0 text-center text-lg-left"
+            className="mt-5 mt-lg-0 text-left text-lg-left"
             style={{
               backgroundColor: 'rgba(255,255,255,0.3)',
               padding: '3rem 1rem 3rem 1rem',

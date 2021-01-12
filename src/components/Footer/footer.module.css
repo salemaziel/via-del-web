@@ -109,7 +109,7 @@
 }
 
 .Footer .content {
-  padding: 6.5em 0 4.5em 0;
+  padding: 4.5em 0 4.5em 0;
   background-color: rgba(21, 27, 33, 0.6);
 }
 
@@ -139,7 +139,7 @@
 
 .content {
   display: block;
-  padding: 6.5em 0 4.5em 0;
+  padding: 4.5em 0 4.5em 0;
   background-color: rgba(21, 27, 33, 0.6);
   margin: 0;
   border: 0;
@@ -336,7 +336,7 @@ p.copyright {
 
 @media screen and (max-width: 480px) {
   .Footer .content {
-    padding: 2.5em 1.5em 0.5em 1.5em;
+    padding: 2.5em 0 0.5em;
   }
 
   .Footer .content > .inner > * {

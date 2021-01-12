@@ -26,7 +26,7 @@ function SectionHeader2(props) {
   return (
     <header
       className={
-        "SectionHeader" + (props.className ? ` ${props.className}` : "")
+        "SectionHeader2" + (props.className ? ` ${props.className}` : "")
       }
     >
       {props.title && (
@@ -43,56 +43,56 @@ function SectionHeader2(props) {
       )}
 
       {props.subtitle && (
-        <p className="SectionHeader__subtitle mb-4">{props.subtitle}</p>
+        <p className="SectionHeader2__subtitle mb-4">{props.subtitle}</p>
       )}
 
       {props.description && (
-        <p className="SectionHeader__description mb-4 mt-4">
+        <p className="SectionHeader2__description mb-4 mt-4">
           {props.description}
         </p>
       )}
 
       {props.description1 && (
-        <p className="SectionHeader__descriptions mt-4 mb-4">
+        <p className="SectionHeader2__descriptions mt-4 mb-4">
           {props.description1}
         </p>
       )}
       {props.description2 && (
-        <p className="SectionHeader__descriptions mb-4">{props.description2}</p>
+        <p className="SectionHeader2__descriptions mb-4">{props.description2}</p>
       )}
       {props.description3 && (
-        <p className="SectionHeader__descriptions mb-4">{props.description3}</p>
+        <p className="SectionHeader2__descriptions mb-4">{props.description3}</p>
       )}
       {props.description4 && (
-        <p className="SectionHeader__descriptions mb-4">{props.description4}</p>
+        <p className="SectionHeader2__descriptions mb-4">{props.description4}</p>
       )}
       {props.description5 && (
-        <p className="SectionHeader__descriptions mb-4">{props.description5}</p>
+        <p className="SectionHeader2__descriptions mb-4">{props.description5}</p>
       )}
       {props.description6 && (
-        <p className="SectionHeader__descriptions mb-4">{props.description6}</p>
+        <p className="SectionHeader2__descriptions mb-4">{props.description6}</p>
       )}
       {props.description7 && (
-        <p className="SectionHeader__descriptions mb-4">{props.description7}</p>
+        <p className="SectionHeader2__descriptions mb-4">{props.description7}</p>
       )}
       <ul>
         {props.listTitle1 && (
-          <li className="SectionHeader__listitem__title">{props.listTitle1}</li>
+          <li className="SectionHeader2__listitem__title">{props.listTitle1}</li>
         )}
         {props.listItem1 && (
-          <li className="SectionHeader__listitem">{props.listItem1}</li>
+          <li className="SectionHeader2__listitem">{props.listItem1}</li>
         )}
         {props.listItem2 && (
-          <li className="SectionHeader__listitem">{props.listItem2}</li>
+          <li className="SectionHeader2__listitem">{props.listItem2}</li>
         )}
         {props.listTitle2 && (
-          <li className="SectionHeader__listitem__title">{props.listTitle2}</li>
+          <li className="SectionHeader2__listitem__title">{props.listTitle2}</li>
         )}
         {props.listItem3 && (
-          <li className="SectionHeader__listitem">{props.listItem3}</li>
+          <li className="SectionHeader2__listitem">{props.listItem3}</li>
         )}
         {props.listItem4 && (
-          <li className="SectionHeader__listitem">{props.listItem4}</li>
+          <li className="SectionHeader2__listitem">{props.listItem4}</li>
         )}
       </ul>
     </header>

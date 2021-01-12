@@ -40,7 +40,7 @@ class Blog extends React.Component {
           spaced={true}
           className="text-center"
         />
-        <Bio />
+        {/*<Bio />*/}
         <SearchPosts
           posts={posts}
           localSearchBlog={localSearchBlog}

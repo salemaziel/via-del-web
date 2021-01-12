@@ -19,14 +19,16 @@ import SectionWavesEN from "../../../SectionWavesEN"
 import ClientsSection from "../../../ClientsSection"
 
 import Gatsby from "../../../../images/undraw_gatsbyjs.svg"
-import YourCode from '../../../../images/undraw_proud_coder.svg'
+import YourCode from "../../../../images/undraw_proud_coder.svg"
 
+import { Container, Row, Col } from "react-bootstrap"
+import ZenithMockup from "../../../../images/zenith-devices-mockup-removebg-preview.png"
 
 const HomepageEN = props => {
   return (
     <>
       <SectionWavesEN
-        headline="We build websites for small businesses in Southern Califas."
+        headline="Websites for small businesses in Southern Califas."
         headline2=""
         subtitle="Ya Tú Sabes."
         service1=""
@@ -43,9 +45,10 @@ const HomepageEN = props => {
         title1="Website Design ● Web Development ● Digital Marketing"
         title2=""
         subdescription="Via Del Web is a San Diego based web design company and digital
-        marketing partner. We specialize in helping local small businesses expand into the digital world and helping them succeed. Born and raised in Escondido, we are California natives to the core. Hablamos Inglés, Español y estamos especialmente fluido en Spanglish."
+        marketing partner. We specialize in helping local small businesses succesfully expand into the digital world."
+        subdescription2="Born and raised in Escondido, we are California natives to the core. Hablamos Inglés, Español y estamos especialmente fluido en Spanglish."
       />
-            <Fade top>
+      <Fade top>
         <HeroSectionTxtBtnRight
           bg=""
           textColor="dark"
@@ -64,7 +67,7 @@ const HomepageEN = props => {
           buttonText="Learn More"
           buttonColor="primary"
           image={YourCode}
-          link="/about"
+          link="/about#ownyourwebsite"
           /*buttonOnClick={() => {
           // Navigate to pricing page
           navigateTo("/");
@@ -80,23 +83,25 @@ const HomepageEN = props => {
         title="Our Websites Are Coded Entirely From The Ground Up."
         subtitle="Other agencies use clunky web building tools to glue pieces together, without any idea how the code actually works. We write each line of code ourselves to get the best performance on your site, which helps keep more customers and bring your company more business."
       />
- <div style={{backgroundImage: 'url(https://res.cloudinary.com/dexdumfqy/image/upload/v1600848134/rbl-art-designs/circle-dots-background_npogwh.svg)', backgroundRepeat: 'no-repeat'}} >
-<ClientsSection
-        bg=""
-        textColor="dark"
-        size=""
-        bgImage=""
-        bgImageOpacity={1}
-        title="Built Like The Best"
-        subtitle="We build your website using GatsbyJS, a React Javascript framework trusted by:"
-        titleImage=""
-        titleImageAlt=""
-      />
+      <div
+        style={{
+          backgroundImage:
+            "url(https://res.cloudinary.com/dexdumfqy/image/upload/v1600848134/rbl-art-designs/circle-dots-background_npogwh.svg)",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <ClientsSection
+          bg=""
+          textColor="dark"
+          size=""
+          bgImage=""
+          bgImageOpacity={1}
+          title="Built Like The Best"
+          subtitle="We build your website using GatsbyJS, a React Javascript framework trusted by:"
+          titleImage=""
+          titleImageAlt=""
+        />
       </div>
-
-
-
-
 
       <Fade top>
         <CardsHomeSection

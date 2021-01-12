@@ -19,7 +19,7 @@ function FeaturesSectionZigzag(props) {
       bgImage={props.bgImage}
       bgImageOpacity={props.bgImageOpacity}
     >
-      <Container fluid>
+      <Container>
         <SectionHeader2
           title={props.title}
           subtitle={props.subtitle}

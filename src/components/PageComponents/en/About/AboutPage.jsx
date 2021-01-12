@@ -49,10 +49,7 @@ const AboutPageEN = (props) => {
           description5=""
           description6=""
           description7=""
-          buttonText="Learn More"
-          buttonColor="primary"
           image={MeStripedShirt}
-          link="/about"
           /*buttonOnClick={() => {
           // Navigate to pricing page
           navigateTo("/");
@@ -74,8 +71,9 @@ const AboutPageEN = (props) => {
           </Col>
         </Row>
       </Container>
-
+    <div id="ownyoursite" />
       <Section3OwnCode
+        
         bg=""
         textColor="dark"
         size="sm"

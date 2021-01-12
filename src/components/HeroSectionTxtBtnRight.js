@@ -23,7 +23,7 @@ function HeroSectionTxtBtnRight(props) {
         <Row className="align-items-center">
           <Col>
             <figure className="HeroSectionTxtBtnRight__image-container mx-auto">
-              <Image src={props.image} fluid={true} /*style={{boxShadow: '10px 10px 10px gray'}}*/ />
+              <Image src={props.image} fluid={true} style={{boxShadow: '10px 10px 10px gray'}} />
             </figure>
           </Col>
           <Col

@@ -7,15 +7,29 @@ import CardsHomeSection from '../../../../CardsHomeSection'
 import {navigateTo} from 'gatsby'
 import CtaSectionBgImage from '../../../../CtaSectionBgImage'
 
+import Section1Intro from "./s1Intro"
+
 
 const DigitalMarketingPage = (props) => {
     return(
         <>
             <Banner />
+                  <Section1Intro
+                  bg=""
+                  textColor="dark"
+                  size=""
+                  bgImage=""
+                  bgImageOpacity={0.8}
+                  title="Digital Marketing Services"
+                  subtitle=""
+                  description1=""
+                  description2=""
+                  description3=""
+                />
             <HeroSectionTxtBtnRight
                     bg="white"
                     textColor="dark"
-                    size="md"
+                    size=""
                     bgImage=""
                     bgImageOpacity={0.8}
                     title="Building from the Ground Up"

@@ -1,10 +1,10 @@
 import React from "react";
 
-import Section from "../../../Section";
+import Section from "../../../../Section";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import SectionHeader2 from "../../../SectionHeader2";
+import SectionHeader2 from "../../../../SectionHeader2";
 
 const SectionIntro = (props) => {
   return (
@@ -16,9 +16,9 @@ const SectionIntro = (props) => {
         bgImage={props.bgImage}
         bgImageOpacity={props.bgImageOpacity}
       >
-        <Container className="text-left mb-2 mt-4">
+        <Container className="text-center mb-0 mt-4">
           <Row className="justify-content-center align-items-center">
-            <Col /*xs={12}* / md="auto" */ className="py-3 px-1">
+            <Col /*xs={12}* / md="auto" */ className="py-1 px-1">
               <SectionHeader2
                 title={props.title}
                 subtitle={props.subtitle}

@@ -17,7 +17,11 @@ const SectionTiles = (props) => {
                 <h1>{props.title1}</h1>
                 <h1> {props.title2}</h1>
                 <div className={sectiontileStyles.subBox}>
-                <h2 className={sectiontileStyles.subdescription}>{props.subdescription}</h2>
+                <h2 className={sectiontileStyles.subdescription}>{props.subdescription}
+                <br />
+                <br />
+                {props.subdescription2}
+                </h2>
                 </div>
               </header>
             </Fade>

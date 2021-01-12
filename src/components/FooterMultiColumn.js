@@ -42,38 +42,32 @@ function FooterMultiColumn(props) {
           <Col xs={12} md={8} lg={{ span: 6, offset: 2 }}>
             <div className="FooterMultiColumn__menus">
               <Row>
-                <Col xs={4} md={4} className="mt-3 mt-md-0">
-                  <h5>Product</h5>
-                  <ul className="list-unstyled">
-                    <li>
-                      <Link to="/pricing">Pricing</Link>
-                    </li>
-                    <li>
-                      <Link to="/faq">FAQ</Link>
-                    </li>
-                  </ul>
-                </Col>
-                <Col xs={4} md={4} className="mt-3 mt-md-0">
-                  <h5>Company</h5>
+
+                <Col xs={7} md={6} className="mt-3 mt-md-0">
+                  <h5>Menu</h5>
                   <ul className="list-unstyled">
                     <li>
                       <Link to="/about">About</Link>
                     </li>
                     <li>
+                      <Link to="/blog">Blog</Link>
+                    </li>
+                    <li>
                       <Link to="/contact">Contact</Link>
                     </li>
                     <li>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://medium.com"
-                      >
-                        Blog
-                      </a>
+                      <Link to="/services/website-design">Web Design</Link>
                     </li>
+                    <li>
+                      <Link to="/services/graphic-design">Graphic Design</Link>
+                    </li>
+                    <li>
+                      <Link to="/services/digital-marketing">Digital Marketing</Link>
+                    </li>
+
                   </ul>
                 </Col>
-                <Col xs={4} md={4} className="mt-3 mt-md-0">
+                <Col xs={5} md={6} className="mt-3 mt-md-0" style={{paddingLeft: "0", paddingRight: "0"}}>
                   <h5>Social</h5>
                   <ul className="list-unstyled">
                     <li>
