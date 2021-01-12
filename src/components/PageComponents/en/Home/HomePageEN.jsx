@@ -28,7 +28,7 @@ const HomepageEN = props => {
   return (
     <>
       <SectionWavesEN
-        headline="Websites for small businesses in Southern Califas."
+        headline="We build websites for small businesses in Southern Califas."
         headline2=""
         subtitle="Ya Tú Sabes."
         service1=""

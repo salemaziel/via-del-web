@@ -34,7 +34,7 @@ class Blog extends React.Component {
         bgImageOpacity>
           <Container fluid className={blogStyles.blogContainer}>
           <SectionHeader
-          title="Blog"
+          title="Blog / Recent Posts"
           subtitle=""
           size={2}
           spaced={true}
