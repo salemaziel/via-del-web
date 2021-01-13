@@ -28,7 +28,7 @@ const HomepageEN = props => {
   return (
     <>
       <SectionWavesEN
-        headline="We build websites for small businesses in Southern Califas."
+        headline="Latino Web Designers + Digital Marketers de Sur California."
         headline2=""
         subtitle="Ya Tú Sabes."
         service1=""
@@ -46,7 +46,7 @@ const HomepageEN = props => {
         title2=""
         subdescription="Via Del Web is a San Diego based web design company and digital
         marketing partner. We specialize in helping local small businesses succesfully expand into the digital world."
-        subdescription2="Born and raised in Escondido, we are California natives to the core. Hablamos Inglés, Español y estamos especialmente fluido en Spanglish."
+        subdescription2="Born and raised in Escondido, we are California natives to the core. Hablamos Inglés, Español y somos especialmente afluente en Spanglish."
       />
       <Fade top>
         <HeroSectionTxtBtnRight
@@ -110,7 +110,7 @@ const HomepageEN = props => {
           size="sm"
           bgImage=""
           bgImageOpacity={1}
-          title="The Game Plan"
+          title="Let's Get Started."
           subtitle=""
         />
       </Fade>

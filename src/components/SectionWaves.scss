@@ -64,6 +64,9 @@ p {
         background-image: linear-gradient(60deg, rgba(84, 58, 183, 0.9) 0%, rgba(0, 172, 193, 0.9) 100%), url("../images/annie-marek-barta-hKNVVGNba68-unsplash.jpg");
         background-position: 0% 30%;
         color: white;
+        @media screen and (max-width: 980px){
+            background-position: 0% 100%;
+        }
         @media screen and (max-width: 480px){
             background-position: 54% 35%;
         }

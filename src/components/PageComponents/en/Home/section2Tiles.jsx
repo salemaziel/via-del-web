@@ -36,9 +36,9 @@ const SectionTiles = (props) => {
                   imgSrc: CreateAWebsite,
                   imgAlt: "image",
                   link: "/services/website-design",
-                  title: "Build A Website",
+                  title: "Build Your Website",
                   description:
-                    "",
+                    "Construye su pagina web",
                   style: "1",
                 },
                 {

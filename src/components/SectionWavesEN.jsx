@@ -20,7 +20,7 @@ c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3
     </svg>*/}
           {/*<h1>Simple CSS Waves</h1>*/}
           <div className="d-block px-2">
-            <Typist startDelay={200} cursor={{ show: false }}>
+            {/*<Typist startDelay={100} cursor={{ show: false }}>*/}
               <span
                 className="headline" /*style={{ color: "white", textShadow: "2px 2px 4px black" }}*/
               >
@@ -35,7 +35,7 @@ c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3
               </span>
               <br />
               <br />
-              <Typist.Delay ms={800} />
+              {/*<Typist.Delay ms={400} />*/}
               <span
                 className="subtitle"
                 /*style={{
@@ -58,7 +58,7 @@ c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3
                 <Col>{props.service4}</Col>
                 </Row>
           </Container>*/}
-            </Typist>
+            {/*</Typist>*/}
           </div>
         </div>
         <Container className="mt-3 pt-3">
