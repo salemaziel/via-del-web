@@ -6,10 +6,10 @@ module.exports = {
     url: 'https://viadelweb.com', // Domain of your site. No trailing slash!
     siteUrl: 'https://viadelweb.com/', // url + pathPrefix
     siteLanguage: 'en', // Language Tag on <html> element
-    logo: 'static/logo/logo.png', // Used for SEO
-    banner: 'static/logo/banner.png',
+    logo: '/static/logo/logo.png', // Used for SEO
+    banner: '/static/logo/banner.png',
     // JSONLD / Manifest
-    favicon: 'static/logo/favicon.png', // Used for manifest favicon generation
+    favicon: '/static/logo/favicon.png', // Used for manifest favicon generation
     shortName: 'GLP', // shortname for manifest. MUST be shorter than 12 characters
     author: 'Salem Aziel', // Author for schemaORGJSONLD
     themeColor: '#217ebd',
@@ -22,13 +22,13 @@ module.exports = {
     manifestBackgroundColor: '#000',
     manifestThemeColor: '#fff',
     manifestDisplay: 'minimal-ui',
-    manifestIcon: 'static/logo/favicon.png',
+    manifestIcon: '/static/logo/favicon.png',
     //pathPrefix: `/content/shop`, // This path is subpath of your hosting https://domain/portfolio
     titleAlt: 'Via Del Web',
     url: 'https://viadelweb.com', // Domain of your site. No trailing slash!
     siteUrl: 'https://viadelweb.com/', // url + pathPrefix
     siteLanguage: 'en', // Language Tag on <html> element
-    logo: 'static/logo/logo.png', // Used for SEO
+    logo: '/static/logo/logo.png', // Used for SEO
     //pathPrefix: `/content/`,
     authorName: `Salem Aziel`,
     author: `salemaziel`,
