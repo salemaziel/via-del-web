@@ -10,6 +10,8 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import AboutSalem from "./s2AboutSalem"
 
 import MeStripedShirt from "../../../../images/me-striped-shirt-585x780.jpg"
+import CircleDots from "../../../../images/circle-dots-background.svg"
+import SmartPhone from "../../../../images/smartphone-1894723_1920_yti9if.jpg"
 
 import Section3OwnCode from './s3OwnCode'
 
@@ -32,7 +34,7 @@ const AboutPageEN = (props) => {
       />
       
 
-<div style={{backgroundImage: 'url(https://res.cloudinary.com/dexdumfqy/image/upload/v1600848134/rbl-art-designs/circle-dots-background_npogwh.svg)', backgroundRepeat: 'no-repeat'}} >
+<div style={{backgroundImage: `url(${CircleDots})`, backgroundRepeat: 'no-repeat'}} >
 
         <AboutSalem
           bg=""
@@ -87,7 +89,7 @@ const AboutPageEN = (props) => {
       />
 
 
-      <div style={{backgroundImage: 'url(https://res.cloudinary.com/dexdumfqy/image/upload/v1600848134/rbl-art-designs/circle-dots-background_npogwh.svg)'}} >
+      <div style={{backgroundImage: `url(${CircleDots})`}} >
       <CardsWBgSection
         bg=""
         textColor="dark"
@@ -112,7 +114,7 @@ const AboutPageEN = (props) => {
         bg="dark"
         textColor="white"
         size="sm"
-        bgImage="https://res.cloudinary.com/dexdumfqy/image/upload/v1600837824/rbl-art-designs/smartphone-1894723_1920_yti9if.jpg"
+        bgImage={SmartPhone}
         bgImageOpacity={0.8}
         title="Schedule A Call"
         subtitle=""

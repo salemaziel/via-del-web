@@ -21,8 +21,12 @@ import ClientsSection from "../../../ClientsSection"
 //import Gatsby from "../../../../images/undraw_gatsbyjs.svg"
 import YourCode from "../../../../images/undraw_proud_coder.svg"
 
+import CircleDots from "../../../../images/circle-dots-background.svg"
+import SmartPhone from "../../../../images/smartphone-1894723_1920_yti9if.jpg"
+
 //import { Container, Row, Col } from "react-bootstrap"
 //import ZenithMockup from "../../../../images/zenith-devices-mockup-removebg-preview.png"
+
 
 const HomepageEN = props => {
   return (
@@ -85,8 +89,7 @@ const HomepageEN = props => {
       />
       <div
         style={{
-          backgroundImage:
-            "url(https://res.cloudinary.com/dexdumfqy/image/upload/v1600848134/rbl-art-designs/circle-dots-background_npogwh.svg)",
+          backgroundImage:`url(${CircleDots})`,
           backgroundRepeat: "no-repeat",
         }}
       >
@@ -136,7 +139,7 @@ const HomepageEN = props => {
         bg="dark"
         textColor="white"
         size="sm"
-        bgImage="https://res.cloudinary.com/dexdumfqy/image/upload/v1600837824/rbl-art-designs/smartphone-1894723_1920_yti9if.jpg"
+        bgImage={SmartPhone}
         bgImageOpacity={0.8}
         title="Schedule A Consultation"
         subtitle=""
@@ -144,7 +147,7 @@ const HomepageEN = props => {
         buttonColor="primary"
         buttonOnClick={() => {
           // Navigate to pricing page
-          navigateTo("/about")
+          navigateTo("/contact")
         }}
       />
     </>

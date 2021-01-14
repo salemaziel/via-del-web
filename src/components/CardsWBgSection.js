@@ -4,6 +4,14 @@ import Container from "react-bootstrap/Container";
 import SectionHeader from "./SectionHeader";
 import TeamBios2 from "./TeamBios2";
 
+import DaeSquare from "../images/dae-square.jpg"
+import SalemCrop from "../images/salem-crop.jpg"
+
+import Camera from "../images/camera-2598507_480x320.jpg"
+import Terminal from "../images/terminal-2-640x287_kncwse.jpg"
+import DigMarketing from "../images/digital-marketing-1433427_480x320.jpg"
+import UrielSquare from "../images/avatar-large-square-300x300.jpg"
+
 function CardsWBgSection(props) {
   return (
     <Section
@@ -24,24 +32,24 @@ function CardsWBgSection(props) {
         <TeamBios2
           items={[
             {
-              headerImage: "https://res.cloudinary.com/dexdumfqy/image/upload/v1599804800/salemaziel.com/me/terminal-2-640x287_kncwse.jpg",
-              avatarImage: "https://res.cloudinary.com/dexdumfqy/image/upload/v1600838928/rbl-art-designs/salem-crop_mjbf56.png",
+              headerImage: Terminal,
+              avatarImage: SalemCrop,
               name: "Salem Aziel",
               role: "Web & App Development, Digital Consultant, Project Management",
               bio:
                 "",
             },
             {
-              headerImage: "https://res.cloudinary.com/dexdumfqy/image/upload/v1600836482/rbl-art-designs/camera-2598507_1920_bbrgjn.jpg",
-              avatarImage: "https://res.cloudinary.com/dexdumfqy/image/upload/v1600838742/rbl-art-designs/dae-square_mnfqeg.jpg",
+              headerImage: Camera,
+              avatarImage: DaeSquare,
               name: "DaeHyun Yoo",
               role: "Graphic Design, Photography, Videography",
               bio:
                 "",
             },
             {
-              headerImage: "https://res.cloudinary.com/dexdumfqy/image/upload/v1600836618/rbl-art-designs/digital-marketing-1433427_1920_ikotj9.jpg",
-              avatarImage: "https://rosieshouse.org/wp-content/uploads/2016/06/avatar-large-square-300x300.jpg",
+              headerImage: DigMarketing,
+              avatarImage: UrielSquare,
               name: "Uriel Aguilar",
               role: "Digital Consultant, Project Management, Communications",
               bio:

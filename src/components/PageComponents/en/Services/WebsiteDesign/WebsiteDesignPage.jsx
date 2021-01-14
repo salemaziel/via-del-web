@@ -9,6 +9,8 @@ import CtaSectionBgImage from "../../../../CtaSectionBgImage"
 
 import ZenithMockup from "../../../../../images/zenith-devices-mockup-removebg-preview.png"
 import Section1Intro from "../s1Intro"
+import CircleDots from "../../../../../images/circle-dots-background.svg"
+import SmartPhone from "../../../../../images/smartphone-1894723_1920_yti9if.jpg"
 
 const WebsiteDesignPage = props => {
   return (
@@ -79,7 +81,7 @@ const WebsiteDesignPage = props => {
       <div
         style={{
           backgroundImage:
-            "url(https://res.cloudinary.com/dexdumfqy/image/upload/v1600848134/rbl-art-designs/circle-dots-background_npogwh.svg)",
+            `url(${CircleDots})`,
         }}
       >
         <PortfolioSection
@@ -107,7 +109,7 @@ const WebsiteDesignPage = props => {
         bg="dark"
         textColor="white"
         size="sm"
-        bgImage="https://res.cloudinary.com/dexdumfqy/image/upload/v1600837824/rbl-art-designs/smartphone-1894723_1920_yti9if.jpg"
+        bgImage={SmartPhone}
         bgImageOpacity={0.8}
         title="Schedule A Consultation"
         subtitle=""
@@ -115,7 +117,7 @@ const WebsiteDesignPage = props => {
         buttonColor="primary"
         buttonOnClick={() => {
           // Navigate to pricing page
-          navigateTo("/about")
+          navigateTo("/contact")
         }}
       />
     </>

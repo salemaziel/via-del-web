@@ -6,6 +6,10 @@ import Col from "react-bootstrap/Col";
 import { Link } from "gatsby";
 import "./FooterMultiColumn.scss";
 
+import FBSVG from "../images/icon-facebook.svg"
+import TwitterSVG from "../images/icon-twitter.svg"
+import IGSVG from "../images/icon-instagram.svg"
+
 function FooterMultiColumn(props) {
   return (
     <Section
@@ -77,7 +81,7 @@ function FooterMultiColumn(props) {
                         href="https://facebook.com"
                       >
                         <img
-                          src="https://uploads.divjoy.com/icon-facebook.svg"
+                          src={FBSVG}
                           alt="Facebook"
                         />
                         Facebook
@@ -90,7 +94,7 @@ function FooterMultiColumn(props) {
                         href="https://instagram.com"
                       >
                         <img
-                          src="https://uploads.divjoy.com/icon-instagram.svg"
+                          src={IGSVG}
                           alt="Instagram"
                         />
                         Instagram
@@ -103,7 +107,7 @@ function FooterMultiColumn(props) {
                         href="https://twitter.com"
                       >
                         <img
-                          src="https://uploads.divjoy.com/icon-twitter.svg"
+                          src={TwitterSVG}
                           alt="Twitter"
                         />
                         Twitter

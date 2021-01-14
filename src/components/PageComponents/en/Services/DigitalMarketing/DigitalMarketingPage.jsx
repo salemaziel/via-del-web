@@ -11,6 +11,7 @@ import Section1Intro from "../s1Intro"
 
 
 import Marketing from "../../../../../images/undraw_Marketing.svg"
+import SmartPhone from "../../../../../images/smartphone-1894723_1920_yti9if.jpg"
 
 const DigitalMarketingPage = (props) => {
     return(
@@ -92,7 +93,7 @@ const DigitalMarketingPage = (props) => {
 bg="dark"
 textColor="white"
 size="sm"
-bgImage="https://res.cloudinary.com/dexdumfqy/image/upload/v1600837824/rbl-art-designs/smartphone-1894723_1920_yti9if.jpg"
+bgImage={SmartPhone}
 bgImageOpacity={0.8}
 title="Schedule A Consultation"
 subtitle=""
@@ -100,7 +101,7 @@ buttonText="Get Started"
 buttonColor="primary"
 buttonOnClick={() => {
 // Navigate to pricing page
-navigateTo("/about");
+navigateTo("/contact");
 }}
 />
 

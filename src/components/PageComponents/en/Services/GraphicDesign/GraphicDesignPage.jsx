@@ -9,6 +9,7 @@ import CtaSectionBgImage from '../../../../CtaSectionBgImage'
 import Section1Intro from "../s1Intro"
 
 import Design from "../../../../../images/undraw_work_in_progress.svg"
+import SmartPhone from "../../../../../images/smartphone-1894723_1920_yti9if.jpg"
 
 const GraphicDesignPage = (props) => {
     return(
@@ -89,7 +90,7 @@ const GraphicDesignPage = (props) => {
 bg="dark"
 textColor="white"
 size="sm"
-bgImage="https://res.cloudinary.com/dexdumfqy/image/upload/v1600837824/rbl-art-designs/smartphone-1894723_1920_yti9if.jpg"
+bgImage={SmartPhone}
 bgImageOpacity={0.8}
 title="Schedule A Consultation"
 subtitle=""
@@ -97,7 +98,7 @@ buttonText="Get Started"
 buttonColor="primary"
 buttonOnClick={() => {
 // Navigate to pricing page
-navigateTo("/about");
+navigateTo("/contact");
 }}
 />
 

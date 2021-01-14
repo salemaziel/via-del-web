@@ -4,6 +4,10 @@ import Container from "react-bootstrap/Container";
 import SectionHeader from "./SectionHeader";
 import Cards from "./Cards";
 
+import Step1 from "../images/step1.png"
+import Step2 from "../images/step2.png"
+import Step3 from "../images/step3.png"
+
 function CardsHomeSection(props) {
   return (
     <Section
@@ -25,7 +29,7 @@ function CardsHomeSection(props) {
           items={[
             {
               headerImage: "",
-              iconImage: "https://lirp-cdn.multiscreensite.com/58f4193e/dms3rep/multi/opt/step1-1920w.png",
+              iconImage: Step1,
               stepNumber: "Step 1",
               stepTitle: "Schedule A Call",
               stepDescription:
@@ -35,7 +39,7 @@ function CardsHomeSection(props) {
             },
             {
               headerImage: "",
-              iconImage: "https://lirp-cdn.multiscreensite.com/58f4193e/dms3rep/multi/opt/step2-1920w.png",
+              iconImage: Step2,
               stepNumber: "Step 2",
               stepTitle: "Get Your Plan",
               stepDescription:
@@ -47,7 +51,7 @@ function CardsHomeSection(props) {
             },
             {
               headerImage: "",
-              iconImage: "https://lirp-cdn.multiscreensite.com/58f4193e/dms3rep/multi/opt/step3-1920w.png",
+              iconImage: Step3,
               stepNumber: "Step 3",
               stepTitle: "Win Online",
               stepDescription:
