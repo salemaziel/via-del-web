@@ -4,7 +4,7 @@ const config = require('./config/site');
 
 module.exports = {
   siteMetadata: {
-    title: `Via Del Web`,
+    title: `Via Del Web Website Design & Digital Markerting`,
     description: `Digital Marketing and Website Design`,
     author: `@salemaziel`,
     siteUrl: `https://viadelweb.com`,

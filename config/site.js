@@ -6,29 +6,29 @@ module.exports = {
     url: 'https://viadelweb.com', // Domain of your site. No trailing slash!
     siteUrl: 'https://viadelweb.com/', // url + pathPrefix
     siteLanguage: 'en', // Language Tag on <html> element
-    logo: '/static/logo/logo.png', // Used for SEO
-    banner: '/static/logo/banner.png',
+    logo: '/logo/logo.png', // Used for SEO
+    banner: '/logo/banner.png',
     // JSONLD / Manifest
-    favicon: '/static/logo/favicon.png', // Used for manifest favicon generation
+    favicon: '/logo/favicon.png', // Used for manifest favicon generation
     shortName: 'ViaDelWeb', // shortname for manifest. MUST be shorter than 12 characters
     author: 'Salem Aziel', // Author for schemaORGJSONLD
     themeColor: '#217ebd',
     backgroundColor: '#217ebd',
     twitter: '@viadelweb', // Twitter Username
     siteTitle: "Via Del Web Website Design & Digital Marketing", // <title>
-    manifestName: "Via Del Web",
+    manifestName: "Via Del Web Website Design & Digital Markerting",
     manifestShortName: "Via Del Web", // max 12 characters
     manifestStartUrl: '/',
     manifestBackgroundColor: '#000',
     manifestThemeColor: '#fff',
     manifestDisplay: 'minimal-ui',
-    manifestIcon: '/static/logo/favicon.png',
+    manifestIcon: '/logo/favicon.png',
     //pathPrefix: `/content/shop`, // This path is subpath of your hosting https://domain/portfolio
-    titleAlt: 'Via Del Web',
+    titleAlt: 'Via Del Web Website Design & Digital Markerting',
     url: 'https://viadelweb.com', // Domain of your site. No trailing slash!
     siteUrl: 'https://viadelweb.com/', // url + pathPrefix
     siteLanguage: 'en', // Language Tag on <html> element
-    logo: '/static/logo/logo.png', // Used for SEO
+    logo: '/logo/logo.png', // Used for SEO
     //pathPrefix: `/content/`,
     authorName: `Salem Aziel`,
     author: `salemaziel`,
