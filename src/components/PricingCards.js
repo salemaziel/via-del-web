@@ -208,7 +208,7 @@ const PricingCards = props => {
               </svg>
               <h3 className="pricing-title">Starter</h3>
               <div className="pricing-price">
-                <span className="pricing-currency">$</span>1500
+                <span className="pricing-currency">$</span>2000
               </div>
               <div className="pricing-price">
                   <span className="pricingMonthly">or </span>

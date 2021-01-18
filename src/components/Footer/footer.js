@@ -3,7 +3,7 @@ import React from "react";
 //import { FaEnvelope, FaInstagram, FaFacebook, FaTwitter, FaResearchgate, FaLinkedin } from 'react-icons/fa'
 import FooterMultiColumn from '../FooterMultiColumn'
 
-import Logo from '../../images/logo-horiz.png'
+import {LogoHorizWhite} from '../../images/index'
 //import Form from 'react-bootstrap/Form'
 
 //import NewsletterSectionCentered from '../NewsletterSectionCentered'
@@ -73,7 +73,7 @@ const Footer = () => (
           bgImage=""
           bgImageOpacity={1}
           description="Via Del Web is a bilingual San Diego, California based Web Design Agency building fast, beautiful, and responsive websites for small businesses."
-          logo={Logo}
+          logo={LogoHorizWhite}
         />
 
 

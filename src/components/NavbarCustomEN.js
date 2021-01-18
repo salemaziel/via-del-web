@@ -15,7 +15,7 @@ import SideNav from "react-simple-sidenav";
 import FaqNav from "./FaqNav";
 
 import navStyles from "./navbar.module.css";
-import { LogoSquare } from "../images/index";
+import { LogoSquare, LogoVertWhite, LogoHorizWhite } from "../images/index";
 
 import { FaHome } from "react-icons/fa";
 
@@ -46,7 +46,7 @@ const NavbarCustomEN = (props) => {
               <img
                 /*className={scroll ? "d-inline-block align-top navLogo" : "hide"}*/
                 className={scroll ? "d-inline-block align-top navLogo" : "d-inline-block align-top navLogo"}
-                src={LogoSquare}
+                src={LogoHorizWhite}
                 alt="Via Del Web Logo"
               ></img>
             </Link>
