@@ -35,9 +35,9 @@ module.exports = {
       {
           resolve: `gatsby-plugin-advanced-sitemap`,
       },
-      {
-        resolve: `gatsby-plugin-canonical-urls`,
-      },
+//      {
+//        resolve: `gatsby-plugin-canonical-urls`,
+//      },
     {
       resolve: "gatsby-plugin-local-search",
       options: {
