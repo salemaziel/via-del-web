@@ -6,7 +6,7 @@ import AboutPageEN from '../components/PageComponents/en/About/AboutPage'
 
 const AboutPage = () => (
   <LayoutEN>
-    <SEO title="About Via Del Web US_En" />
+    <SEO title="About Via Del Web" />
     <AboutPageEN />
 
   </LayoutEN>
