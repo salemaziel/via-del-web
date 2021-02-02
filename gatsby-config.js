@@ -4,10 +4,10 @@ const config = require('./config/site');
 
 module.exports = {
   siteMetadata: {
-    title: `Via Del Web Website Design & Digital Marketing`,
+    title: `Via Del Web Website Design + Development & Digital Marketing`,
     description: `Digital Marketing and Website Design`,
     author: `@salemaziel`,
-    siteUrl: `https://viadelweb.com`,
+    siteUrl: `https://www.viadelweb.com`,
     social: {
       twitter: `salemamb760`,
     },
@@ -172,13 +172,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Via Del Web Digital Marketing`,
+        name: `Via Del Web Web Design+Development & Digital Marketing`,
         short_name: `Via Del Web`,
         start_url: `/`,
-        background_color: `#2579bc`,
-        theme_color: `#2579bc`,
+        background_color: `#217ebd`,
+        theme_color: `##217ebd`,
         display: `minimal-ui`,
-        icon: `src/images/logo.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo-only.png`, // This path is relative to the root of the site.
       },
     },
 //    {

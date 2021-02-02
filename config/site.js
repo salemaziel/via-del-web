@@ -24,8 +24,8 @@ module.exports = {
     manifestDisplay: 'minimal-ui',
     manifestIcon: '/logo/favicon.png',
     //pathPrefix: `/content/shop`, // This path is subpath of your hosting https://domain/portfolio
-    url: 'https://viadelweb.com', // Domain of your site. No trailing slash!
-    siteUrl: 'https://viadelweb.com/', // url + pathPrefix
+    url: 'https://www.viadelweb.com', // Domain of your site. No trailing slash!
+    siteUrl: 'https://www.viadelweb.com/', // url + pathPrefix
     siteLanguage: 'en', // Language Tag on <html> element
     logo: '/logo/logo.png', // Used for SEO
     //pathPrefix: `/content/`,
