@@ -5,7 +5,7 @@ title: What is SEO?
 description: Search engine optimization, or SEO for short, is the process of
   optimizing your online identity in order to receive more web traffic through
   search engine results.
-featuredImage: ../assets/undraw_search_engines.svg
+featuredImage: ../assets/undraw_search_engines.png
 ---
 You've probably heard of SEO. But, what is it? And why is it essential for your site? 
 
