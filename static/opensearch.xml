@@ -2,5 +2,5 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
   <ShortName>Via Del Web</ShortName>
   <Description>Latino Owned Web Design, Web Development, &amp; Digital Marketing Agency based in San Diego, CA specializing in working with small businesses.</Description>
-  <Url type="text/html" method="get" template="https://www.viadelweb.com/blog/?search={searchTerms}"/>
+  <Url type="text/html" method="get" template="https://viadelweb.com/blog/?search={searchTerms}"/>
 </OpenSearchDescription>

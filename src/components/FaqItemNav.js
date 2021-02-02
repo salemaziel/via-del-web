@@ -25,7 +25,7 @@ function FaqItemNav(props) {
         <ul>
           <li>{props.listItem1}</li>
           <li>{props.listItem2}</li>
-          {/*<li><Link to={props.link1} rel="nofollow">{props.linkTitle1}</Link></li>*/}
+         
 
         </ul>
         <div className="py-2 subMenu">

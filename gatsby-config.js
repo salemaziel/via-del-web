@@ -7,7 +7,7 @@ module.exports = {
     title: `Via Del Web Website Design + Development & Digital Marketing`,
     description: `Digital Marketing and Website Design`,
     author: `@salemaziel`,
-    siteUrl: `https://www.viadelweb.com`,
+    siteUrl: `https://viadelweb.com`,
     social: {
       twitter: `salemamb760`,
     },
@@ -158,8 +158,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://www.viadelweb.com',
-        sitemap: 'https://www.viadelweb.com/sitemap.xml',
+        host: 'https://viadelweb.com',
+        sitemap: 'https://viadelweb.com/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
