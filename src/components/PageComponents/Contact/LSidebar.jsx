@@ -21,13 +21,13 @@ const LSidebar = () => (
                   </p>
                 <h4 className="followus">Follow Us</h4>
                 <div className="followus">
-                  <a href="https://instagram.com/viadelweb" rel="noopener noreferrer" target="_blank">
+                  <a href="https://instagram.com/viadelweb" rel="noopener" target="_blank">
                     <FaInstagram />
                   </a>
-                  <a href="https://linkedin.com/company/viadelweb" rel="noopener noreferrer" target="_blank">
+                  <a href="https://linkedin.com/company/viadelweb" rel="noopener" target="_blank">
                     <FaLinkedin />
                   </a>
-                  <a href="https://www.facebook.com/viadelweb/" rel="noopener noreferrer" target="_blank">
+                  <a href="https://www.facebook.com/viadelweb/" rel="noopener" target="_blank">
                     <FaFacebook />
                   </a>
                 </div>

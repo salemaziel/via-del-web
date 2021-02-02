@@ -140,7 +140,7 @@ module.exports = {
         // Avoids sending pageview hits from custom paths
         exclude: ["/preview/**", "/do-not-track/me/too/"],
         // Delays sending pageview hits on route update (in milliseconds)
-        pageTransitionDelay: 0,
+        //pageTransitionDelay: 0,
         // Enables Google Optimize using your container Id
         //optimizeId: "OPT-W2BVMC3",
         // Enables Google Optimize Experiment ID
@@ -148,10 +148,10 @@ module.exports = {
         // Set Variation ID. 0 for original 1,2,3....
 //        variationId: "YOUR_GOOGLE_OPTIMIZE_VARIATION_ID",
         // Defers execution of google analytics script after page load
-        defer: false,
+        //defer: false,
         // Any additional optional fields
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
+        //sampleRate: 5,
+        //siteSpeedSampleRate: 10,
         cookieDomain: "viadelweb.com",
       },
     },
