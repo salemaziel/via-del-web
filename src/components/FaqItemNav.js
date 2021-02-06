@@ -29,16 +29,16 @@ function FaqItemNav(props) {
 
         </ul>
         <div className="py-2 subMenu">
-          <Link to={props.link1} rel="preload">{props.linkTitle1}</Link>
+          <Link to={props.link1} >{props.linkTitle1}</Link>
       </div>
       <div className="py-2 subMenu">
-          <Link to={props.link2} rel="preload">{props.linkTitle2}</Link>
+          <Link to={props.link2} >{props.linkTitle2}</Link>
       </div>
       <div className="py-2 subMenu">
-          <Link to={props.link3} rel="preload">{props.linkTitle3}</Link>
+          <Link to={props.link3} >{props.linkTitle3}</Link>
       </div>
       {/*<div className="py-2 subMenu">
-          <Link to={props.link4} rel="preload">{props.linkTitle4}</Link>
+          <Link to={props.link4} >{props.linkTitle4}</Link>
       </div>*/}
 
         

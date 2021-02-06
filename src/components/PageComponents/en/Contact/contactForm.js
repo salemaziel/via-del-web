@@ -109,7 +109,7 @@ export default function ContactForm() {
 
         <Form.Row>
             <Form.Group>
-              <label htmlFor="tel" style={{ display: "none" }}>
+              <label htmlFor="Current Website" style={{ display: "none" }}>
                 Current Website
               </label>
               <input
@@ -124,13 +124,13 @@ export default function ContactForm() {
         </Form.Row>
         <Form.Row>
             <Form.Group>
-              <label htmlFor="tel" style={{ display: "none" }}>
-                Current Website
+              <label htmlFor="Industry" style={{ display: "none" }}>
+                What Industry Are You In?                
               </label>
               <input
                 type="text"
-                name="currentwebsite"
-                id="currentwebsite"
+                name="industry"
+                id="industry"
                 placeholder="What Industry Are You In?*"
                 onChange={handleChange}
               />

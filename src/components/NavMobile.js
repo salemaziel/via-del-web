@@ -45,7 +45,7 @@ class NavMobile extends React.Component {
               textAlign: 'center'
             }}
           >
-            <Link to="/" rel="preload">
+            <Link to="/" >
               <img
                 src={LogoWshadowDarkVertSm}
                 alt="Logo"
@@ -102,27 +102,27 @@ class NavMobile extends React.Component {
           }}
           items={[
             <Nav.Item>
-            <Link rel="preload" className="nav-link" to="/">
+            <Link  className="nav-link" to="/">
               Home
             </Link>
             </Nav.Item>,
                         <Nav.Item>
-            <Link rel="preload" className="nav-link" to="/services/roofrepairs">
+            <Link  className="nav-link" to="/services/roofrepairs">
               Roof Repairs
             </Link>
             </Nav.Item>,
             <Nav.Item>
-            <Link rel="preload" className="nav-link" to="/services">
+            <Link  className="nav-link" to="/services">
               Commercial
             </Link>
             </Nav.Item>,
             <Nav.Item>
-            <Link rel="preload" className="nav-link" to="/services">
+            <Link  className="nav-link" to="/services">
               Residential
             </Link>
             </Nav.Item>,
             <Nav.Item>
-            <Link rel="preload" className="nav-link" to="/about">
+            <Link  className="nav-link" to="/about">
               About Us
             </Link>
             </Nav.Item>,
@@ -135,7 +135,7 @@ class NavMobile extends React.Component {
             </a>
             </Nav.Item>,
             <Nav.Item>
-            <Button className="QuoteNav" rel="preload" onClick={() => navigateTo("/contact")}>
+            <Button className="QuoteNav"  onClick={() => navigateTo("/contact")}>
               Contact Us
             </Button>
             </Nav.Item>,

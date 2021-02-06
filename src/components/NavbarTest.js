@@ -40,7 +40,7 @@ const NavbarCustomTest = (props) => {
       >
         <Container>
           <Navbar.Brand>
-            <Link to="/en/home" rel="preload">
+            <Link to="/en/home" >
               <img
                 className={scroll ? "d-inline-block align-top navLogo" : "hide"}
                 src={LogoSquare}
@@ -218,35 +218,35 @@ const NavbarCustomTest = (props) => {
               margin: "auto",
             }}
             items={[
-              <Link rel="preload" className={navStyles.navItem} to="/en/home">
+              <Link  className={navStyles.navItem} to="/en/home">
                 <FaHome />
               </Link>,
-              <Link rel="preload" className={navStyles.navItem} to="/en/about">
+              <Link  className={navStyles.navItem} to="/en/about">
                 About Us
               </Link>,
               <Link
-                rel="preload"
+                
                 className={navStyles.navItem}
                 to="/en/services"
               >
                 Services
               </Link>,
               <Link
-                rel="preload"
+                
                 className={navStyles.navItem}
                 to="/en/home#"
               >
                 Who We Help
               </Link>,
               <Link
-                rel="preload"
+                
                 className={navStyles.navItem}
                 to="/en/contact"
               >
                 Contact
               </Link>,
                             <Link
-                            rel="preload"
+                            
                             className={navStyles.navItem}
                             to="/test"
                           >

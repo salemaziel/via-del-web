@@ -31,7 +31,7 @@ function Cards(props) {
               <p style={{fontSize: '1.5rem', color: '#217ebd'}} className="font-weight-bold">{item.stepTitle}</p>
               <Card.Text className="mt-2">{item.stepDescription}</Card.Text>
               <Card.Text className="" >
-              <Link to={item.link} rel="preload" style={{color: '#217ebd', fontWeight: 'bolder'}}>{item.linkText} → </Link>
+              <Link to={item.link}  style={{color: '#217ebd', fontWeight: 'bolder'}}>{item.linkText} → </Link>
               </Card.Text>
             </Card.Body>
           </Card>

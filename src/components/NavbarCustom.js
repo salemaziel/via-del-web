@@ -41,7 +41,7 @@ const NavbarCustom = (props) => {
       >
         <Container>
           <Navbar.Brand>
-            <Link to="/esp/home" rel="preload">
+            <Link to="/esp/home" >
               <img
                 className={scroll ? "d-inline-block align-top" : "hide"}
                 src={LogoSquare}
@@ -197,10 +197,10 @@ const NavbarCustom = (props) => {
               margin: "auto",
             }}
             items={[
-              <Link rel="preload" className={navStyles.navItem} to="/esp/home">
+              <Link className={navStyles.navItem} to="/esp/home">
                 <FaHome />
               </Link>,
-              <Link rel="preload" className={navStyles.navItem} to="/esp/quienes-somos">
+              <Link className={navStyles.navItem} to="/esp/quienes-somos">
                 Quien Somos
               </Link>,
               <FaqNav
@@ -223,7 +223,7 @@ const NavbarCustom = (props) => {
                   },
                 ]}
               />,
-              <Link rel="preload" className={navStyles.navItem} to="/esp/home#">
+              <Link className={navStyles.navItem} to="/esp/home#">
                 Quien Ayudamos
               </Link>,
               <a

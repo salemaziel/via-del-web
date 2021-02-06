@@ -434,13 +434,18 @@ body{
   }
   .pricing-feature-list {
       margin: 0;
-      padding: 0.25rem 0 2.5rem;
+      padding: 0.25rem 0.5rem 2.5rem 0.8rem;
       list-style: none;
-      text-align: center;
   }
   .pricing-feature {
-      padding: 1rem 0;
+	  padding: 0.5rem 0;
+	  font-size: 0.8rem;
+	  text-align: left;
   }
+  .FaCheck {
+	color: #04e32d;
+	margin-right: 5px;	  
+}	
   .pricing-action {
       font-weight: bold;
       margin: auto 3rem 2rem 3rem; 

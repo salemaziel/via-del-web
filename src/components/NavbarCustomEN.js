@@ -42,7 +42,7 @@ const NavbarCustomEN = (props) => {
       >
         <Container fluid>
           <Navbar.Brand>
-            <Link to="/" rel="preload">
+            <Link to="/">
               <img
                 /*className={scroll ? "d-inline-block align-top navLogo" : "hide"}*/
                 className={scroll ? "d-inline-block align-top navLogo" : "d-inline-block align-top navLogo"}
@@ -245,7 +245,7 @@ const NavbarCustomEN = (props) => {
               padding: "1rem",
             }}
             items={[
-              <Link rel="preload" className={navStyles.navItem} to="/">
+              <Link className={navStyles.navItem} to="/">
                 <FaHome />
               </Link>,
               <FaqNav
@@ -264,10 +264,10 @@ const NavbarCustomEN = (props) => {
                 },
               ]}
             />,
-              <Link rel="preload" className={navStyles.navItem} to="/about">
+              <Link className={navStyles.navItem} to="/about">
                 About Us
               </Link>,
-              <Link rel="preload" className={navStyles.navItem} to="/blog">
+              <Link  className={navStyles.navItem} to="/blog">
               Blog
             </Link>,              
 

@@ -167,7 +167,29 @@ module.exports = {
       resolve: `gatsby-plugin-react-helmet-async`,
     },
     {
-      resolve: `gatsby-plugin-next-seo`,
+      resolve: 'gatsby-plugin-next-seo',
+      options: {
+        titleTemplate: 'Via Del Web | %s',
+        description: 'Latino Owned Web Design, Web Development, & Digital Marketing Agency based in San Diego, CA specializing in working with small businesses.',
+        language: 'en',
+        openGraph: {
+          type: 'website',
+          locale: 'en_US',
+          url: 'https://viadelweb.com',
+          site_name: 'Via Del Web',
+          images: [
+            {
+              url: 'https://lagoscompanies.com/____impro/1/onewebmedia/L&L%20Logo.jpg',
+              alt: 'Via Del Web Logo',
+            }
+          ]
+        },
+        twitter: {
+          handle: '@viadelweb',
+          site: '@site',
+          cardType: 'summary_large_image',
+        },
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -176,7 +198,7 @@ module.exports = {
         short_name: `Via Del Web`,
         start_url: `/`,
         background_color: `#217ebd`,
-        theme_color: `##217ebd`,
+        theme_color: `#217ebd`,
         display: `minimal-ui`,
         icon: `src/images/logo-only.png`, // This path is relative to the root of the site.
       },

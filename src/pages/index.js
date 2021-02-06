@@ -5,9 +5,11 @@ import LayoutEN from "../components/layout";
 import SEO from "../components/seoNew"
 import HomePageEN from '../components/PageComponents/en/Home/HomePageEN'
 
+import { GatsbySeo } from "gatsby-plugin-next-seo"
+
 const IndexPage = () => (
   <LayoutEN>
-    <SEO title="Via Del Web Website Design &amp; Digital Marketing" />
+    <SEO title="San Diego based Website Design &amp; Digital Marketing" />
     <HomePageEN />
 
   </LayoutEN>

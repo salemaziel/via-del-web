@@ -2,6 +2,10 @@ import React from "react"
 
 import Section from "./Section"
 
+import {
+  FaCheckCircle
+} from "react-icons/fa"
+
 import "./PricingCards.scss"
 
 const PricingCards = props => {
@@ -218,10 +222,13 @@ const PricingCards = props => {
 
             </div>
             <ul className="pricing-feature-list">
-              <li className="pricing-feature">Custom Single Page Website</li>
-              <li className="pricing-feature">Business Functionality</li>
-              <li className="pricing-feature">SSL Certificate</li>
-              <li className="pricing-feature">Essentials SEO</li>
+              <li className="pricing-feature">
+                <FaCheckCircle className="FaCheck"/>
+                Custom Single Page Website</li>
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Business-Specific Functionality</li>
+              <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>SSL Certificate</li>
+              <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Managed Hosting</li>
+              <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Essentials SEO</li>
 
             </ul>
             <button className="pricing-action">Choose plan</button>
@@ -273,20 +280,21 @@ const PricingCards = props => {
               </svg>
               <h3 className="pricing-title">Business</h3>
               <div className="pricing-price">
-                <span className="pricing-currency">$</span>3000
+                <span className="pricing-currency">$</span>3500
               </div>
               <div className="pricing-price">
                   <span className="pricingMonthly">or </span>
-                <span className="pricing-currency">$</span><span className="pricingMonthly">150</span>
+                <span className="pricing-currency">$</span><span className="pricingMonthly">250</span>
                 <span className="pricing-period">/ mo</span>
               </div>
 
             </div>
             <ul className="pricing-feature-list">
-              <li className="pricing-feature">Custom 5 Page Website</li>
-              <li className="pricing-feature">SSL Certificate</li>
-              <li className="pricing-feature">Unlimited Edits</li>
-              <li className="pricing-feature">Premium SEO</li>
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Custom Designed 5-7 Page Website</li>
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Business-Specific Functionalities</li>
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Blog Functionality with CMS</li>
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Google My Business Setup </li>
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Premium SEO</li>
 
             </ul>
             <button className="pricing-action">Choose plan</button>
@@ -338,20 +346,20 @@ const PricingCards = props => {
               </svg>
               <h3 className="pricing-title">Advanced</h3>
               <div className="pricing-price">
-                <span className="pricing-currency">$</span>4000
+                <span className="pricing-currency">$</span>4500
               </div>
               <div className="pricing-price">
                   <span className="pricingMonthly">or </span>
-                <span className="pricing-currency">$</span><span className="pricingMonthly">150</span>
+                <span className="pricing-currency">$</span><span className="pricingMonthly">350</span>
                 <span className="pricing-period">/ mo</span>
               </div>
 
             </div>
             <ul className="pricing-feature-list">
-            <li className="pricing-feature">Custom 5 Page Website</li>
-              <li className="pricing-feature">SSL Certificate</li>
-              <li className="pricing-feature">Unlimited Edits</li>
-              <li className="pricing-feature">Advanced SEO</li>
+            <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Everything in Business Plan</li>
+            <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Custom Designed 10+ Page Website</li>
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Digital Marketing Consultations</li>
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Advanced SEO</li>
 
             </ul>
             <button className="pricing-action">Choose plan</button>
