@@ -1,6 +1,8 @@
 import React from "react"
-
+import Button from "react-bootstrap/Button"
 import Section from "./Section"
+
+import {Link} from "gatsby"
 
 import {
   FaCheckCircle
@@ -11,153 +13,6 @@ import "./PricingCards.scss"
 const PricingCards = props => {
   return (
     <>
-      {/*
-      <section id="prices" className="section ">
-        <div className="container">
-          <div className="price-box">
-            <h2>Standard</h2>
-            <span>5 PAGES</span>
-            <h3>150</h3>
-            <ul>
-              <li>
-                <img
-                  aria-hidden="true"
-                  src="https://d33wubrfki0l68.cloudfront.net/608a680adbcdbdfc5b0db51ce6104719aaf2b24b/7080e/images/tick.svg"
-                  alt
-                />{" "}
-                Unlimited Edits
-              </li>
-              <li>
-                <img
-                  aria-hidden="true"
-                  src="https://d33wubrfki0l68.cloudfront.net/608a680adbcdbdfc5b0db51ce6104719aaf2b24b/7080e/images/tick.svg"
-                  alt
-                />{" "}
-                Includes Hosting
-              </li>
-              <li>
-                <img
-                  aria-hidden="true"
-                  src="https://d33wubrfki0l68.cloudfront.net/608a680adbcdbdfc5b0db51ce6104719aaf2b24b/7080e/images/tick.svg"
-                  alt
-                />{" "}
-                24/7 Customer Service
-              </li>
-              <li>
-                <img
-                  aria-hidden="true"
-                  src="https://d33wubrfki0l68.cloudfront.net/608a680adbcdbdfc5b0db51ce6104719aaf2b24b/7080e/images/tick.svg"
-                  alt
-                />{" "}
-                Lifetime Updates
-              </li>
-            </ul>
-            <button
-              className="button-solid"
-              onclick="location.href='/html/contact.html'"
-              type="button"
-            >
-              CONTACT US
-            </button>
-          </div>
-          <div className="price-box">
-            <h2>Standard + Blogging</h2>
-            <span>STARTING AT</span>
-            <h3>275</h3>
-            <ul>
-              <li>
-                <img
-                  aria-hidden="true"
-                  src="https://d33wubrfki0l68.cloudfront.net/608a680adbcdbdfc5b0db51ce6104719aaf2b24b/7080e/images/tick.svg"
-                  alt
-                />{" "}
-                1000 Word Post
-              </li>
-              <li>
-                <img
-                  aria-hidden="true"
-                  src="https://d33wubrfki0l68.cloudfront.net/608a680adbcdbdfc5b0db51ce6104719aaf2b24b/7080e/images/tick.svg"
-                  alt
-                />{" "}
-                Keyword Analysis
-              </li>
-              <li>
-                <img
-                  aria-hidden="true"
-                  src="https://d33wubrfki0l68.cloudfront.net/608a680adbcdbdfc5b0db51ce6104719aaf2b24b/7080e/images/tick.svg"
-                  alt
-                />{" "}
-                Written By an SEO Specialist
-              </li>
-              <li>
-                <img
-                  aria-hidden="true"
-                  src="https://d33wubrfki0l68.cloudfront.net/608a680adbcdbdfc5b0db51ce6104719aaf2b24b/7080e/images/tick.svg"
-                  alt
-                />{" "}
-                Helps Boost SEO
-              </li>
-            </ul>
-            <p>
-              *If you choose to write your own blog content, the rate drops to{" "}
-              <span>$175/mo.</span>
-            </p>
-            <button
-              className="button-solid services-button"
-              onclick="location.href='/html/contact.html'"
-              type="button"
-            >
-              CONTACT US
-            </button>
-          </div>
-          <div className="price-box">
-            <h2>Logos &amp; Graphic Design</h2>
-            <span>STARTING AT</span>
-            <h3>350</h3>
-            <ul>
-              <li>
-                <img
-                  aria-hidden="true"
-                  src="https://d33wubrfki0l68.cloudfront.net/608a680adbcdbdfc5b0db51ce6104719aaf2b24b/7080e/images/tick.svg"
-                  alt
-                />{" "}
-                2 revisions
-              </li>
-              <li>
-                <img
-                  aria-hidden="true"
-                  src="https://d33wubrfki0l68.cloudfront.net/608a680adbcdbdfc5b0db51ce6104719aaf2b24b/7080e/images/tick.svg"
-                  alt
-                />{" "}
-                All File Formats
-              </li>
-              <li>
-                <img
-                  aria-hidden="true"
-                  src="https://d33wubrfki0l68.cloudfront.net/608a680adbcdbdfc5b0db51ce6104719aaf2b24b/7080e/images/tick.svg"
-                  alt
-                />{" "}
-                Light &amp; Dark Versions
-              </li>
-              <li>
-                <img
-                  aria-hidden="true"
-                  src="https://d33wubrfki0l68.cloudfront.net/608a680adbcdbdfc5b0db51ce6104719aaf2b24b/7080e/images/tick.svg"
-                  alt
-                />{" "}
-                Horizontal &amp; Vertical
-              </li>
-            </ul>
-            <button
-              className="button-solid services-button"
-              onclick="location.href='/html/contact.html'"
-              type="button"
-            >
-              CONTACT US
-            </button>
-          </div>
-        </div>
-    </section>*/}
       <Section
        bg=""
        bgImage=""
@@ -231,7 +86,7 @@ const PricingCards = props => {
               <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Essentials SEO</li>
 
             </ul>
-            <button className="pricing-action">Choose plan</button>
+            <Button as={Link} to="/contact" className="pricing-action">Choose plan</Button>
           </div>
           <div className="pricing-item pricing__item--featured">
             <div className="pricing-deco">
@@ -297,7 +152,7 @@ const PricingCards = props => {
               <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Premium SEO</li>
 
             </ul>
-            <button className="pricing-action">Choose plan</button>
+            <Button as={Link} to="/contact" className="pricing-action  ">Choose plan</Button>
           </div>
           <div className="pricing-item">
             <div className="pricing-deco">
@@ -357,12 +212,12 @@ const PricingCards = props => {
             </div>
             <ul className="pricing-feature-list">
             <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Everything in Business Plan</li>
-            <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Custom Designed 10+ Page Website</li>
+            <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Custom Designed 8+ Page Website</li>
               <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Digital Marketing Consultations</li>
               <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Advanced SEO</li>
 
             </ul>
-            <button className="pricing-action">Choose plan</button>
+            <Button as={Link} to="/contact" className="pricing-action">Choose plan</Button>
           </div>
         </div>
       </Section>

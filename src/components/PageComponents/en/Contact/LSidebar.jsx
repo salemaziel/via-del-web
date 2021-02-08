@@ -18,8 +18,8 @@ const LSidebar = () => (
                    <p className="mb-2"><a href="tel:#">760-555-5555</a></p>**/}
                   <h4 className="followus">Email</h4>
                   <p className="followus">
-                    <a href="mailto:salem@viadelweb.com">
-                    salem@viadelweb.com
+                    <a href="mailto:contact@viadelweb.com">
+                    contact@viadelweb.com
                     </a>
                   </p>
                 <h4 className="followus">Follow Us</h4>
@@ -27,10 +27,10 @@ const LSidebar = () => (
                   <a href="https://twitter.com">
                     <FaTwitter />
                   </a>
-                  <a href="https://linkedin.com">
+                  <a href="https://linkedin.com/company/viadelweb">
                     <FaLinkedin />
                   </a>
-                  <a href="https://facebook.com">
+                  <a href="https://facebook.com/viadelweb">
                     <FaFacebook />
                   </a>
                 </div>

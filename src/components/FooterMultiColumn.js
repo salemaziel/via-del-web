@@ -9,7 +9,7 @@ import "./FooterMultiColumn.scss";
 import FBSVG from "../images/icon-facebook.svg"
 import TwitterSVG from "../images/icon-twitter.svg"
 import IGSVG from "../images/icon-instagram.svg"
-import {FaLinkedIn} from "react-icons/fa"
+import LinkedIn from "../images/icon-linkedin.svg"
 
 function FooterMultiColumn(props) {
   return (
@@ -108,10 +108,10 @@ function FooterMultiColumn(props) {
                         href="https://linkedin.com/company/viadelweb"
                       >
                         <img
-                          src={FaLinkedIn}
+                          src={LinkedIn}
                           alt="LinkedIn"
                         />
-                        Twitter
+                        LinkedIn
                       </a>
                     </li>
                   </ul>
