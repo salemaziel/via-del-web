@@ -80,9 +80,13 @@ const PricingCards = props => {
               <li className="pricing-feature">
                 <FaCheckCircle className="FaCheck"/>
                 Custom Single Page Website</li>
-              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Business-Specific Functionality</li>
+                <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Mobile-optimized Responsive Design</li>
+
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Business-Specific Functionality</li>
               <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>SSL Certificate</li>
               <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Managed Hosting</li>
+              <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Website Backups</li>
+
               <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Essentials SEO</li>
 
             </ul>
@@ -145,11 +149,16 @@ const PricingCards = props => {
 
             </div>
             <ul className="pricing-feature-list">
-              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Custom Designed 5-7 Page Website</li>
-              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Business-Specific Functionalities</li>
-              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Blog Functionality with CMS</li>
-              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Google My Business Setup </li>
-              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Premium SEO</li>
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Custom Designed 5-7 Page Website</li>
+              <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Mobile-optimized Responsive Design</li>
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Business-Specific Functionalities</li>
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Blog Functionality with CMS</li>
+              <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Website Backups</li>
+
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Google My Business Setup </li>
+              <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Managed Hosting</li>
+
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Premium SEO</li>
 
             </ul>
             <Button as={Link} to="/contact" className="pricing-action  ">Choose plan</Button>
@@ -211,10 +220,18 @@ const PricingCards = props => {
 
             </div>
             <ul className="pricing-feature-list">
-            <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Everything in Business Plan</li>
-            <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Custom Designed 8+ Page Website</li>
-              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Digital Marketing Consultations</li>
-              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/> Advanced SEO</li>
+
+            <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Custom Designed 8+ Page Website</li>
+            <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Mobile-optimized Responsive Design</li>
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Business-Specific Functionalities</li>
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Blog Functionality with CMS</li>
+              <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Website Backups</li>
+
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Google My Business Setup </li>
+              <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Managed Hosting</li>
+
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Digital Marketing Consultations</li>
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Advanced SEO</li>
 
             </ul>
             <Button as={Link} to="/contact" className="pricing-action">Choose plan</Button>

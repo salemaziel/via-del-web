@@ -107,7 +107,7 @@ const AboutPageEN = (props) => {
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        title="Preguntas Frecuentes"
+        title="Frequently Asked Questions"
         subtitle=""
       />
             <CtaSectionBgImage

@@ -91,7 +91,7 @@ function FooterMultiColumn(props) {
                     <li>
                       <a
                         target="_blank"
-                        rel="noopenerme "
+                        rel="noopener me"
                         href="https://instagram.com/viadelweb"
                       >
                         <img
