@@ -19,6 +19,8 @@ import {
   FaAngleLeft
 } from 'react-icons/fa'
 
+import blogStyle from "./blog.module.css"
+
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -58,6 +60,9 @@ class BlogPostTemplate extends React.Component {
           spaced={true}
           className="text-center"
         />
+
+        
+        <div className={blogStyle.blogText}>
         <p
           style={{
             display: `block`,
@@ -69,6 +74,7 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.date}
         </p>
         <MDXRenderer>{post.body}</MDXRenderer>
+        </div>
         <hr
           style={{
             marginBottom: '2rem',

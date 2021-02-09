@@ -11,6 +11,10 @@ function Faq2(props) {
           <article className="Faq2__faq-item">
             <h4>{item.question}</h4>
             <p>{item.answer}</p>
+            <p>{item.answer2}</p>
+            <p>{item.answer3}</p>
+            <p>{item.answer4}</p>
+            <p>{item.answer5}</p>
           </article>
         </Col>
       ))}

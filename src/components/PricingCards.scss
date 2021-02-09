@@ -291,7 +291,6 @@ body{
   }
   section.pricing-section {
       /*background: #647df9;*/
-      color: #7a90ff;
      padding: 2rem 0 8rem;
       min-height: 100vh;
       position: relative;
@@ -367,9 +366,13 @@ body{
   .pricing-palden{
     .pricing-deco {
       border-radius: 10px 10px 0 0;
-  background: rgba(33, 126, 189, 0.99);
-      padding: 4rem 0 9rem;
+      /*background: rgba(33, 126, 189, 0.99);*/
+	  background: linear-gradient(to bottom, rgba(33, 126, 189, 0.99) 85%, rgba(255,255,255,1) 90% );
+      padding: 4rem 0 12rem;
       position: relative;
+	  @media screen and (min-width: 767px){
+		padding: 4rem 0 9rem;
+	}
 
   }
   .pricing-deco-img {
@@ -439,16 +442,20 @@ body{
   }
   .pricing-feature {
 	  padding: 0.5rem 0;
-	  font-size: 0.8rem;
+	  font-size: 1.2rem;
 	  text-align: left;
+	  @media screen and (min-width: 767px){
+		font-size: 0.8rem;
+	}
   }
+  
   .FaCheck {
 	color: #04e32d;
 	margin-right: 5px;	  
 }	
   .pricing-action {
       font-weight: bold;
-	  font-size: 0.8rem;
+	  font-size: 1.2rem;
 	  line-height: 3.45em;
 	  white-space: nowrap;
 	  text-transform: uppercase;
@@ -464,8 +471,10 @@ body{
         background-color: rgb(12, 199, 12);
         background: rgb(12, 199, 12);
         box-shadow: none;
-        
       }
+	  @media screen and (min-width: 767px){
+		  font-size: 0.8rem;
+	  }
   }
   
   }

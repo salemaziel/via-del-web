@@ -1,6 +1,8 @@
 .FaqItem {
   cursor: pointer;
   border-bottom: 1px solid #efefef;
+  width: 100%;
+  margin: 0 auto;
   &:last-child {
     border-bottom: none;
   }

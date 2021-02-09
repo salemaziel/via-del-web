@@ -179,7 +179,7 @@ module.exports = {
           site_name: 'Via Del Web',
           images: [
             {
-              url: 'https://lagoscompanies.com/____impro/1/onewebmedia/L&L%20Logo.jpg',
+              url: 'https://viadelweb.com/logo/logo.png',
               alt: 'Via Del Web Logo',
             }
           ]

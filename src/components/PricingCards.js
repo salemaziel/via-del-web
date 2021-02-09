@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa"
 
 import "./PricingCards.scss"
+import { Container, Row, Col } from "react-bootstrap"
 
 const PricingCards = props => {
   return (
@@ -237,6 +238,15 @@ const PricingCards = props => {
             <Button as={Link} to="/contact" className="pricing-action">Choose plan</Button>
           </div>
         </div>
+        <Container>
+          <Row>
+            <Col>
+            <p>
+              Business specific functionality
+            </p>
+            </Col>
+          </Row>
+        </Container>
       </Section>
     </>
   )

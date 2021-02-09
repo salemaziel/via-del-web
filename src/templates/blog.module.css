@@ -6,3 +6,8 @@
         padding: 0;
     }
 }
+
+.blogText {
+    margin: 0 auto;
+    max-width: 720px;
+}

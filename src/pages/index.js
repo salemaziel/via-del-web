@@ -9,7 +9,7 @@ import { GatsbySeo } from "gatsby-plugin-next-seo"
 
 const IndexPage = () => (
   <LayoutEN>
-    <SEO title="San Diego based Website Design &amp; Digital Marketing" />
+    <GatsbySeo title="San Diego based Website Design &amp; Digital Marketing" />
     <HomePageEN />
 
   </LayoutEN>

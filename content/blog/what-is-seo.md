@@ -7,11 +7,13 @@ description: Search engine optimization, or SEO for short, is the process of
   search engine results.
 featuredImage: ../assets/undraw_search_engines.png
 ---
+![What is SEO?](/../assets/undraw_search_engines.png "What is SEO?")
+
 You've probably heard of SEO. But, what is it? And why is it essential for your site? 
 
 We're here to answer these questions and more. Read on to learn about SEO for beginners. 
 
-### [](<>)SEO Explained
+## [](<>)SEO Explained
 
 SEO stands for search engine optimization. 
 
@@ -25,13 +27,13 @@ When you use SEO principles, you optimize your website for search engines. 
 
 The goal is to get your pages to rank at the top of search results. More people will come across your website and become familiar with your brand. They'll be more likely to read your content and buy your products. 
 
-### [](<>)SEO for Beginners 
+## [](<>)SEO for Beginners 
 
 If you want to rank on Google, you must optimize your pages for search engines. Hence, SEO. 
 
 SEO is a complicated process. To keep things simple, here are its three main elements: 
 
-#### [](<>)Technical Stuff
+### [](<>)1. Technical Stuff
 
 The technical stuff gives your site a good foundation. It shows Google that your site is user-friendly and relevant to search results. Technical components include things like:
 
@@ -42,13 +44,13 @@ The technical stuff gives your site a good foundation. It shows Google that your
 * Image alt texts
 * Mobile-friendliness
 
-#### [](<>)Backlinks
+### [](<>)2. Backlinks
 
 You need to show Google that your site is reputable. To do this, you need backlinks.
 
 This process involves internally linking to authoritative websites. You also need to other reputable sites to link back to your website. 
 
-#### [](<>)Content
+### [](<>)3. Content
 
 Content is one of the most critical parts of search engine optimization. Google “reads” your site to determine if the information is relevant to search terms. 
 
@@ -60,28 +62,28 @@ Content on your website should: 
 * Be grammatically correct
 * Use short, concise language
 
-### [](<>)Why SEO Is Important
+## [](<>)Why SEO Is Important
 
 Many people ignore SEO. They don't realize how important it is to their website's success. 
 
 Need convincing? Here are some reasons why you optimize your pages for search engines: 
 
-#### [](<>)It Increases Your Organic Traffic 
+### [](<>)It Increases Your Organic Traffic 
 
 It's no secret that people are spending more time online. They use the internet to find entertainment, learn new things, and buy products. 
 
 When you optimize your site, you maximize your organic traffic. You will grow your audience by welcoming new visitors. 
 
-#### [](<>)It Helps You Stay Competitive
+### [](<>)It Helps You Stay Competitive
 
 Everyone and their mother is doing SEO. If you don't, your competitors will outrank you. Optimizing your pages will ensure you don't fall behind. 
 
-#### [](<>)It Pays for Itself
+### [](<>)It Pays for Itself
 
 We won't lie—search engine optimization requires a lot of time and resources. 
 
 But, in the long run, it will [pay for itself](https://www.forbes.com/sites/theyec/2017/06/14/three-reasons-you-should-pay-more-for-your-seo-in-2017/?sh=2dae0b165be1). You'll be getting new visitors and customers without having to pay for traffic. 
 
-### [](<>)Get Expert SEO Help
+## [](<>)Get Expert SEO Help
 
 Need help with your SEO strategy? Schedule a call today! Our professionals are ready to get your site ranked on Google.
