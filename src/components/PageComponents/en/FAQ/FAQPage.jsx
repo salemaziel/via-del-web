@@ -1,6 +1,6 @@
 import React from 'react'
 
-import FaqAccordianSection from '../../../FaqAccordianSection'
+import FaqAccordianSection from '../About/FaqAccordianSection'
 
 import Banner from '../../../banner'
 

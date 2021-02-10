@@ -27,7 +27,7 @@ import SmartPhone from "../../../../images/smartphone-1894723_1920_yti9if.jpg"
 //import { Container, Row, Col } from "react-bootstrap"
 //import ZenithMockup from "../../../../images/zenith-devices-mockup-removebg-preview.png"
 
-import PricingCards from "../../../PricingCards"
+import PricingCards from "./PricingCards"
 
 
 const HomepageEN = props => {

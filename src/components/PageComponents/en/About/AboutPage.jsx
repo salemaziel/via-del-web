@@ -1,7 +1,6 @@
 import React from "react";
 
 import Banner from "../../../banner";
-import FaqSimpleSection from "../../../FaqSimpleSection";
 import SectionIntro from "./s1Intro"
 import CardsWBgSection from "../../../CardsWBgSection";
 import CtaSectionBgImage from '../../../CtaSectionBgImage'
@@ -14,6 +13,9 @@ import CircleDots from "../../../../images/circle-dots-background.svg"
 import SmartPhone from "../../../../images/smartphone-1894723_1920_yti9if.jpg"
 
 import Section3OwnCode from './s3OwnCode'
+import FaqAccordianSection from './FaqAccordianSection'
+
+
 
 const AboutPageEN = (props) => {
   return (
@@ -100,9 +102,9 @@ const AboutPageEN = (props) => {
         subtitle=""
       />
       </div>
-
-      <FaqSimpleSection
-        bg=""
+      <div id="businessfunction" />
+      <FaqAccordianSection
+        bg="white"
         textColor="dark"
         size="md"
         bgImage=""

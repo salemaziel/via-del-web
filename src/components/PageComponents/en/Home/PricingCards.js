@@ -1,6 +1,6 @@
 import React from "react"
 import Button from "react-bootstrap/Button"
-import Section from "./Section"
+import Section from "../../../Section"
 
 import {Link} from "gatsby"
 
@@ -10,6 +10,7 @@ import {
 
 import "./PricingCards.scss"
 import { Container, Row, Col } from "react-bootstrap"
+
 
 const PricingCards = props => {
   return (
@@ -83,7 +84,7 @@ const PricingCards = props => {
                 Custom Single Page Website</li>
                 <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Mobile-optimized Responsive Design</li>
 
-              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Business-Specific Functionality</li>
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Business-Specific Functionality *</li>
               <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>SSL Certificate</li>
               <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Managed Hosting</li>
               <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Website Backups</li>
@@ -152,7 +153,7 @@ const PricingCards = props => {
             <ul className="pricing-feature-list">
               <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Custom Designed 5-7 Page Website</li>
               <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Mobile-optimized Responsive Design</li>
-              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Business-Specific Functionalities</li>
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Business-Specific Functionalities *</li>
               <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Blog Functionality with CMS</li>
               <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Website Backups</li>
 
@@ -224,7 +225,7 @@ const PricingCards = props => {
 
             <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Custom Designed 8+ Page Website</li>
             <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Mobile-optimized Responsive Design</li>
-              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Business-Specific Functionalities</li>
+              <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Business-Specific Functionalities *</li>
               <li className="pricing-feature"><FaCheckCircle className="FaCheck"/>Blog Functionality with CMS</li>
               <li className="pricing-feature"> <FaCheckCircle className="FaCheck"/>Website Backups</li>
 
@@ -237,16 +238,27 @@ const PricingCards = props => {
             </ul>
             <Button as={Link} to="/contact" className="pricing-action">Choose plan</Button>
           </div>
+          <Container className="my-3 mx-auto">
+            <Row className="py-2 px-5">
+              <Col>
+              
+              <p className="small font-weight-light">
+                 <strong>*</strong>  A Business-Specific functionality is a tool built into your website that is useful to your specific business.<Link to="/about#businessfunction" className="underline"> Check our FAQ's to  learn more about these website business functions.
+
+                  </Link>
+                
+              </p>              </Col>
+            </Row>
+          </Container>
         </div>
         <Container>
-          <Row>
-            <Col>
-            <p>
-              Business specific functionality
-            </p>
-            </Col>
-          </Row>
-        </Container>
+            <Row>
+              <Col>
+
+              </Col>
+            </Row>
+          </Container>
+
       </Section>
     </>
   )

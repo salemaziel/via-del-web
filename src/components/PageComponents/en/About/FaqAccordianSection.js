@@ -1,8 +1,8 @@
 import React from "react";
-import Section from "./Section";
+import Section from "../../../Section";
 import Container from "react-bootstrap/Container";
-import SectionHeader from "./SectionHeader";
-import Faq from "./Faq";
+import SectionHeader from "../../../SectionHeader";
+import Faq from "../../../Faq";
 
 function FaqAccordianSection(props) {
   return (
@@ -21,6 +21,7 @@ function FaqAccordianSection(props) {
           spaced={true}
           className="text-center"
         />
+        
         <Faq
           items={[
             {
