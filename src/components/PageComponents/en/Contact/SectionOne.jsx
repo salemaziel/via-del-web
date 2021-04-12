@@ -8,6 +8,7 @@ import ContactForm from './contactForm'
 const SectionOne = () => (
 <section id="main" className="wrapper sidebar right">
   <div className="inner">
+    <div className="w-full pl-6 lg:w-3/4">
     <header className="major">
       <h2>Contact Us</h2>
     </header>
@@ -20,7 +21,9 @@ const SectionOne = () => (
     <br />
       <ContactForm />
     </div>
+    </div>
         <LSidebar />
+
   </div>
 </section>
 

@@ -14,7 +14,7 @@ const Tiles = props => {
     <>
       <Fade top cascade>
         <section /*className={tileStyles.tiles}*/ className="tiles">
-          <Row className="justify-content-center">
+          <Row className="justify-content-center justify-center">
             {props.items.map((item, index) => (
               <Col xs={12} md={6} lg={3} className="py-3" key={index}>
                 <article

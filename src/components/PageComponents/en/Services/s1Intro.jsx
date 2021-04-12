@@ -17,7 +17,7 @@ const SectionIntro = (props) => {
         bgImageOpacity={props.bgImageOpacity}
       >
         <Container className="text-center mb-0 mt-4">
-          <Row className="justify-content-center align-items-center">
+          <Row className="justify-content-center justift-center items-center align-items-center">
             <Col /*xs={12}* / md="auto" */ className="py-1 px-1">
               <SectionHeader2
                 title={props.title}

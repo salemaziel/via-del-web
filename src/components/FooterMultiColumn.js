@@ -48,7 +48,7 @@ function FooterMultiColumn(props) {
             <div className="FooterMultiColumn__menus">
               <Row>
 
-                <Col xs={7} md={6} className="mt-3 mt-md-0">
+                <Col xs={7} md={6} className="mt-3 md:mt-0">
                   <h5>Menu</h5>
                   <ul className="list-unstyled">
                     <li>
@@ -72,7 +72,7 @@ function FooterMultiColumn(props) {
 
                   </ul>
                 </Col>
-                <Col xs={5} md={6} className="mt-3 mt-md-0" style={{paddingLeft: "0", paddingRight: "0"}}>
+                <Col xs={5} md={6} className="px-0 mt-3 md:mt-0">
                   <h5>Social</h5>
                   <ul className="list-unstyled">
                     <li>
@@ -99,6 +99,19 @@ function FooterMultiColumn(props) {
                           alt="Instagram"
                         />
                         Instagram
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        rel="noopener me"
+                        href="https://twitter.com/ViaDelWeb"
+                      >
+                        <img
+                          src={TwitterSVG}
+                          alt="Twitter"
+                        />
+                        Twitter
                       </a>
                     </li>
                     <li>

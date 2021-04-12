@@ -15,12 +15,12 @@ function Pricing(props) {
 //  const auth = useAuth();
 
   return (
-    <Row className="justify-content-center">
+    <Row className="justify-content-center justify-center">
       {props.items.map((item, index) => (
         <Col
           md={12}
           lg={4}
-          className="py-3 d-flex align-items-stretch"
+          className="py-3 d-flex flex align-items-stretch items-stretch"
           key={index}
         >
           <Card className="w-100">

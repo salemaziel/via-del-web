@@ -20,7 +20,7 @@ function BioNew() {
       render={data => {
         const { author } = data.site.siteMetadata
         return (
-          <Container className="d-flex justify-content-center">
+          <Container className="d-flex justify-content-center flex justify-center container mx-auto flex-wrap">
             <Image
               fixed={data.avatar.childImageSharp.fixed}
               alt={author}

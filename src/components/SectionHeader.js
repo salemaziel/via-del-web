@@ -18,7 +18,7 @@ function SectionHeader(props) {
         {props.title && (
           <h1
             className={
-              "font-weight-bold" +
+              "font-weight-bold" + " font-bold" + 
               (props.subtitle && props.spaced ? " mb-4" : "") +
               (!props.subtitle ? " mb-0" : "") +
               (props.size ? ` h${props.size}` : "")

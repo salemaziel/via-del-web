@@ -6,4 +6,8 @@
   &:last-child {
     border-bottom: none;
   }
+  span svg {
+    display: inline-block;
+    margin-right: 1rem;
+  }
 }

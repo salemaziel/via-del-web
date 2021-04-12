@@ -1,18 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
-import NavbarCustom from "./NavbarCustom";
+import NavbarNew from "./NavbarNew";
 
 
 const Header = ({ siteTitle }) => (
   <>
-  <div style={{
-    position: 'fixed',
+  <header style={{
+    position: "fixed",
     width: '100%',
     height: 'auto',
     zIndex: '99'
   }}>
-      <NavbarCustom />
-      </div>
+      <NavbarNew />
+      </header>
   </>
 );
 

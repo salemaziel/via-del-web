@@ -18,7 +18,7 @@ function CtaSectionBgImage(props) {
       bgImageOpacity={props.bgImageOpacity}
     >
       <Container className="text-center mb-5 mt-5">
-        <Row className="justify-content-center align-items-center">
+        <Row className="justify-content-center justify-center items-center align-items-center">
           <Fade top cascade>
           <Col xs={12} md="auto" className="py-3 px-4">
             <SectionHeader

@@ -26,8 +26,8 @@ return (
       bgImageOpacity={props.bgImageOpacity}
     >
       <Container>
-        <Row className="align-items-center">
-          <Col lg={6} className="text-center text-lg-left">
+        <Row className="align-items-center items-center">
+          <Col lg={6} className="text-center text-lg-left lg:text-;eft">
             <figure className="FeaturesSectionPic3List__image-container mx-auto">
               <Image src={props.image} fluid={true} />
             </figure>

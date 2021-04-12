@@ -1,35 +1,35 @@
-import React, { useState, useEffect } from "react";
-import { Link, navigateTo } from "gatsby";
+import React, { useState, useEffect } from "react"
+import { Link, navigateTo } from "gatsby"
 
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import Navbar from "react-bootstrap/Navbar"
+import Nav from "react-bootstrap/Nav"
+import NavDropdown from "react-bootstrap/NavDropdown"
 //import Dropdown from "react-bootstrap/Dropdown";
 
-import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
-import SideNav from "react-simple-sidenav";
+import Container from "react-bootstrap/Container"
+import Button from "react-bootstrap/Button"
+import SideNav from "react-simple-sidenav"
 //import NavItem from "react-bootstrap/NavItem";
 //import NavLink from "react-bootstrap/NavLink";
 
-import FaqNav from "./FaqNav";
+import FaqNav from "./FaqNav"
 
-import navStyles from "./navbar.module.css";
-import { LogoSquare, LogoVertWhite, LogoHorizWhite } from "../images/index";
+import navStyles from "./navbar.module.css"
+import { LogoSquare, LogoVertWhite, LogoHorizWhite } from "../images/index"
 
-import { FaHome } from "react-icons/fa";
+import { FaHome } from "react-icons/fa"
 
 //then
 
-const NavbarCustomEN = (props) => {
-  const [showNav, setShowNav] = useState();
-  const [scroll, setScroll] = useState(false);
+const NavbarCustomEN = props => {
+  const [showNav, setShowNav] = useState()
+  const [scroll, setScroll] = useState(false)
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      setScroll(window.scrollY > 100);
-    });
-  }, []);
+      setScroll(window.scrollY > 100)
+    })
+  }, [])
 
   return (
     <>
@@ -45,7 +45,11 @@ const NavbarCustomEN = (props) => {
             <Link to="/">
               <img
                 /*className={scroll ? "d-inline-block align-top navLogo" : "hide"}*/
-                className={scroll ? "d-inline-block align-top navLogo" : "d-inline-block align-top navLogo"}
+                className={
+                  scroll
+                    ? "d-inline-block inline-block align-top navLogo"
+                    : "d-inline-block inline-block align-top navLogo"
+                }
                 src={LogoHorizWhite}
                 alt="Via Del Web Logo"
               ></img>
@@ -53,7 +57,7 @@ const NavbarCustomEN = (props) => {
             {/*<Dropdown className={scroll ? "hide" : "show"}>
               <Dropdown.Toggle variant="" id="dropdown-basic">
                 <img
-                  className="d-inline-block align-top"
+                  className="align-top d-inline-block"
                   src="https://res.cloudinary.com/dexdumfqy/image/upload/v1601579192/rbl-art-designs/united-states-of-america-flag-3d-round-icon-256_gbffry.png"
                   alt="Logo"
                   height="40"
@@ -68,7 +72,7 @@ const NavbarCustomEN = (props) => {
                 >
                   {" "}
                   <img
-                    className="d-inline-block align-top"
+                    className="align-top d-inline-block"
                     src="https://res.cloudinary.com/dexdumfqy/image/upload/v1601552057/rbl-art-designs/mexico-flag-transparent-100x_zmifmm.png"
                     alt="Logo"
                     height="40"
@@ -98,8 +102,21 @@ const NavbarCustomEN = (props) => {
             <Nav
               className="ml-auto"
               defaultActiveKey="/"
-              onSelect={(selectedKey) => navigateTo(`${selectedKey}`)}
+              onSelect={selectedKey => navigateTo(`${selectedKey}`)}
             >
+              {/*<Nav.Item
+                to="/services/website-design"
+                className={navStyles.navItem}
+              >
+                <Nav.Link
+                  as={Link}
+                  to="/services/website-design"
+                  active={false}
+                >
+                  Web Design
+                </Nav.Link>
+              </Nav.Item>*/}
+
               <NavDropdown
                 as={Link}
                 href="/services"
@@ -109,7 +126,6 @@ const NavbarCustomEN = (props) => {
                 id="nav-dropdown-about"
                 className={navStyles.navItem}
               >
-
                 {/*<NavDropdown.Item eventKey="/services/contentmarketing">
                   Content Marketing
           </NavDropdown.Item>*/}
@@ -133,12 +149,19 @@ const NavbarCustomEN = (props) => {
                   {" "}
                   Webservice Automation{" "}
     </NavDropdown.Item>*/}
+                {/*<NavDropdown.Item eventKey="/services/shopify">
+                  {" "}
+                  Shopify{" "}
+  </NavDropdown.Item>*/}
                 <NavDropdown.Item eventKey="/services/website-design">
                   {" "}
                   Website Design{" "}
                 </NavDropdown.Item>
+                {/*<NavDropdown.Item eventKey="/services/wordpress">
+                  {" "}
+                  Wordpress{" "}
+</NavDropdown.Item>*/}
               </NavDropdown>
-
 
               <Nav.Item to="/about" className={navStyles.navItem}>
                 <Nav.Link as={Link} to="/about" active={false}>
@@ -150,6 +173,12 @@ const NavbarCustomEN = (props) => {
                   Who We Help
                 </Nav.Link>
           </Nav.Item>*/}
+              <Nav.Item to="/industries" className={navStyles.navItem}>
+                <Nav.Link as={Link} to="/industries" active={false}>
+                  Who We Help
+                </Nav.Link>
+              </Nav.Item>
+
               <Nav.Item to="/blog" className={navStyles.navItem}>
                 <Nav.Link as={Link} to="/blog" active={false}>
                   Blog
@@ -168,7 +197,7 @@ const NavbarCustomEN = (props) => {
                 </Nav.Link>
         </Nav.Item>*/}
 
-              <Nav.Item className={navStyles.navItem}>
+              {/*<Nav.Item className={navStyles.navItem}>
                 <a
                   href="https://app.viadelweb.com"
                   rel="nofollow noreferrer"
@@ -177,7 +206,7 @@ const NavbarCustomEN = (props) => {
                 >
                   Client Login
                 </a>
-              </Nav.Item>
+      </Nav.Item>*/}
 
               {/*<NavDropdown
                 as={Link}
@@ -246,30 +275,30 @@ const NavbarCustomEN = (props) => {
             }}
             items={[
               <Link className={navStyles.navItem} to="/">
-                <FaHome />
+                <FaHome className="inline-block"/>
               </Link>,
               <FaqNav
-              items={[
-                {
-                  question: "Services",
-                  answer: "",
-                  listItem1: "",
-                  listItem2: "",
-                  linkTitle1: "Digital Marketing",
-                  link1: "/services/digital-marketing",
-                  linkTitle2: "Graphic Design",
-                  link2: "/services/graphic-design",
-                  linkTitle3: "Website Design",
-                  link3: "/services/website-design",
-                },
-              ]}
-            />,
+                items={[
+                  {
+                    question: "Services",
+                    answer: "",
+                    listItem1: "",
+                    listItem2: "",
+                    linkTitle1: "Digital Marketing",
+                    link1: "/services/digital-marketing",
+                    linkTitle2: "Graphic Design",
+                    link2: "/services/graphic-design",
+                    linkTitle3: "Website Design",
+                    link3: "/services/website-design",
+                  },
+                ]}
+              />,
               <Link className={navStyles.navItem} to="/about">
                 About Us
               </Link>,
-              <Link  className={navStyles.navItem} to="/blog">
-              Blog
-            </Link>,              
+              <Link className={navStyles.navItem} to="/blog">
+                Blog
+              </Link>,
 
               <a
                 rel="nofollow noreferrer"
@@ -280,17 +309,16 @@ const NavbarCustomEN = (props) => {
                 Client Login
               </a>,
               <Nav.Item to="/contact" className={navStyles.navItem}>
-              <Button
-                secondary
-                as={Link}
-                to="/contact"
-                className={navStyles.CTAButton}
-                active={false}
-              >
-                Contact Us
-              </Button>
-            </Nav.Item>,
-
+                <Button
+                  secondary
+                  as={Link}
+                  to="/contact"
+                  className={navStyles.CTAButton}
+                  active={false}
+                >
+                  Contact Us
+                </Button>
+              </Nav.Item>,
             ]}
             itemStyle={{
               background: "transparent!important",
@@ -314,7 +342,7 @@ const NavbarCustomEN = (props) => {
         </Container>
       </Navbar>
     </>
-  );
-};
+  )
+}
 
-export default NavbarCustomEN;
+export default NavbarCustomEN

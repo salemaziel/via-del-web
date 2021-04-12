@@ -1,21 +1,30 @@
 import React from "react"
-import Banner from "../../../../banner"
+//import Banner from "../../../../banner"
 import SectionTxtBtnRight from "../SectionTxtBtnRight"
 //import HeroSectionTxtBtnLeft from "../../../../HeroSectionTxtBtnLeft"
 import PortfolioSection from "../../../../PortfolioSection"
 import CardsHomeSection from "../../../../CardsHomeSection"
 import { navigateTo } from "gatsby"
 import CtaSectionBgImage from "../../../../CtaSectionBgImage"
+import IframeViewer from './iframeViewer'
+
 
 import ZenithMockup from "../../../../../images/zenith-devices-mockup-removebg-preview.png"
 import Section1Intro from "../s1Intro"
 import CircleDots from "../../../../../images/circle-dots-background.svg"
 import SmartPhone from "../../../../../images/smartphone-1894723_1920_yti9if.jpg"
 
+import BGPic from "../../../../../images/julian-myles-2YGrbLlbz6Y-unsplash.jpg"
+
+import S1Hero from "./s1Hero"
+
 const WebsiteDesignPage = props => {
   return (
     <>
-      <Banner />
+      {/*<Banner />*/}
+    <S1Hero
+    bgImage={BGPic}
+    />
       <Section1Intro
         bg=""
         textColor="dark"
@@ -78,6 +87,9 @@ const WebsiteDesignPage = props => {
                       navigateTo("/");
                     }}* /
                   />*/}
+
+                  <IframeViewer />
+
       <div
         style={{
           backgroundImage:

@@ -1,0 +1,10 @@
+.menuGraphic {
+    background-position: 40% 50%;
+    padding-top: 60rem;
+    background-image:
+    url("https://www.orderingonlinesystem.com/wp-content/uploads/2018/06/Main2-Screens-min.png");
+    background-color: #ff9800;
+    @media screen and (min-width:1024px) {
+        padding-top: 40rem;
+    }
+}

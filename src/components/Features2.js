@@ -12,14 +12,14 @@ function Features2(props) {
 
     <div className="Features2">
       {props.items.map((item, index) => (
-        <Row className="align-items-center" key={index}>
+        <Row className="align-items-center items-center" key={index}>
           <Col xs={12} lg={6}>
             <SectionHeader
               title={item.title}
               subtitle={item.description}
               spaced={true}
               size={3}
-              className="text-center text-lg-left"
+              className="text-center lg:text-left text-lg-left"
             />
           </Col>
           <Col>

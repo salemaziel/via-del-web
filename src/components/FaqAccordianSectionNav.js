@@ -1,7 +1,5 @@
 import React from "react";
-import Section from "./Section";
-import Container from "react-bootstrap/Container";
-import SectionHeader from "./SectionHeader";
+
 import FaqNav from "./FaqNav";
 
 function FaqAccordianSectionNav(props) {

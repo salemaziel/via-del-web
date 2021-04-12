@@ -11,7 +11,8 @@ const HeaderEN = ({ siteTitle }) => (
     position: 'fixed',
     width: '100%',
     height: 'auto',
-    zIndex: '99'
+    zIndex: '99',
+    top: '0',
   }}>
       <NavbarCustomEN />
       </div>

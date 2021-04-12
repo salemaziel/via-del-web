@@ -10,6 +10,8 @@
   "dependencies": {
     "@mdx-js/mdx": "1.6.22",
     "@mdx-js/react": "1.6.22",
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/typography": "^0.4.0",
     "babel-plugin-styled-components": "1.12.0",
     "bootstrap": "^4.5.3",
     "cross-fetch": "^3.0.6",
@@ -20,7 +22,9 @@
     "gatsby-plugin-feed-mdx": "^1.0.0",
     "gatsby-plugin-google-analytics": "2.8.0",
     "gatsby-plugin-local-search": "^1.1.1",
+    "gatsby-plugin-mailgo": "^0.11.3",
     "gatsby-plugin-manifest": "2.9.1",
+    "gatsby-plugin-mautic": "^1.0.0",
     "gatsby-plugin-mdx": "1.7.1",
     "gatsby-plugin-netlify-cms": "4.7.0",
     "gatsby-plugin-next-seo": "^1.6.1",
@@ -41,6 +45,7 @@
     "gatsby-transformer-sharp": "2.9.0",
     "netlify-cms-app": "2.14.8",
     "node-sass": "4.14.1",
+    "postcss-import": "^14.0.0",
     "query-string": "6.13.7",
     "react": "^16.8.6",
     "react-bootstrap": "^1.4.0",
@@ -56,13 +61,19 @@
     "react-switch": "^5.0.0",
     "react-use-flexsearch": "^0.1.1",
     "styled-components": "^4.2.0",
+    "tailwindcss-filters": "^3.0.0",
+    "tailwindcss-shadow-outline-colors": "^0.0.8",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54"
   },
   "devDependencies": {
+    "autoprefixer": "^10.2.4",
     "gatsby-cli": "2.16.2",
+    "gatsby-plugin-postcss": "^3.7.0",
     "gatsby-plugin-root-import": "^2.0.5",
-    "prettier": "^1.17.0"
+    "postcss": "^8.2.6",
+    "prettier": "^1.17.0",
+    "tailwindcss": "^2.0.3"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [

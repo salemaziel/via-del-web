@@ -1,5 +1,7 @@
 //const config = require("./config");
 const config = require('./config/site');
+//const tailwindcss = require('tailwindcss');
+//const autoprefixer = require('autoprefixer');
 
 
 module.exports = {
@@ -31,10 +33,20 @@ module.exports = {
       },
       {
         resolve: `gatsby-plugin-sass`,
+//        options: {
+//          postCssPlugins: [
+//            require("tailwindcss"),
+//            require("./tailwind.config.js"), // Optional: Load custom Tailwind CSS configuration
+//          ],
+//        },
       },
       {
           resolve: `gatsby-plugin-advanced-sitemap`,
       },
+      {
+        resolve: `gatsby-plugin-postcss`,
+
+        },
 //      {
 //        resolve: `gatsby-plugin-canonical-urls`,
 //      },
@@ -189,6 +201,27 @@ module.exports = {
           site: '@site',
           cardType: 'summary_large_image',
         },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-mailgo`,
+      options: {
+        mailgoConfig: {
+          dark: true,
+        }
+      }
+    },
+    {
+      resolve: `gatsby-plugin-mautic`,
+      options: {
+        // The URL where mautic is installed
+        hostUrl: "https://marketing.viadelweb.agency",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: false,
+        // Avoids sending pageview hits from custom paths
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
+        // Delays sending pageview hits on route update (in milliseconds)
+        pageTransitionDelay: 0,
       },
     },
     {

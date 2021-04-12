@@ -4,15 +4,15 @@ import Col from "react-bootstrap/Col";
 
 function Clients(props) {
   return (
-    <Row className="justify-content-center">
+    <div className="justify-center inline-block justify-content-center lg:flex ">
       {props.items.map((item, index) => (
-        <Col md="auto" className="py-3 px-4" key={index}>
+        <Col md="auto" className="px-4 py-3" key={index}>
           <div className="align-bottom">
             <img src={item.image} width={item.width} alt={item.name} />
           </div>
         </Col>
       ))}
-    </Row>
+    </div>
   );
 }
 

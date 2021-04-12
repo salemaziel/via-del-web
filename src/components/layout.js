@@ -9,7 +9,12 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
-import Header from "./headerEN";
+import HeaderEN from "./headerEN";
+//import Header from "./header";
+//import HeaderEN from "./header/HeaderNew";
+
+
+
 import Footer from './Footer/footer'
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/custom.scss";
@@ -29,7 +34,7 @@ const LayoutEN = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <HeaderEN siteTitle={data.site.siteMetadata.title} />
        {children}
       <Footer />
 

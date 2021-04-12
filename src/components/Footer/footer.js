@@ -79,7 +79,7 @@ const Footer = () => (
 
         </div>
         <p className={footerStyles.copyright}>
-          Via Del Web © All Rights Reserved {/*,<br /> but Rights are a False Concept, Unless You Defend Them <span style={{color: 'black', fill: 'black', fontSize: '1.5rem', textShadow: '1px 1px 1px lightgrey'}}> &#9398; </span><span style={{color: 'red', fill: 'red', fontSize: '1.5rem', textShadow: '1px 1px 1px gray'}}>	&#9773; </span>*/}
+          Via Del Web {new Date().getFullYear()}{" "} © All Rights Reserved {/*,<br /> but Rights are a False Concept, Unless You Defend Them <span style={{color: 'black', fill: 'black', fontSize: '1.5rem', textShadow: '1px 1px 1px lightgrey'}}> &#9398; </span><span style={{color: 'red', fill: 'red', fontSize: '1.5rem', textShadow: '1px 1px 1px gray'}}>	&#9773; </span>*/}
           </p>
 
       </footer>

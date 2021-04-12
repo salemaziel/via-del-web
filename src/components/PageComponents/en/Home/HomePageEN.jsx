@@ -29,12 +29,13 @@ import SmartPhone from "../../../../images/smartphone-1894723_1920_yti9if.jpg"
 
 import PricingCards from "./PricingCards"
 
+import S5Websites from "./s5Websites"
 
 const HomepageEN = props => {
   return (
     <>
       <SectionWavesEN
-        headline="Latino Web Designers + Digital Marketers de Sur California."
+        headline="We Help Bring Resources to the People"
         headline2=""
         subtitle="Ya Tú Sabes."
         service1=""
@@ -50,10 +51,11 @@ const HomepageEN = props => {
       <SectionTiles
         title1="Website Design ● Web Development ● Digital Marketing"
         title2=""
-        subdescription="Via Del Web is a San Diego based web design company and digital
-        marketing partner. We specialize in helping local small businesses succesfully expand into the digital world."
+        subdescription="Via Del Web is a San Diego-based Marketing &amp; Technology company specializing in helping local small businesses successfully expand into the digital world. Our approach to business is more about empowering the people behind the company; we begin our work with each client by understanding their unique experience and the story behind the mission of their business."
         subdescription2="Born and raised in Escondido, we are California natives to the core. Hablamos Inglés, Español y somos especialmente afluente en Spanglish."
       />
+      
+    
       <Fade top>
         <HeroSectionTxtBtnRight
           bg=""

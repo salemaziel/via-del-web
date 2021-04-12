@@ -1,5 +1,6 @@
 import React from "react"
-import { Col, Row, Container } from "react-bootstrap"
+import { Col, Row, Container, Button } from "react-bootstrap"
+import { Link } from "gatsby"
 import CalendlyButton from "./CalendlyButtonEN"
 import "./SectionWaves.scss"
 
@@ -7,7 +8,7 @@ const SectionWavesEN = props => {
   return (
     <section className="SectionWaves">
       <div className="header">
-        <div className="inner-header flex">
+        <div className="flex inner-header">
           {/*<svg version="1.1" className="logo" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 500" xmlSpace="preserve">
       <path fill="#FFFFFF" stroke="#000000" strokeWidth={10} strokeMiterlimit={10} d="M57,283" />
       <g>
@@ -17,55 +18,33 @@ c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3
       </g>
     </svg>*/}
           {/*<h1>Simple CSS Waves</h1>*/}
-          <div className="d-block px-2">
-            {/*<Typist startDelay={100} cursor={{ show: false }}>*/}
-              <span
-                className="headline" /*style={{ color: "white", textShadow: "2px 2px 4px black" }}*/
-              >
-                {props.headline}
-              </span>
-              <br />
-              {/*<Typist.Delay ms={800} />*/}
-              <span
-                className="headline" /*style={{ color: "white", textShadow: "2px 2px 4px black" }}*/
-              >
-                {props.headline2}
-              </span>
-              <br />
-              <br />
-              {/*<Typist.Delay ms={400} />*/}
-              <span
-                className="subtitle"
-                /*style={{
-              color: "white",
-              letterSpacing: "normal",
-              textShadow: "2px 2px 4px black",
-            }}*/
-              >
-                {props.subtitle}
-              </span>
-              <br />
-              {/*<Container className="mt-4">
-                <Row>
-                  <Col>{props.service1}</Col>
-                  <Col>{props.service2}</Col>
-                </Row>
-                <Row>
-                  <Col>{props.service3}</Col>
-               
-                <Col>{props.service4}</Col>
-                </Row>
-          </Container>*/}
-            {/*</Typist>*/}
+          <div className="container flex flex-col items-center justify-center px-3 py-24 mx-auto">
+            <div className="w-full text-center lg:pt-10 lg:mt-8 lg:w-2/3">
+              <div className="flex flex-col pt-16 pb-24 md:pb-20 lg:py-8">
+                <span className="mb-8 text-4xl font-medium title-font sm:text-4xl headline">
+                  {" "}
+                  {props.headline}
+                </span>
+                <span className="mt-8 leading-relaxed"> {props.subtitle}</span>
+              </div>
+              <div className="flex justify-between py-4">
+                <Link
+                  to="/about"
+                  className="px-4 py-3 text-white border-white d-inline-block rounded-2xl "
+                >
+                  Learn More
+                </Link>
+                <Link
+                  to="/contact"
+                  id="work"
+                  className="px-4 py-3 font-sans text-blue-600 bg-white rounded-lg d-inline-block"
+                >
+                  Work with Us
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
-        <Container className="mt-3 pt-3">
-          <Row className="justify-content-center">
-            <Col xs={10} lg={4}>
-              <CalendlyButton />
-            </Col>
-          </Row>
-        </Container>
 
         {/*Waves Container*/}
         <div>
