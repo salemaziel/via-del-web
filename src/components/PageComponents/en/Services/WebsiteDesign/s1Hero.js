@@ -1,5 +1,6 @@
 import React from "react"
 import "./s1Hero.css"
+import {navigate} from "gatsby"
 
 const S1Hero = (props) =>{
     return(
