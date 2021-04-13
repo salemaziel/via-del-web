@@ -5,10 +5,8 @@ import NavbarNew from "./NavbarNew";
 
 const Header = ({ siteTitle }) => (
   <>
-  <header style={{
-    position: "fixed",
-    width: '100%',
-    height: 'auto',
+  <header className="fixed w-full h-auto"
+  style={{
     zIndex: '99'
   }}>
       <NavbarNew />

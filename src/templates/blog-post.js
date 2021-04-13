@@ -19,7 +19,7 @@ import {
   FaAngleLeft
 } from 'react-icons/fa'
 
-import blogStyle from "./blog.module.css"
+//import blogStyle from "./blog.module.css"
 
 
 class BlogPostTemplate extends React.Component {
@@ -48,7 +48,7 @@ class BlogPostTemplate extends React.Component {
               as={Link}
               to="/blog"
               >
-                <FaAngleLeft style={{height: '1.3rem', width: '1.3rem', marginRight: '0.5rem'}}/>
+                <FaAngleLeft className="mr-2" style={{height: '1.3rem', width: '1.3rem'}}/>
                 Back
               </Button>
               </Col>
@@ -62,34 +62,18 @@ class BlogPostTemplate extends React.Component {
         />
 
         
-        <div className={blogStyle.blogText}>
-        <p
-          style={{
-            display: `block`,
-            marginBottom: '2rem',
-            marginTop: '0',
-            textAlign: 'left'
-          }}
-        >
+        <div className="mx-auto my-0" style={{maxWidth: "720px"}}>
+        <p className="block mt-0 mb-8 text-left" >
           {post.frontmatter.date}
         </p>
         <MDXRenderer>{post.body}</MDXRenderer>
         </div>
-        <hr
-          style={{
-            marginBottom: '2rem',
-          }}
+        <hr className="mb-8"
+
         />
         <Bio />
 
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
+        <ul className="flex flex-wrap justify-between p-0 list-none"
         >
           <li>
             {previous && (

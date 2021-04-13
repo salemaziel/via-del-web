@@ -2,7 +2,7 @@ import React from "react";
 
 import LayoutEN from "../components/layout";
 import SEO from "../components/seoNew"
-import FAQPage from "../components/PageComponents/en/FAQ/FAQPage";
+import FAQPage from "../components/PageComponents/FAQ/FAQPage";
 
 const FAQ = () => (
   <LayoutEN>

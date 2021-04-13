@@ -4,12 +4,12 @@ import React from 'react'
 //import Row from 'react-bootstrap/Row'
 //import Col from 'react-bootstrap/Col'
 
-import bannerStyle from './banner.module.css'
+import './banner.css'
 
 const Banner = (props) => {
 
 return (
-    <section className={bannerStyle.BannerSection}
+    <section className="BannerSection"
     style={{
         "--image": `url(${props.bgImage})`,
         height: `${props.height}`

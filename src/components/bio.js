@@ -13,14 +13,14 @@ import Container from 'react-bootstrap/Container'
 
 
 
-function BioNew() {
+function Bio() {
   return (
     <StaticQuery
-      query={bioNewQuery}
+      query={bioQuery}
       render={data => {
         const { author } = data.site.siteMetadata
         return (
-          <Container className="d-flex justify-content-center flex justify-center container mx-auto flex-wrap">
+          <Container className="container flex flex-wrap justify-center mx-auto d-flex justify-content-center">
             <Image
               fixed={data.avatar.childImageSharp.fixed}
               alt={author}
@@ -46,8 +46,8 @@ function BioNew() {
   )
 }
 
-const bioNewQuery = graphql`
-  query BioNewQuery {
+const bioQuery = graphql`
+  query BioQuery {
     avatar: file(absolutePath: { regex: "/logomark-dark.png/" }) {
       childImageSharp {
         fixed(width: 50, height: 50) {
@@ -64,4 +64,4 @@ const bioNewQuery = graphql`
 `
 
 
-export default BioNew
+export default Bio

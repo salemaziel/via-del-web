@@ -78,7 +78,7 @@ function FooterMultiColumn(props) {
                     <li>
                       <a
                         target="_blank"
-                        rel="noopener me"
+                        rel="noopener noreferrer"
                         href="https://www.facebook.com/viadelweb/"
                       >
                         <img
@@ -91,7 +91,7 @@ function FooterMultiColumn(props) {
                     <li>
                       <a
                         target="_blank"
-                        rel="noopener me"
+                        rel="noopener noreferrer"
                         href="https://instagram.com/viadelweb"
                       >
                         <img
@@ -104,7 +104,7 @@ function FooterMultiColumn(props) {
                     <li>
                       <a
                         target="_blank"
-                        rel="noopener me"
+                        rel="noopener noreferrer"
                         href="https://twitter.com/ViaDelWeb"
                       >
                         <img
@@ -117,7 +117,7 @@ function FooterMultiColumn(props) {
                     <li>
                       <a
                         target="_blank"
-                        rel="noopener me"
+                        rel="noopener noreferrer"
                         href="https://linkedin.com/company/viadelweb"
                       >
                         <img

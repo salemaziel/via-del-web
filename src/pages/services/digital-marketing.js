@@ -1,7 +1,7 @@
 import React from "react";
 import LayoutEN from "../../components/layout";
 import SEO from "../../components/seoNew"
-import DigitalMarketingPage from '../../components/PageComponents/en/Services/DigitalMarketing/DigitalMarketingPage'
+import DigitalMarketingPage from '../../components/PageComponents/Services/DigitalMarketing/DigitalMarketingPage'
 
 
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import { Link, navigateTo } from "gatsby"
+import { Link, navigate } from "gatsby"
 
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
@@ -15,7 +15,7 @@ import SideNav from "react-simple-sidenav"
 import FaqNav from "./FaqNav"
 
 import navStyles from "./navbar.module.css"
-import { LogoSquare, LogoVertWhite, LogoHorizWhite } from "../images/index"
+import { LogoHorizWhite } from "../images/index"
 
 import { FaHome } from "react-icons/fa"
 
@@ -102,7 +102,7 @@ const NavbarCustomEN = props => {
             <Nav
               className="ml-auto"
               defaultActiveKey="/"
-              onSelect={selectedKey => navigateTo(`${selectedKey}`)}
+              onSelect={selectedKey => navigate(`${selectedKey}`)}
             >
               {/*<Nav.Item
                 to="/services/website-design"
@@ -124,7 +124,7 @@ const NavbarCustomEN = props => {
                 eventKey="services"
                 title="Services"
                 id="nav-dropdown-about"
-                className={navStyles.navItem}
+                className="mr-6 font-medium"
               >
                 {/*<NavDropdown.Item eventKey="/services/contentmarketing">
                   Content Marketing
@@ -163,24 +163,20 @@ const NavbarCustomEN = props => {
 </NavDropdown.Item>*/}
               </NavDropdown>
 
-              <Nav.Item to="/about" className={navStyles.navItem}>
-                <Nav.Link as={Link} to="/about" active={false}>
+              <Nav.Item to="/about" className="mr-6">
+                <Nav.Link as={Link} to="/about" active={false} className="font-medium no-underline border-b-0">
                   About Us
                 </Nav.Link>
               </Nav.Item>
-              {/*<Nav.Item to="/#" className={navStyles.navItem}>
-                <Nav.Link as={Link} to="/#" active={false}>
-                  Who We Help
-                </Nav.Link>
-          </Nav.Item>*/}
-              <Nav.Item to="/industries" className={navStyles.navItem}>
-                <Nav.Link as={Link} to="/industries" active={false}>
+
+              <Nav.Item to="/industries" className="mr-6">
+                <Nav.Link as={Link} to="/industries" active={false} className="font-medium no-underline border-b-0">
                   Who We Help
                 </Nav.Link>
               </Nav.Item>
 
-              <Nav.Item to="/blog" className={navStyles.navItem}>
-                <Nav.Link as={Link} to="/blog" active={false}>
+              <Nav.Item to="/blog" className="mr-6">
+                <Nav.Link as={Link} to="/blog" active={false} className="font-medium no-underline border-b-0">
                   Blog
                 </Nav.Link>
               </Nav.Item>
@@ -233,7 +229,7 @@ const NavbarCustomEN = props => {
               </NavDropdown>*/}
             </Nav>
             <Nav className="mr-0">
-              <Nav.Item to="/contact" className={navStyles.navItem}>
+              <Nav.Item to="/contact" className="mr-6">
                 <Button
                   secondary
                   as={Link}
@@ -249,21 +245,8 @@ const NavbarCustomEN = props => {
           <SideNav
             openFromRight={true}
             title={
-              <div
-                style={{
-                  justifyContent: "center",
-                  alignContent: "center",
-                  alignItems: "center",
-                }}
+              <div className="items-center content-center justify-center"
               >
-                {/*
-		<img 
-		  src=""
-		  alt=""
-		  style={{
-			margin: 'auto'	
-		  }} />
-		*/}
               </div>
             }
             titleStyle={{
@@ -274,7 +257,7 @@ const NavbarCustomEN = props => {
               padding: "1rem",
             }}
             items={[
-              <Link className={navStyles.navItem} to="/">
+              <Link className="mr-6" to="/">
                 <FaHome className="inline-block"/>
               </Link>,
               <FaqNav
@@ -293,10 +276,10 @@ const NavbarCustomEN = props => {
                   },
                 ]}
               />,
-              <Link className={navStyles.navItem} to="/about">
+              <Link className="mr-6" to="/about">
                 About Us
               </Link>,
-              <Link className={navStyles.navItem} to="/blog">
+              <Link className="mr-6" to="/blog">
                 Blog
               </Link>,
 
@@ -304,11 +287,11 @@ const NavbarCustomEN = props => {
                 rel="nofollow noreferrer"
                 target="_blank"
                 href="https://app.viadelweb.com"
-                className={navStyles.navItem}
+                className="mr-6"
               >
                 Client Login
               </a>,
-              <Nav.Item to="/contact" className={navStyles.navItem}>
+              <Nav.Item to="/contact" className="mr-6">
                 <Button
                   secondary
                   as={Link}

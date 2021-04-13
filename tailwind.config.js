@@ -16,6 +16,8 @@ module.exports = {
       fontFamily: {
         montserrat: ['Montserrat', "sans-serif"],
         merriweather: ['Merriweather', "sans-serif"],
+        opensans: ['OpenSans', "sans-serif"],
+        sourcesanspro: ['Source Sans Pro', 'Helvetica', "sans-serif"],
       },
       animation: {
         "fade-in-fwd": "fade-in-fwd 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s   both"

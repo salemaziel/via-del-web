@@ -24,7 +24,7 @@ function FeaturesSectionZigzag(props) {
           subtitle={props.subtitle}
           size={2}
           spaced={true}
-          className="text-center"
+          className="font-light text-center font-sourcesanspro"
         />
         <Features2
           items={[

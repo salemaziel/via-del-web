@@ -1,7 +1,7 @@
 import React from "react";
 import LayoutEN from "../../components/layout";
 import SEO from "../../components/seoNew"
-import AutomationPage from '../../components/PageComponents/en/Services/Automation/AutomationPage'
+import AutomationPage from '../../components/PageComponents/Services/Automation/AutomationPage'
 
 
 const WebServiceAutomation = () => (

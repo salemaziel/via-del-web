@@ -1,7 +1,7 @@
 import React from "react";
 import LayoutEN from "../../components/layout";
 import SEO from "../../components/seoNew"
-import WebsiteDesignPage from '../../components/PageComponents/en/Services/WebsiteDesign/WebsiteDesignPage'
+import WebsiteDesignPage from '../../components/PageComponents/Services/WebsiteDesign/WebsiteDesignPage'
 
 
 

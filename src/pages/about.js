@@ -2,7 +2,7 @@ import React from "react";
 
 import LayoutEN from "../components/layout";
 import SEO from "../components/seoNew"
-import AboutPageEN from '../components/PageComponents/en/About/AboutPage'
+import AboutPageEN from '../components/PageComponents/About/AboutPage'
 
 const AboutPage = () => (
   <LayoutEN>

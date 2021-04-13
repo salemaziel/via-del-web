@@ -9,24 +9,24 @@ import "./TeamBios2.scss";
 
 function TeamBios2(props) {
   return (
-    <Row className="justify-content-center justify-center">
+    <Row className="justify-center justify-content-center">
       {props.items.map((item, index) => (
         <Col
           xs={12}
           md={6}
           lg={4}
-          className="py-3 d-flex align-items-stretch flex items-stretch"
+          className="flex items-stretch py-3 d-flex align-items-stretch"
           key={index}
         >
           <Card>
             <AspectRatio ratio={3 / 1}>
               <Image src={item.headerImage} fluid={true} />
             </AspectRatio>
-            <Card.Body className="d-flex flex-column flex flex-col items-center text-center align-items-center p-4">
+            <Card.Body className="flex flex-col items-center p-4 text-center d-flex flex-column align-items-center">
               <div className="TeamBios2__avatar-wrapper">
                 <Avatar src={item.avatarImage} alt={item.name} size="128px" />
               </div>
-              <h6 className="font-weight-bold font-bold mb-2 mt-3">{item.name}</h6>
+              <h6 className="mt-3 mb-2 font-bold font-weight-bold">{item.name}</h6>
               <small>{item.role}</small>
               <Card.Text className="mt-4">{item.bio}</Card.Text>
             </Card.Body>

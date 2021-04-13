@@ -6,7 +6,8 @@ import * as queryString from "query-string"
 import Card from "react-bootstrap/Card"
 import Container from 'react-bootstrap/Container'
 
-import { CardDeck, Col } from "react-bootstrap"
+import CardDeck from "react-bootstrap/CardDeck"
+import Col from "react-bootstrap/Col"
 
 const SearchBar = styled.div`
   display: flex;
@@ -55,9 +56,8 @@ const SearchedPosts = ({ results }) =>
       return (
         <Card key={slug} className="mb-4">
           <Link style={{ boxShadow: `none` }} to={`/blog${slug}`}>
-            <h3
+            <h3 className="mb-8 text-gray-500"
               style={{
-                marginBottom: '2rem',
                 color: "#888",
               }}
             >
@@ -77,13 +77,13 @@ const SearchedPosts = ({ results }) =>
       )
     })
   ) : (
-    <p style={{ textAlign: "center" }}>
+    <p className="text-center">
       Sorry, couldn't find any posts matching this search.
     </p>
   )
 
 const AllPosts = ({ posts }) => (
-  <div style={{ margin: "20px auto 40px" }}>
+  <div className="mx-auto mt-5 mb-10">
     {console.log(posts)}
     <CardDeck>
       {posts.map(({ node }) => {
@@ -110,11 +110,9 @@ const AllPosts = ({ posts }) => (
                   to={`/blog${node.fields.slug}`}
                 >
                   <h3
+                    className="mt-8 mb-4 text-center text-gray-700"
                     style={{
-                      marginBottom: '1rem',
-                      marginTop: '2rem',
                       color: "#434343",
-                      textAlign: 'center'
                     }}
                   >
                     {title}
@@ -125,9 +123,7 @@ const AllPosts = ({ posts }) => (
                     dangerouslySetInnerHTML={{
                       __html: node.frontmatter.description || node.excerpt,
                     }}
-                    style={{
-                      textAlign: 'center'
-                    }}
+                    className="text-center"
                   />
                 </Card.Body>
               </div>

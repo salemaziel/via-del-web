@@ -2,8 +2,8 @@
 import React from "react";
 
 import LayoutEN from "../components/layout";
-import SEO from "../components/seoNew"
-import IndustriesPage from '../components/PageComponents/en/Industries/IndustriesPage'
+//import SEO from "../components/seoNew"
+import IndustriesPage from '../components/PageComponents/Industries/IndustriesPage'
 
 import { GatsbySeo } from "gatsby-plugin-next-seo"
 

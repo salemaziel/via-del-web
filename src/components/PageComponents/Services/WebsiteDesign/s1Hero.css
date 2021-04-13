@@ -1,0 +1,12 @@
+.heroBG {
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 85%, rgba(255,255,255,1) 90%), url("../../../../images/julian-myles-2YGrbLlbz6Y-unsplash.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+}
+
+.text-shadow-black {
+    text-shadow: 2px 2px 4px black;
+
+}

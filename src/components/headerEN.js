@@ -7,12 +7,9 @@ import NavbarCustomEN from "./NavbarCustomEN";
 
 const HeaderEN = ({ siteTitle }) => (
   <>
-  <div style={{
-    position: 'fixed',
-    width: '100%',
-    height: 'auto',
+  <div className="fixed top-0 w-full h-auto"
+  style={{
     zIndex: '99',
-    top: '0',
   }}>
       <NavbarCustomEN />
       </div>

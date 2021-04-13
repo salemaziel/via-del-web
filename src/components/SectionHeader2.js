@@ -32,7 +32,7 @@ function SectionHeader2(props) {
       {props.title && (
         <h1
           className={
-            "font-weight-bold" + " font-bold" + 
+            "font-extrabold font-sourcesanspro" +
             (props.subtitle && props.spaced ? " mb-4" : "") +
             (!props.subtitle ? " mb-0" : "") +
             (props.size ? ` h${props.size}` : "")
@@ -43,37 +43,37 @@ function SectionHeader2(props) {
       )}
 
       {props.subtitle && (
-        <p className="SectionHeader2__subtitle mb-4">{props.subtitle}</p>
+        <p className="mb-4 SectionHeader2__subtitle">{props.subtitle}</p>
       )}
 
       {props.description && (
-        <p className="SectionHeader2__description mb-4 mt-4">
+        <p className="my-4 SectionHeader2__description">
           {props.description}
         </p>
       )}
 
       {props.description1 && (
-        <p className="SectionHeader2__descriptions my-4">
+        <p className="my-4 SectionHeader2__descriptions">
           {props.description1}
         </p>
       )}
       {props.description2 && (
-        <p className="SectionHeader2__descriptions mb-4">{props.description2}</p>
+        <p className="mb-4 SectionHeader2__descriptions">{props.description2}</p>
       )}
       {props.description3 && (
-        <p className="SectionHeader2__descriptions mb-4">{props.description3}</p>
+        <p className="mb-4 SectionHeader2__descriptions">{props.description3}</p>
       )}
       {props.description4 && (
-        <p className="SectionHeader2__descriptions mb-4">{props.description4}</p>
+        <p className="mb-4 SectionHeader2__descriptions">{props.description4}</p>
       )}
       {props.description5 && (
-        <p className="SectionHeader2__descriptions mb-4">{props.description5}</p>
+        <p className="mb-4 SectionHeader2__descriptions">{props.description5}</p>
       )}
       {props.description6 && (
-        <p className="SectionHeader2__descriptions mb-4">{props.description6}</p>
+        <p className="mb-4 SectionHeader2__descriptions">{props.description6}</p>
       )}
       {props.description7 && (
-        <p className="SectionHeader2__descriptions mb-4">{props.description7}</p>
+        <p className="mb-4 SectionHeader2__descriptions">{props.description7}</p>
       )}
       <ul>
         {props.listTitle1 && (

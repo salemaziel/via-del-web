@@ -20,18 +20,17 @@ function HeroSectionTxtBtnRight(props) {
       bgImageOpacity={props.bgImageOpacity}
     >
       <Container fluid>
-        <Row className="align-items-center items-center">
+        <Row className="items-center align-items-center">
           <Col>
-            <figure className="HeroSectionTxtBtnRight__image-container mx-auto">
+            <figure className="mx-auto HeroSectionTxtBtnRight__image-container">
               <Image src={props.image} fluid={true} style={{boxShadow: '10px 10px 10px gray'}} />
             </figure>
           </Col>
           <Col
             lg={5}
-            className="offset-lg-1 mt-5 mt-lg-0 text-center text-lg-left lg:mt-0 lg:text-left"
+            className="px-8 py-12 mt-5 text-center offset-lg-1 mt-lg-0 text-lg-left lg:mt-0 lg:text-left"
             style={{
               backgroundColor: 'rgba(255,255,255,0.3)',
-              padding: '3rem 2rem 3rem',
               border: '1px solid rgba(255,255,255,0.3)',
               borderRadius: '5px'
             }}
@@ -50,8 +49,9 @@ function HeroSectionTxtBtnRight(props) {
               size={1}
               spaced={true}
               style={{color: 'black!important'}}
+              className="font-light text-black font-sourcesanspro"
             />
-            <Button as={Link} to={props.link} className="py-3 px-5 btn-lg btn-block block">{props.buttonText}</Button>
+            <Button as={Link} to={props.link} className="block px-5 py-3 btn-lg btn-block">{props.buttonText}</Button>
 
           </Col>
         </Row>

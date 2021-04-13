@@ -13,7 +13,7 @@ import SectionHeader from '../components/SectionHeader'
 
 import Banner from '../components/banner'
 
-import blogStyles from '../templates/blog.module.css'
+//import blogStyles from '../templates/blog.module.css'
 
 class Blog extends React.Component {
   render() {
@@ -32,7 +32,7 @@ class Blog extends React.Component {
         size="sm"
         bgImage=""
         bgImageOpacity>
-          <Container fluid className={blogStyles.blogContainer}>
+          <Container fluid className="p-0 md:py-0 md:px-12">
           <SectionHeader
           title="Blog / Recent Posts"
           subtitle=""

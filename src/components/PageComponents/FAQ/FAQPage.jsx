@@ -1,6 +1,6 @@
 import React from 'react'
 
-import FaqSimpleSection from '../../FaqSimpleSection'
+import FaqAccordianSection from '../About/FaqAccordianSection'
 
 import Banner from '../../banner'
 
@@ -8,15 +8,15 @@ const FAQPage = (props) => {
     return(
 <>
 <Banner
-bgImage="https://res.cloudinary.com/dexdumfqy/image/upload/v1600594974/rbl-art-designs/sunset-1509132_pajczh.jpg" />
+bgImage="" />
 
-<FaqSimpleSection
+<FaqAccordianSection
         bg="white"
         textColor="dark"
         size="md"
         bgImage=""
         bgImageOpacity={1}
-        title="Preguntas Frecuentes"
+        title="Frequently Asked Questions"
         subtitle=""
       />
 

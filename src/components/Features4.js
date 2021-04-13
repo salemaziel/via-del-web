@@ -15,10 +15,10 @@ function Features4(props) {
     <>
       <Fade top cascade>
         {props.items.map((item, index) => (
-          <Row className="py-4 align-items-center items-center" key={index}>
+          <Row className="items-center py-4 align-items-center" key={index}>
             <Col xs="auto">
               <div
-                className={`Features4__icon text-${item.iconColor} d-inline-flex justify-content-center`}
+                className={`Features4__icon text-${item.iconColor} d-inline-flex inline-flex justify-center justify-content-center`}
               >
                 {/*(<i className={`${item.iconClass}`} />*/}
                

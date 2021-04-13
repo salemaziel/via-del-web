@@ -29,7 +29,7 @@ function HeroSectionTextOnly(props) {
           listItem4={props.listItem4}
           size={1}
           spaced={true}
-          className="text-center"
+          className="font-light text-center font-sourcesanspro"
           description1={props.description1}
           description2={props.description2}
           description3={props.description3}
