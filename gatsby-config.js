@@ -211,19 +211,19 @@ module.exports = {
         }
       }
     },
-    {
-      resolve: `gatsby-plugin-mautic`,
-      options: {
+//    {
+//      resolve: `gatsby-plugin-mautic`,
+//      options: {
         // The URL where mautic is installed
-        hostUrl: "https://marketing.viadelweb.agency",
+//        hostUrl: "https://marketing.viadelweb.agency",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: false,
+//        head: false,
         // Avoids sending pageview hits from custom paths
-        exclude: ["/preview/**", "/do-not-track/me/too/"],
+//        exclude: ["/preview/**", "/do-not-track/me/too/"],
         // Delays sending pageview hits on route update (in milliseconds)
-        pageTransitionDelay: 0,
-      },
-    },
+//        pageTransitionDelay: 0,
+//      },
+//    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

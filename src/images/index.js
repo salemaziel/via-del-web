@@ -1,4 +1,3 @@
-export const LogoSquare = require('./logo-white-shadow-100x.png');
 export const LogoHoriz = require('./logo-horiz.png');
 export const Consultation = require('./consultation-1281-square.jpg')
 export const CreateAWebsite = require('./create-a-website.jpg')
