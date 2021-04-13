@@ -1,16 +1,11 @@
 import React from "react"
 
-//import SectionHero from "./section1Hero"
 import SectionTiles from "./section2Tiles"
-//import SectionThree from "./sectionThree"
 import FeaturesSectionZigzag from "../../FeaturesSectionZigzag"
-//import FeaturesSectionPic3List from "../../../FeaturesSectionPic3List.js"
 import CtaSectionBgImage from "../../CtaSectionBgImage"
 
-//import PricingCardsSection from "../../../PricingCardsSection"
 import CardsHomeSection from "../../CardsHomeSection"
 import HeroSectionTxtBtnRight from "../../HeroSectionTxtBtnRight"
-//import { Helmet } from "react-helmet"
 
 import Fade from "react-reveal/Fade"
 import { navigate } from "gatsby"
@@ -18,24 +13,19 @@ import SectionWavesEN from "./SectionWavesEN"
 
 import ClientsSection from "../../ClientsSection"
 
-//import Gatsby from "../../../../images/undraw_gatsbyjs.svg"
 import YourCode from "../../../images/undraw_proud_coder.svg"
 
 import CircleDots from "../../../images/circle-dots-background.svg"
 import SmartPhone from "../../../images/smartphone-1894723_1920_yti9if.jpg"
 
-//import { Container, Row, Col } from "react-bootstrap"
-//import ZenithMockup from "../../../../images/zenith-devices-mockup-removebg-preview.png"
-
 import PricingCards from "./PricingCards"
 
-//import S5Websites from "./s5Websites"
 
 const HomepageEN = props => {
   return (
     <>
       <SectionWavesEN
-        headline="We Help Bring Resources to the People."
+        headline="Helping the People access and benefit from modern technology."
         headline2=""
         subtitle="Ya Tú Sabes."
         service1=""
