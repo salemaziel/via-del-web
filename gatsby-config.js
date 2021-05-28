@@ -210,25 +210,25 @@ module.exports = {
         },
       },
     },
-    //    {
-    //      resolve: `gatsby-plugin-mautic`,
-    //      options: {
+        {
+          resolve: `gatsby-plugin-mautic`,
+          options: {
     // The URL where mautic is installed
-    //        hostUrl: "https://marketing.viadelweb.agency",
+            hostUrl: "https://marketing.viadelweb.cloud/",
     // Defines where to place the tracking script - `true` in the head and `false` in the body
-    //        head: false,
+            head: true,
     // Avoids sending pageview hits from custom paths
     //        exclude: ["/preview/**", "/do-not-track/me/too/"],
     // Delays sending pageview hits on route update (in milliseconds)
-    //        pageTransitionDelay: 0,
-    //      },
-    //    },
+            pageTransitionDelay: 0,
+          },
+        },
     {
       resolve: "gatsby-plugin-matomo",
       options: {
         siteId: "2",
-        matomoUrl: "https://analytics.viadelweb.cloud",
-        siteUrl: "https://viadelweb.com",
+        matomoUrl: "https://analytics.viadelweb.cloud/",
+        siteUrl: "https://viadelweb.com/",
         // All the optional settings
 //        matomoPhpScript: "piwik.php",
 //        matomoJsScript: "piwik.js",
