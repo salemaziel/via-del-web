@@ -228,16 +228,17 @@ module.exports = {
       options: {
         siteId: "2",
         matomoUrl: "https://analytics.viadelweb.cloud/",
-        siteUrl: "https://viadelweb.com/",
+        siteUrl: "https://www.viadelweb.com/",
         // All the optional settings
 //        matomoPhpScript: "piwik.php",
-//        matomoJsScript: "piwik.js",
+        matomoJsScript: "matomo.js",
         exclude: ["/offline-plugin-app-shell-fallback/"],
         requireConsent: false,
         disableCookies: true,
         //cookieDomain: "*.example.org",
 //        localScript: "/piwik.js",
         dev: false,
+        enableJSErrorTracking: true,
       },
     },
     {
