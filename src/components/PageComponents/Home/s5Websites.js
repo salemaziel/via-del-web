@@ -38,7 +38,7 @@ const S5Websites = props => {
   <Container>
     <Row>
       <Col>
-    <img className="object-cover p-0 mx-auto rounded-lg lg:max-w-screen bg-3d" alt="hero" src="https://d33wubrfki0l68.cloudfront.net/177525e6a3b9167133e766ff33f03d1b01c5d264/c73cf/assets/supershot.png" />
+    <img className="object-cover p-0 mx-auto rounded-lg lg:max-w-screen bg-3d" alt="hero" src="https://d33wubrfki0l68.cloudfront.net/177525e6a3b9167133e766ff33f03d1b01c5d264/c73cf/assets/supershot.png" loading="lazy" />
     </Col>
     </Row>
   </Container>

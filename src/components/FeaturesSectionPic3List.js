@@ -29,7 +29,7 @@ return (
         <Row className="align-items-center items-center">
           <Col lg={6} className="text-center text-lg-left lg:text-;eft">
             <figure className="FeaturesSectionPic3List__image-container mx-auto">
-              <Image src={props.image} fluid={true} />
+              <Image src={props.image} fluid={true} loading="lazy" />
             </figure>
           </Col>
           <Col className="offset-lg-1 mt-5 mt-lg-0 ">

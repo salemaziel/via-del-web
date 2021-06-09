@@ -23,7 +23,7 @@ function SectionTxtBtnRight(props) {
         <Row className="items-center align-items-center">
           <Col>
             <figure className="mx-auto SectionTxtBtnRight__image-container">
-              <Image src={props.image} fluid={true} />
+              <Image src={props.image} fluid={true} loading="lazy" />
             </figure>
           </Col>
           <Col

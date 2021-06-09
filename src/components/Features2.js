@@ -12,7 +12,7 @@ function Features2(props) {
 
     <div className="Features2">
       {props.items.map((item, index) => (
-        <Row className="align-items-center items-center" key={index}>
+        <Row className="items-center align-items-center" key={index}>
           <Col xs={12} lg={6}>
             <SectionHeader
               title={item.title}
@@ -24,7 +24,7 @@ function Features2(props) {
           </Col>
           <Col>
             <figure className="Features2__image-container">
-              <Image src={item.image} alt={item.title} fluid={true} />
+              <Image src={item.image} alt={item.title} fluid={true} loading="lazy" />
             </figure>
           </Col>
         </Row>

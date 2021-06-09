@@ -30,6 +30,7 @@ function FooterMultiColumn(props) {
                   className="FooterMultiColumn__logo"
                   src={props.logo}
                   alt="Logo"
+                  loading="lazy"
                 />
               </div>
             </Link>

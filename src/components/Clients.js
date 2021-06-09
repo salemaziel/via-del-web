@@ -8,7 +8,7 @@ function Clients(props) {
       {props.items.map((item, index) => (
         <Col md="auto" className="px-4 py-3" key={index}>
           <div className="align-bottom">
-            <img src={item.image} width={item.width} alt={item.name} />
+            <img src={item.image} width={item.width} alt={item.name} loading="lazy" />
           </div>
         </Col>
       ))}

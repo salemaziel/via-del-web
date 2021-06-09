@@ -12,6 +12,7 @@ function Avatar(props) {
         width: size,
         height: size,
       }}
+      loading="lazy"
     />
   );
 }

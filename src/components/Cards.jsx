@@ -21,7 +21,7 @@ function Cards(props) {
          
           <Card style={{borderColor: '#217ebd'}} >
             <AspectRatio ratio={3 / 1}>
-              <Image src={item.headerImage} fluid={true} />
+              <Image src={item.headerImage} fluid={true} loading="lazy" />
             </AspectRatio>
             <Card.Body className="flex flex-col items-center p-4 text-center d-flex flex-column align-items-center ">
             <div className="Cards__avatar-wrapper">

@@ -23,7 +23,7 @@ function AboutSalem(props) {
         <Row className="items-center align-items-center">
           <Col>
             <figure className="mx-auto HeroSectionTxtBtnRight__image-container">
-              <Image src={props.image} fluid={true} /*style={{boxShadow: '10px 10px 10px gray'}}*/ />
+              <Image src={props.image} fluid={true} /*style={{boxShadow: '10px 10px 10px gray'}}*/ loading="lazy" />
             </figure>
           </Col>
           <Col

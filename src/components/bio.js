@@ -33,6 +33,7 @@ function Bio() {
               imgStyle={{
                 borderRadius: `50%`,
               }}
+              loading="lazy"
             />
             <p>
               Written by <strong>{author}</strong>.

@@ -14,7 +14,7 @@ const Tiles = props => {
     <>
       <Fade top cascade>
         <section /*className={tileStyles.tiles}*/ className="tiles">
-          <Row className="justify-content-center justify-center">
+          <Row className="justify-center justify-content-center">
             {props.items.map((item, index) => (
               <Col xs={12} md={6} lg={3} className="py-3" key={index}>
                 <article
@@ -26,6 +26,7 @@ const Tiles = props => {
                       /*src="https://res.cloudinary.com/dexdumfqy/image/upload/v1600734136/rbl-art-designs/pic01_ofmcp4.jpg"*/
                       src={item.imgSrc}
                       alt={item.imgAlt}
+                      loading="lazy"
                     />
                   </span>
                   <Link to={item.link}>

@@ -228,7 +228,7 @@ module.exports = {
       options: {
         siteId: "2",
         matomoUrl: "https://analytics.viadelweb.cloud/",
-        siteUrl: "https://www.viadelweb.com/",
+        siteUrl: "https://viadelweb.com/",
         // All the optional settings
 //        matomoPhpScript: "piwik.php",
         matomoJsScript: "matomo.js",
