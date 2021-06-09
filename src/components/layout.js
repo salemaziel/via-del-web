@@ -20,6 +20,7 @@ import Footer from './Footer/footer'
 import "../styles/custom.scss";
 import './layout.css'
 import '../styles/main.css'
+import '../styles/global.css'
 
 const LayoutEN = ({ children }) => {
   const data = useStaticQuery(graphql`

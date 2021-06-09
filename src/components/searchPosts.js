@@ -1,15 +1,16 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
-import styled from "styled-components"
+//import styled from "styled-components"
 import { useFlexSearch } from "react-use-flexsearch"
 import * as queryString from "query-string"
 import Card from "react-bootstrap/Card"
 import Container from 'react-bootstrap/Container'
+import './SearchPosts.scss'
 
 import CardDeck from "react-bootstrap/CardDeck"
 import Col from "react-bootstrap/Col"
 
-const SearchBar = styled.div`
+/*const SearchBar = styled.div`
   display: flex;
   border: 1px solid #dfe1e5;
   border-radius: 10px;
@@ -42,7 +43,7 @@ const SearchBar = styled.div`
     word-wrap: break-word;
     outline: none;
   }
-`
+`*/
 
 const SearchedPosts = ({ results }) =>
   results.length > 0 ? (
@@ -54,7 +55,8 @@ const SearchedPosts = ({ results }) =>
       const slug = node.slug
 
       return (
-        <Card key={slug} className="mb-4">
+        <>
+        {/*<Card key={slug} className="mb-4">
           <Link style={{ boxShadow: `none` }} to={`/blog${slug}`}>
             <h3 className="mb-8 text-gray-500"
               style={{
@@ -73,7 +75,50 @@ const SearchedPosts = ({ results }) =>
           <Card.Footer>
             <small>{date}</small>
           </Card.Footer>
-        </Card>
+        </Card>*/}
+                  <Card className="mb-4"  key={slug}>
+                  {!!node.frontmatter.featuredImage && (
+                    <Link
+                      style={{ boxShadow: `none` }}
+                      to={`/blog${slug}`}
+                    >
+                      <Card.Img
+                        src={
+                          node.frontmatter.featuredImage.childImageSharp.fluid.src
+                        }
+                        variant="top"
+                      ></Card.Img>
+                    </Link>
+                  )}
+                  <div key={node.fields.slug}>
+                    <Link
+                      style={{ boxShadow: `none` }}
+                      to={`/blog${slug}`}
+                    >
+                      <h3
+                        className="mt-8 mb-4 text-center text-gray-700"
+                        style={{
+                          color: "#434343",
+                        }}
+                      >
+                        {title}
+                      </h3>
+                    </Link>
+                    <Card.Body>
+                      <p
+                        dangerouslySetInnerHTML={{
+                          __html: description || excerpt,
+                        }}
+                        className="text-center"
+                      />
+                    </Card.Body>
+                  </div>
+                  <Card.Footer>
+                    <small>{date}</small>
+                  </Card.Footer>
+                </Card>
+                </>
+
       )
     })
   ) : (
@@ -151,7 +196,7 @@ const SearchPosts = ({ posts, localSearchBlog, location, navigate }) => {
   return (
     <>
     <Container>
-      <SearchBar>
+      <div className="SearchBar">
         <svg
           focusable="false"
           xmlns="http://www.w3.org/2000/svg"
@@ -171,7 +216,7 @@ const SearchPosts = ({ posts, localSearchBlog, location, navigate }) => {
             setQuery(e.target.value)
           }}
         />
-      </SearchBar>
+      </div>
       </Container>
       {query ? <SearchedPosts results={results} /> : <AllPosts posts={posts} />}
     </>

@@ -18,9 +18,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-cms`,
     },
-    {
-      resolve: `gatsby-plugin-styled-components`,
-    },
+//    {
+//      resolve: `gatsby-plugin-styled-components`,
+//    },
     {
       resolve: `gatsby-transformer-sharp`,
     },
@@ -214,9 +214,9 @@ module.exports = {
           resolve: `gatsby-plugin-mautic`,
           options: {
     // The URL where mautic is installed
-            hostUrl: "https://marketing.viadelweb.cloud/",
+            hostUrl: "https://marketing.viadelweb.cloud",
     // Defines where to place the tracking script - `true` in the head and `false` in the body
-            head: true,
+            head: false,
     // Avoids sending pageview hits from custom paths
     //        exclude: ["/preview/**", "/do-not-track/me/too/"],
     // Delays sending pageview hits on route update (in milliseconds)

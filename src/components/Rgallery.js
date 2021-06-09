@@ -1,5 +1,5 @@
 import React from 'react'
-import './rgallery.css'
+import './rgallery.scss'
 import fetch from 'cross-fetch'
 //import ScrollToTop from 'react-router-scroll-top'
 

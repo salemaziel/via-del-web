@@ -121,7 +121,7 @@ const NavbarCustomEN = props => {
                 as={Link}
                 href="/services"
                 to="/service"
-                eventKey="services"
+                eventkey="/services"
                 title="Services"
                 id="nav-dropdown-about"
                 className="mr-6 font-medium"
@@ -231,7 +231,6 @@ const NavbarCustomEN = props => {
             <Nav className="mr-0">
               <Nav.Item to="/contact" className="mr-6">
                 <Button
-                  secondary
                   as={Link}
                   to="/contact"
                   className={navStyles.CTAButton}
@@ -293,7 +292,6 @@ const NavbarCustomEN = props => {
               </a>,
               <Nav.Item to="/contact" className="mr-6">
                 <Button
-                  secondary
                   as={Link}
                   to="/contact"
                   className={navStyles.CTAButton}
