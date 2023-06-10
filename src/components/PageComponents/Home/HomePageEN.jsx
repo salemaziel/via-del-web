@@ -25,9 +25,10 @@ const HomepageEN = props => {
   return (
     <>
       <SectionWavesEN
-        headline="Helping the People access and benefit from modern technology."
+        headline="Empowering Small Businesses with Custom Web Solutions | Via Del Web."
         headline2=""
-        subtitle="Ya Tú Sabes."
+        /*subtitle="Ya Tú Sabes."*/
+        subtitle="Your Bilingual Web Design and Cloud Technology Partner in San Diego"
         service1=""
         service2=""
         service3=""
@@ -39,9 +40,10 @@ const HomepageEN = props => {
         subtitle="¿Cómo podemos ayudar te hoy?"
       />*/}
       <SectionTiles
-        title1="Website Design ● Web Development ● Digital Marketing"
+        title1="San Diego-based Website Design ● Web Development ● Digital Solutions"
         title2=""
-        subdescription="Via Del Web is a San Diego-based Marketing &amp; Technology company specializing in helping local small businesses successfully expand into the digital world. Our approach to business is more about empowering the people behind the company; we begin our work with each client by understanding their unique experience and the story behind the mission of their business."
+        /*subdescription="Via Del Web is a San Diego-based Marketing &amp; Technology company specializing in helping local small businesses successfully expand into the digital world. At Via Del Web, we believe in empowering businesses, not just building websites. We start by understanding your unique story and mission. Then, we use our digital expertise to create a platform that amplifies your voice and accelerates your business."*/
+        subdescription="Welcome to Via Del Web, where we empower small businesses to thrive in the digital world. We're more than just a web design agency - we're your partners in digital growth. With our unique blend of technological expertise and cloud solutions, we help you create and use your online digital real estate to better connect with your audience, drive your business forward, and expand your company's possibilities."
         subdescription2="Born and raised in Escondido, we are California natives to the core. Hablamos Inglés, Español y somos especialmente afluente en Spanglish."
       />
       
@@ -79,7 +81,8 @@ const HomepageEN = props => {
         bgImage=""
         bgImageOpacity={1}
         title="Our Websites Are Coded Entirely From The Ground Up."
-        subtitle="Other agencies use clunky web building tools to glue pieces together, without any idea how the code actually works. We write each line of code ourselves to get the best performance on your site, which helps keep more customers and bring your company more business."
+        /*subtitle="Other agencies use clunky web building tools to glue pieces together, without any idea how the code actually works. We write each line of code ourselves to get the best performance on your site, which helps keep more customers and bring your company more business."*/
+        subtitle="Unlike other agencies that rely on pre-made templates, we build your website from the ground up. We write each line of code ourselves, ensuring optimal performance, customization, and security."
       />
       <div
         style={{

@@ -169,11 +169,11 @@ const NavbarCustomEN = props => {
                 </Nav.Link>
               </Nav.Item>
 
-              <Nav.Item to="/industries" className="mr-6">
+              {/*<Nav.Item to="/industries" className="mr-6">
                 <Nav.Link as={Link} to="/industries" active={false} className="font-medium no-underline border-b-0">
                   Who We Help
                 </Nav.Link>
-              </Nav.Item>
+              </Nav.Item>*/}
 
               <Nav.Item to="/blog" className="mr-6">
                 <Nav.Link as={Link} to="/blog" active={false} className="font-medium no-underline border-b-0">
