@@ -11,7 +11,8 @@ function Faq(props) {
         answer2={item.answer2} 
         answer3={item.answer3} 
         answer4={item.answer4} 
-        answer5={item.answer5} key={index} />
+        answer5={item.answer5}
+        answer6 key={index} />
       ))}
     </>
   );
