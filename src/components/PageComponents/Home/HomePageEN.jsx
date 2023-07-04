@@ -25,7 +25,7 @@ const HomepageEN = props => {
   return (
     <>
       <SectionWavesEN
-        headline="Empowering Small Businesses with Custom Web Solutions | Via Del Web."
+        headline="Empowering Small Businesses with Custom Website and Digital Solutions"
         headline2=""
         /*subtitle="Ya Tú Sabes."*/
         subtitle="Your Bilingual Web Design and Cloud Technology Partner in San Diego"

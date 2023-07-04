@@ -126,41 +126,34 @@ const NavbarCustomEN = props => {
                 id="nav-dropdown-about"
                 className="mr-6 font-medium"
               >
-                {/*<NavDropdown.Item eventKey="/services/contentmarketing">
-                  Content Marketing
-          </NavDropdown.Item>*/}
 
                 <NavDropdown.Item eventKey="/services/digital-marketing">
                   Digital Marketing
                 </NavDropdown.Item>
 
-                {/*<NavDropdown.Item eventKey="/services/directorylistings">
-                  Directory Listings
-        </NavDropdown.Item>*/}
+
+              {/*}  <NavDropdown.Item eventKey="/services/ecommerce-optimization">
+                  E-Commerce Optimization
+      </NavDropdown.Item>*/}
 
                 <NavDropdown.Item eventKey="/services/graphic-design">
                   Graphic Design
                 </NavDropdown.Item>
-
-                {/*<NavDropdown.Item eventKey="/services/socialmediamarketing">
-                  Social Media Marketing
-      </NavDropdown.Item>*/}
-                {/*<NavDropdown.Item eventKey="/services/web-automation">
-                  {" "}
-                  Webservice Automation{" "}
+               {/*<NavDropdown.Item eventKey="/services/linux-and-cloud-server-management">
+                  Linux / Cloud Server management{" "}
     </NavDropdown.Item>*/}
-                {/*<NavDropdown.Item eventKey="/services/shopify">
-                  {" "}
-                  Shopify{" "}
-  </NavDropdown.Item>*/}
                 <NavDropdown.Item eventKey="/services/website-design">
                   {" "}
                   Website Design{" "}
                 </NavDropdown.Item>
-                {/*<NavDropdown.Item eventKey="/services/wordpress">
+               {/*} <NavDropdown.Item eventKey="/services/website-webapp-hosting">
                   {" "}
-                  Wordpress{" "}
-</NavDropdown.Item>*/}
+                  Website/Web App Hosting{" "}
+      </NavDropdown.Item> */}
+
+                {/*<NavDropdown.Item eventKey="/services/workflow-automation">
+                  Workflow Automation
+      </NavDropdown.Item>*/}
               </NavDropdown>
 
               <Nav.Item to="/about" className="mr-6">
@@ -282,14 +275,14 @@ const NavbarCustomEN = props => {
                 Blog
               </Link>,
 
-              <a
+              {/*<a
                 rel="nofollow noreferrer"
                 target="_blank"
                 href="https://app.viadelweb.com"
                 className="mr-6"
               >
                 Client Login
-              </a>,
+              </a>,*/},
               <Nav.Item to="/contact" className="mr-6">
                 <Button
                   as={Link}

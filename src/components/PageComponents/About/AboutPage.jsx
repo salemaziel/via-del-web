@@ -97,8 +97,8 @@ const AboutPageEN = (props) => {
       />
 
 
-      <div style={{backgroundImage: `url(${CircleDots})`}} >
-      <CardsWBgSection
+      {/*<div style={{backgroundImage: `url(${CircleDots})`}} >*/}
+      {/*<CardsWBgSection
         bg=""
         textColor="dark"
         size="md"
@@ -106,8 +106,8 @@ const AboutPageEN = (props) => {
         bgImageOpacity={1}
         title="Meet the Team"
         subtitle=""
-      />
-      </div>
+/>*/}
+     {/* </div>*/}
       <div id="businessfunction" />
       <FaqAccordianSection
         bg="white"
