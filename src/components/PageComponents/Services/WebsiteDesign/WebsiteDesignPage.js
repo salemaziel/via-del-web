@@ -6,7 +6,7 @@ import PortfolioSection from "../../../PortfolioSection"
 import CardsHomeSection from "../../../CardsHomeSection"
 import { navigate } from "gatsby"
 import CtaSectionBgImage from "../../../CtaSectionBgImage"
-import IframeViewer from './iframeViewer'
+//import IframeViewer from './iframeViewer'
 
 
 import ZenithMockup from "../../../../images/zenith-devices-mockup-removebg-preview.png"
@@ -88,7 +88,7 @@ const WebsiteDesignPage = props => {
                     }}* /
                   />*/}
 
-                  <IframeViewer />
+                  {/*<IframeViewer />*/}
 
       <div
         style={{
